@@ -1,0 +1,182 @@
+{
+  "generatedAt": "2026-09-18T06:10:50.975Z",
+  "evalSet": "data/rag-eval-set.json",
+  "corpus": {
+    "docs": 25
+  },
+  "note": "每轮只改一件事；指标用的是同一份评估集（A 组 12 题 + B 组 3 个边界探针）。R1–R3 是 2026-09-13 真实走过的三轮，R4–R5 是 09-18 补的两轮。",
+  "rounds": [
+    {
+      "id": "R1",
+      "name": "初版：单字+双字切词、无任何阈值",
+      "changed": "起点实现（BM25，中文按单字+双字切）",
+      "config": {
+        "bigramOnly": false,
+        "minScore": 0,
+        "minMatched": 1,
+        "expand": false,
+        "citationGate": 0
+      },
+      "summary": {
+        "cases": 15,
+        "passed": 12,
+        "passRate": 0.8,
+        "answerable": 9,
+        "negative": 3,
+        "retrievalHitRate": 1,
+        "top1Accuracy": 1,
+        "citationPrecisionAnswerable": 0.7333,
+        "citationPrecision": 0.4583,
+        "refusalAccuracy": 0.75,
+        "negativeRefused": 0,
+        "positiveAnswered": 9,
+        "falseRefusals": [],
+        "missedRefusals": [
+          "q08",
+          "q09",
+          "q10"
+        ],
+        "failedCases": [
+          "q08",
+          "q09",
+          "q10"
+        ],
+        "citationsAreRetrieved": true
+      }
+    },
+    {
+      "id": "R2",
+      "name": "只切双字 + 相关性阈值",
+      "changed": "发现单字（星/求/手）造成大量误命中 → 只切双字；再加 max(1.5, 最高分×0.35) 的丢弃阈值",
+      "config": {
+        "bigramOnly": true,
+        "minScore": 1.5,
+        "minMatched": 1,
+        "expand": false,
+        "citationGate": 0
+      },
+      "summary": {
+        "cases": 15,
+        "passed": 13,
+        "passRate": 0.8667,
+        "answerable": 9,
+        "negative": 3,
+        "retrievalHitRate": 1,
+        "top1Accuracy": 1,
+        "citationPrecisionAnswerable": 0.7857,
+        "citationPrecision": 0.6471,
+        "refusalAccuracy": 0.9167,
+        "negativeRefused": 2,
+        "positiveAnswered": 9,
+        "falseRefusals": [],
+        "missedRefusals": [
+          "q08"
+        ],
+        "failedCases": [
+          "q08",
+          "p01"
+        ],
+        "citationsAreRetrieved": true
+      }
+    },
+    {
+      "id": "R3",
+      "name": "最少命中 2 个不同的词",
+      "changed": "硬负例「米其林三星餐厅求婚直升机」只靠「餐厅」一个词就命中 → 加 minimum_should_match（≥2 个不同词）",
+      "config": {
+        "bigramOnly": true,
+        "minScore": 1.5,
+        "minMatched": 2,
+        "expand": false,
+        "citationGate": 0
+      },
+      "summary": {
+        "cases": 15,
+        "passed": 14,
+        "passRate": 0.9333,
+        "answerable": 9,
+        "negative": 3,
+        "retrievalHitRate": 1,
+        "top1Accuracy": 1,
+        "citationPrecisionAnswerable": 0.8462,
+        "citationPrecision": 0.8462,
+        "refusalAccuracy": 1,
+        "negativeRefused": 3,
+        "positiveAnswered": 9,
+        "falseRefusals": [],
+        "missedRefusals": [],
+        "failedCases": [
+          "p01"
+        ],
+        "citationsAreRetrieved": true
+      }
+    },
+    {
+      "id": "R4",
+      "name": "口语化查询扩展（被评估集否决，已回退）",
+      "changed": "「想找个地方吃东西」这类口语改写 0 命中 → 加同义词表（餐厅/小吃/市场…）；结果把硬负例也救回来了，拒答正确率 100%→92%、引用正确率 85%→65%",
+      "config": {
+        "bigramOnly": true,
+        "minScore": 1.5,
+        "minMatched": 2,
+        "expand": true,
+        "citationGate": 0
+      },
+      "summary": {
+        "cases": 15,
+        "passed": 13,
+        "passRate": 0.8667,
+        "answerable": 9,
+        "negative": 3,
+        "retrievalHitRate": 1,
+        "top1Accuracy": 1,
+        "citationPrecisionAnswerable": 0.6471,
+        "citationPrecision": 0.6111,
+        "refusalAccuracy": 0.9167,
+        "negativeRefused": 2,
+        "positiveAnswered": 9,
+        "falseRefusals": [],
+        "missedRefusals": [
+          "q08"
+        ],
+        "failedCases": [
+          "q08",
+          "p01"
+        ],
+        "citationsAreRetrieved": true
+      }
+    },
+    {
+      "id": "R5",
+      "name": "回退扩展 + 引用门槛（试过，无净收益）",
+      "changed": "退回 R3 的检索策略，另试「只引用分数 ≥ 最高分 50% 的来源」：引用正确率 85%→83%（门槛反而把一条**正确**来源挤掉了），确认无净收益 → 不采纳，生产配置冻结在 R3",
+      "config": {
+        "bigramOnly": true,
+        "minScore": 1.5,
+        "minMatched": 2,
+        "expand": false,
+        "citationGate": 0.5
+      },
+      "summary": {
+        "cases": 15,
+        "passed": 14,
+        "passRate": 0.9333,
+        "answerable": 9,
+        "negative": 3,
+        "retrievalHitRate": 1,
+        "top1Accuracy": 1,
+        "citationPrecisionAnswerable": 0.8333,
+        "citationPrecision": 0.8333,
+        "refusalAccuracy": 1,
+        "negativeRefused": 3,
+        "positiveAnswered": 9,
+        "falseRefusals": [],
+        "missedRefusals": [],
+        "failedCases": [
+          "p01"
+        ],
+        "citationsAreRetrieved": true
+      }
+    }
+  ]
+}

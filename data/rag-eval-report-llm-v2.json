@@ -1,0 +1,532 @@
+{
+  "generatedAt": "2026-09-18T06:42:24.282Z",
+  "k": 5,
+  "config": {
+    "k": 5,
+    "bigramOnly": true,
+    "minScore": 1.5,
+    "relativeCutoff": 0.35,
+    "minMatched": 2,
+    "expand": false,
+    "citationGate": 0
+  },
+  "generator": "llm:deepseek-chat:v2",
+  "llm": {
+    "model": "deepseek-chat",
+    "base": "https://api.deepseek.com",
+    "promptVersion": "v2",
+    "calls": 11,
+    "promptTokens": 5349,
+    "completionTokens": 617
+  },
+  "corpus": {
+    "docs": 25,
+    "fan": 11,
+    "sight": 14
+  },
+  "summary": {
+    "cases": 15,
+    "passed": 14,
+    "passRate": 0.9333,
+    "answerable": 9,
+    "negative": 3,
+    "retrievalHitRate": 1,
+    "top1Accuracy": 1,
+    "citationPrecisionAnswerable": 1,
+    "citationPrecision": 1,
+    "refusalAccuracy": 1,
+    "negativeRefused": 3,
+    "positiveAnswered": 9,
+    "falseRefusals": [],
+    "missedRefusals": [],
+    "failedCases": [
+      "p01"
+    ],
+    "citationsAreRetrieved": true,
+    "fabricatedCitations": 0,
+    "generator": "llm:deepseek-chat:v2"
+  },
+  "results": [
+    {
+      "id": "q01",
+      "query": "想买 CORTIS 成员同款的手串，应该去哪里？",
+      "group": "A",
+      "pool": null,
+      "expect": "answer",
+      "expected": [
+        "cortis-004"
+      ],
+      "retrieved": [
+        "cortis-004",
+        "cortis-007"
+      ],
+      "topScore": 10.31,
+      "dropped": 9,
+      "termFiltered": 14,
+      "hit": true,
+      "answered": true,
+      "passed": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "cortis-004",
+          "confidence": "high",
+          "correct": true
+        }
+      ],
+      "invalidCitations": [],
+      "citationCount": 1,
+      "correctCitationCount": 1,
+      "answerText": "可以去奉恩寺，资料显示这里是 CORTIS 成员严成玹同款手串的购买地 [来源1]。",
+      "generator": "llm:deepseek-chat:v2"
+    },
+    {
+      "id": "q02",
+      "query": "成员过生日那天去的餐厅是哪家？",
+      "group": "A",
+      "pool": null,
+      "expect": "answer",
+      "expected": [
+        "cortis-008"
+      ],
+      "retrieved": [
+        "cortis-008"
+      ],
+      "topScore": 10.53,
+      "dropped": 0,
+      "termFiltered": 24,
+      "hit": true,
+      "answered": true,
+      "passed": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "cortis-008",
+          "confidence": "high",
+          "correct": true
+        }
+      ],
+      "invalidCitations": [],
+      "citationCount": 1,
+      "correctCitationCount": 1,
+      "answerText": "严成玹过生日时的餐厅是直火匠人 龙山店（직화장인 용산점），位于龙山区，属于 CORTIS 同款店铺 [来源1]。资料中给出的地址为龙山区 汉江大路 58-1 [来源1]。",
+      "generator": "llm:deepseek-chat:v2"
+    },
+    {
+      "id": "q03",
+      "query": "MV 拍摄地的地铁站怎么打卡？",
+      "group": "A",
+      "pool": null,
+      "expect": "answer",
+      "expected": [
+        "cortis-005",
+        "cortis-009"
+      ],
+      "retrieved": [
+        "cortis-005",
+        "cortis-009",
+        "cortis-003"
+      ],
+      "topScore": 10.91,
+      "dropped": 0,
+      "termFiltered": 22,
+      "hit": true,
+      "answered": true,
+      "passed": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "cortis-005",
+          "confidence": "high",
+          "correct": true
+        },
+        {
+          "n": 2,
+          "id": "cortis-009",
+          "confidence": "high",
+          "correct": true
+        }
+      ],
+      "invalidCitations": [],
+      "citationCount": 2,
+      "correctCitationCount": 2,
+      "answerText": "资料里提到的 MV 拍摄地打卡点有新沙站（5号出口）[来源1]和汉南站（1号出口）[来源2]，均标注为拍摄地、粉丝关联地点 CORTIS 同款，其中汉南站被用户确认为“凌晨外出”拍摄地打卡点[来源2]。资料未提供具体打卡方式或路线，时间以来源帖子为准[来源1][来源2]。",
+      "generator": "llm:deepseek-chat:v2"
+    },
+    {
+      "id": "q04",
+      "query": "可以直接和店员说要 CORTIS 同款冰沙的店",
+      "group": "A",
+      "pool": null,
+      "expect": "answer",
+      "expected": [
+        "cortis-002"
+      ],
+      "retrieved": [
+        "cortis-002"
+      ],
+      "topScore": 43.24,
+      "dropped": 10,
+      "termFiltered": 14,
+      "hit": true,
+      "answered": true,
+      "passed": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "cortis-002",
+          "confidence": "medium",
+          "correct": true
+        }
+      ],
+      "invalidCitations": [],
+      "citationCount": 1,
+      "correctCitationCount": 1,
+      "answerText": "有粉丝提到（尚未核验）oakberry巴西莓碗（西大门区）是可以直接和店员说要 CORTIS 同款冰沙的店，同款内容为冰沙+花生酱+燕麦+草莓+香蕉 [来源1]。",
+      "generator": "llm:deepseek-chat:v2"
+    },
+    {
+      "id": "q05",
+      "query": "团综两天一夜的拍摄地是哪里？",
+      "group": "A",
+      "pool": null,
+      "expect": "answer",
+      "expected": [
+        "cortis-003"
+      ],
+      "retrieved": [
+        "cortis-003"
+      ],
+      "topScore": 27.52,
+      "dropped": 2,
+      "termFiltered": 22,
+      "hit": true,
+      "answered": true,
+      "passed": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "cortis-003",
+          "confidence": "high",
+          "correct": true
+        }
+      ],
+      "invalidCitations": [],
+      "citationCount": 1,
+      "correctCitationCount": 1,
+      "answerText": "团综两天一夜的拍摄地是首尔儿童公园（广津区），资料标注为粉丝关联地点 CORTIS 同款 [来源1]。",
+      "generator": "llm:deepseek-chat:v2"
+    },
+    {
+      "id": "q06",
+      "query": "晚上想看汉江夜景和喷泉，去哪里？",
+      "group": "A",
+      "pool": null,
+      "expect": "answer",
+      "expected": [
+        "vs-CNP002220",
+        "vs-CNP012993"
+      ],
+      "retrieved": [
+        "vs-CNP002220",
+        "vs-CNP012993"
+      ],
+      "topScore": 10.4,
+      "dropped": 0,
+      "termFiltered": 23,
+      "hit": true,
+      "answered": true,
+      "passed": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "vs-CNP002220",
+          "confidence": "plain",
+          "correct": true
+        },
+        {
+          "n": 2,
+          "id": "vs-CNP012993",
+          "confidence": "plain",
+          "correct": true
+        }
+      ],
+      "invalidCitations": [],
+      "citationCount": 2,
+      "correctCitationCount": 2,
+      "answerText": "晚上看汉江夜景和喷泉，推荐盘浦大桥月光彩虹喷泉，资料称其为汉江夜景代表、热门打卡点，晚间有多场（详见官网）[来源1]。另外汝矣岛汉江公园也是汉江夜景圣地，24小时开放[来源2]。",
+      "generator": "llm:deepseek-chat:v2"
+    },
+    {
+      "id": "q07",
+      "query": "想逛街买美妆，去哪里？",
+      "group": "A",
+      "pool": null,
+      "expect": "answer",
+      "expected": [
+        "vs-CNP000067",
+        "vs-CNP000061"
+      ],
+      "retrieved": [
+        "vs-CNP000067"
+      ],
+      "topScore": 6.44,
+      "dropped": 0,
+      "termFiltered": 24,
+      "hit": true,
+      "answered": true,
+      "passed": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "vs-CNP000067",
+          "confidence": "plain",
+          "correct": true
+        }
+      ],
+      "invalidCitations": [],
+      "citationCount": 1,
+      "correctCitationCount": 1,
+      "answerText": "可以去明洞，资料里写明洞是首尔最热闹的购物与美妆街区，年轻人逛街首选 [来源1]。地址是首尔市中区明洞8街27，购物街各卖场时间不同 [来源1]。",
+      "generator": "llm:deepseek-chat:v2"
+    },
+    {
+      "id": "q08",
+      "query": "米其林三星餐厅求婚直升机怎么安排？",
+      "group": "A",
+      "pool": null,
+      "expect": "refuse",
+      "expected": [],
+      "retrieved": [],
+      "topScore": 0,
+      "dropped": 0,
+      "termFiltered": 25,
+      "hit": false,
+      "answered": false,
+      "passed": true,
+      "correctBehaviour": true,
+      "citations": [],
+      "invalidCitations": [],
+      "citationCount": 0,
+      "correctCitationCount": 0,
+      "answerText": "资料里没有能回答这个问题的内容。",
+      "generator": "llm:deepseek-chat:v2"
+    },
+    {
+      "id": "q09",
+      "query": "济州岛租车自驾方便吗？",
+      "group": "A",
+      "pool": null,
+      "expect": "refuse",
+      "expected": [],
+      "retrieved": [],
+      "topScore": 0,
+      "dropped": 0,
+      "termFiltered": 25,
+      "hit": false,
+      "answered": false,
+      "passed": true,
+      "correctBehaviour": true,
+      "citations": [],
+      "invalidCitations": [],
+      "citationCount": 0,
+      "correctCitationCount": 0,
+      "answerText": "资料里没有能回答这个问题的内容。",
+      "generator": "llm:deepseek-chat:v2"
+    },
+    {
+      "id": "q10",
+      "query": "怎么从首尔坐火车去釜山？",
+      "group": "A",
+      "pool": null,
+      "expect": "refuse",
+      "expected": [],
+      "retrieved": [],
+      "topScore": 0,
+      "dropped": 0,
+      "termFiltered": 25,
+      "hit": false,
+      "answered": false,
+      "passed": true,
+      "correctBehaviour": true,
+      "citations": [],
+      "invalidCitations": [],
+      "citationCount": 0,
+      "correctCitationCount": 0,
+      "answerText": "资料里没有能回答这个问题的内容。",
+      "generator": "llm:deepseek-chat:v2"
+    },
+    {
+      "id": "q11",
+      "query": "金浦那家烧烤店值得专门跑一趟吗？",
+      "group": "A",
+      "pool": null,
+      "expect": "answer",
+      "expected": [
+        "cortis-010"
+      ],
+      "retrieved": [
+        "cortis-010"
+      ],
+      "topScore": 8.93,
+      "dropped": 0,
+      "termFiltered": 24,
+      "hit": true,
+      "answered": true,
+      "passed": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "cortis-010",
+          "confidence": "high",
+          "correct": true
+        }
+      ],
+      "invalidCitations": [],
+      "citationCount": 1,
+      "correctCitationCount": 1,
+      "answerText": "资料里有金浦的乙支路煤炭烧烤 Gochon店（CORTIS 同款），位于金浦市、首尔市外，需单独安排往返 [来源1]。是否值得专门跑一趟，资料未给出评价，只提到行程需单独安排往返 [来源1]。",
+      "generator": "llm:deepseek-chat:v2"
+    },
+    {
+      "id": "q12",
+      "query": "想找可以散步、拍照、看夜景的地方",
+      "group": "A",
+      "pool": null,
+      "expect": "answer",
+      "expected": [
+        "vs-CNP012993",
+        "vs-CNP016328",
+        "vs-CNP002220",
+        "vs-CNP000036"
+      ],
+      "retrieved": [
+        "vs-CNP016328"
+      ],
+      "topScore": 8.78,
+      "dropped": 0,
+      "termFiltered": 24,
+      "hit": true,
+      "answered": true,
+      "passed": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "vs-CNP016328",
+          "confidence": "plain",
+          "correct": true
+        }
+      ],
+      "invalidCitations": [],
+      "citationCount": 1,
+      "correctCitationCount": 1,
+      "answerText": "可以推荐石村湖夜景：资料写它是乐天世界旁的湖景夜景，散步与拍照都合适，且24小时开放 [来源1]。地址为首尔松坡区三学士路136（蚕洞） [来源1]。",
+      "generator": "llm:deepseek-chat:v2"
+    }
+  ],
+  "probes": [
+    {
+      "id": "p01",
+      "query": "想找个地方吃东西",
+      "group": "B",
+      "pool": null,
+      "expect": "answer",
+      "expected": [
+        "cortis-002",
+        "cortis-008",
+        "cortis-010"
+      ],
+      "retrieved": [],
+      "topScore": 0,
+      "dropped": 0,
+      "termFiltered": 25,
+      "hit": false,
+      "answered": false,
+      "passed": false,
+      "correctBehaviour": false,
+      "citations": [],
+      "invalidCitations": [],
+      "citationCount": 0,
+      "correctCitationCount": 0,
+      "answerText": "资料里没有能回答这个问题的内容。",
+      "generator": "llm:deepseek-chat:v2"
+    },
+    {
+      "id": "p02",
+      "query": "同款餐厅",
+      "group": "B",
+      "pool": "fan",
+      "expect": "answer",
+      "expected": [
+        "cortis-008",
+        "cortis-010",
+        "cortis-002"
+      ],
+      "retrieved": [
+        "cortis-008"
+      ],
+      "topScore": 2.24,
+      "dropped": 0,
+      "termFiltered": 10,
+      "hit": true,
+      "answered": true,
+      "passed": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "cortis-008",
+          "confidence": "high",
+          "correct": true
+        }
+      ],
+      "invalidCitations": [],
+      "citationCount": 1,
+      "correctCitationCount": 1,
+      "answerText": "资料里有同款餐厅：直火匠人 龙山店（직화장인 용산점），位于龙山区，是粉丝关联地点 CORTIS 同款，证据是严成玹过生日时的餐厅 [来源1]。用户提供的地址为龙山区 汉江大路 58-1 [来源1]。",
+      "generator": "llm:deepseek-chat:v2"
+    },
+    {
+      "id": "p03",
+      "query": "乙支路煤炭烧烤在哪？",
+      "group": "B",
+      "pool": "fan",
+      "expect": "answer",
+      "expected": [
+        "cortis-010"
+      ],
+      "retrieved": [
+        "cortis-010"
+      ],
+      "topScore": 19.76,
+      "dropped": 0,
+      "termFiltered": 10,
+      "hit": true,
+      "answered": true,
+      "passed": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "cortis-010",
+          "confidence": "high",
+          "correct": true
+        }
+      ],
+      "invalidCitations": [],
+      "citationCount": 1,
+      "correctCitationCount": 1,
+      "answerText": "资料里有相关地点：乙支路煤炭烧烤 Gochon店（을지로 석탄구이 고촌점），位于金浦市，不在首尔市区，行程需单独安排往返 [来源1]。资料未提供具体地址或营业时间。",
+      "generator": "llm:deepseek-chat:v2"
+    }
+  ]
+}

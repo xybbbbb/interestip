@@ -1,0 +1,129 @@
+{
+  "version": "2026-09-13",
+  "k": 5,
+  "description": "RAG 检索/回答评估集：12 个问题（9 个「语料里有答案」+ 3 个「语料里没有」的负例）。期望来源写的是地点 id，判定标准是「Top-K 里是否出现期望来源」。另有 3 个边界探针（B 组）与 3 个行程工作流断言（C 组，见 scripts/agent-case-check.mjs），合计 18 个测试 case。",
+  "questions": [
+    {
+      "id": "q01",
+      "query": "想买 CORTIS 成员同款的手串，应该去哪里？",
+      "pool": null,
+      "expected": ["cortis-004"],
+      "expect": "answer",
+      "note": "语料里唯一提到手串购买地的是奉恩寺（严成玹同款手串）"
+    },
+    {
+      "id": "q02",
+      "query": "成员过生日那天去的餐厅是哪家？",
+      "pool": null,
+      "expected": ["cortis-008"],
+      "expect": "answer",
+      "note": "直火匠人龙山店 = 严成玹生日餐厅"
+    },
+    {
+      "id": "q03",
+      "query": "MV 拍摄地的地铁站怎么打卡？",
+      "pool": null,
+      "expected": ["cortis-005", "cortis-009"],
+      "expect": "answer",
+      "note": "新沙站（MV 拍摄地）与汉南站（凌晨外出拍摄地）都算正确来源"
+    },
+    {
+      "id": "q04",
+      "query": "可以直接和店员说要 CORTIS 同款冰沙的店",
+      "pool": null,
+      "expected": ["cortis-002"],
+      "expect": "answer",
+      "note": "oakberry 巴西莓碗（冰沙+花生酱+燕麦+草莓+香蕉）"
+    },
+    {
+      "id": "q05",
+      "query": "团综两天一夜的拍摄地是哪里？",
+      "pool": null,
+      "expected": ["cortis-003"],
+      "expect": "answer",
+      "note": "首尔儿童公园"
+    },
+    {
+      "id": "q06",
+      "query": "晚上想看汉江夜景和喷泉，去哪里？",
+      "pool": null,
+      "expected": ["vs-CNP002220", "vs-CNP012993"],
+      "expect": "answer",
+      "note": "盘浦大桥月光彩虹喷泉 / 汝矣岛汉江公园"
+    },
+    {
+      "id": "q07",
+      "query": "想逛街买美妆，去哪里？",
+      "pool": null,
+      "expected": ["vs-CNP000067", "vs-CNP000061"],
+      "expect": "answer",
+      "note": "明洞（购物与美妆街区）/ 东大门购物城"
+    },
+    {
+      "id": "q08",
+      "query": "米其林三星餐厅求婚直升机怎么安排？",
+      "pool": null,
+      "expected": [],
+      "expect": "refuse",
+      "note": "硬负例：只字面撞到「餐厅」两个字，语料里没有任何相关内容，正确行为是拒答"
+    },
+    {
+      "id": "q09",
+      "query": "济州岛租车自驾方便吗？",
+      "pool": null,
+      "expected": [],
+      "expect": "refuse",
+      "note": "负例：语料只覆盖首尔"
+    },
+    {
+      "id": "q10",
+      "query": "怎么从首尔坐火车去釜山？",
+      "pool": null,
+      "expected": [],
+      "expect": "refuse",
+      "note": "负例：语料里没有任何城际交通信息"
+    },
+    {
+      "id": "q11",
+      "query": "金浦那家烧烤店值得专门跑一趟吗？",
+      "pool": null,
+      "expected": ["cortis-010"],
+      "expect": "answer",
+      "note": "专有名词 + 决策类问法：语料里明确写了「不在首尔市区，需单独安排往返」"
+    },
+    {
+      "id": "q12",
+      "query": "想找可以散步、拍照、看夜景的地方",
+      "pool": null,
+      "expected": ["vs-CNP012993", "vs-CNP016328", "vs-CNP002220", "vs-CNP000036"],
+      "expect": "answer",
+      "note": "多正确答案：考召回而不是精确排序（汝矣岛汉江公园 / 石村湖 / 盘浦喷泉 / 南山塔）"
+    }
+  ],
+  "probes": [
+    {
+      "id": "p01",
+      "query": "想找个地方吃东西",
+      "pool": null,
+      "expected": ["cortis-002", "cortis-008", "cortis-010"],
+      "expect": "answer",
+      "note": "口语改写、与语料无字面重叠 —— 预期 BM25 会漏（这正是向量检索要补的洞）"
+    },
+    {
+      "id": "p02",
+      "query": "同款餐厅",
+      "pool": "fan",
+      "expected": ["cortis-008", "cortis-010", "cortis-002"],
+      "expect": "answer",
+      "note": "检查 pool 过滤是否生效（只在粉丝点里找）"
+    },
+    {
+      "id": "p03",
+      "query": "乙支路煤炭烧烤在哪？",
+      "pool": "fan",
+      "expected": ["cortis-010"],
+      "expect": "answer",
+      "note": "专有名词直击（金浦高村店，首尔市外）"
+    }
+  ]
+}

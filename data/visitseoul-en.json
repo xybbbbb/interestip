@@ -1,0 +1,114 @@
+{
+  "vs-CNP000067": {
+    "cid": "ENP000067",
+    "name": "Myeongdong",
+    "address": "27, Myeong-dong 8-gil, Jung-gu, Seoul",
+    "openingHours": "Open daily",
+    "subwayInfo": null,
+    "summary": "Myeongdong is Seoul's shopping mecca and is a must-see for tourists, but it is not just a shopping destination; it's a hub of commerce, banking, and culture."
+  },
+  "vs-CNP015338": {
+    "cid": "ENP015338",
+    "name": "1898 Myeongdong Cathedral ",
+    "address": "74, Myeongdong-gil, Jung-gu, Seoul",
+    "openingHours": "Daily 09:00 - 22:00 KST",
+    "subwayInfo": null,
+    "summary": "1898 Myeongdong Cathedral is a complex cultural space frequented by many people and was built as a place that would facilitate communication and sharing."
+  },
+  "vs-CNP000061": {
+    "cid": "ENP000061",
+    "name": "Dongdaemun Market",
+    "address": "253, Jangchungdan-ro, Jung-gu, Seoul",
+    "openingHours": "00:00–24:00",
+    "subwayInfo": null,
+    "summary": "Dongdaemun Market is a large commercial district comprised of traditional markets and shopping centers that covers the entire area around Dongdaemun Gate, a prominent landmark in Korea."
+  },
+  "vs-CNP024679": {
+    "cid": "ENP024679",
+    "name": "Dongdaemun Design Plaza (DDP)",
+    "address": "281, Euljiro, Jung-gu, Seoul (Euljiro 7-ga)",
+    "openingHours": "10:00-20:00 KST (Vary by space, see the website)",
+    "subwayInfo": null,
+    "summary": "Dongdaemun Design Plaza opened its door on 21st March 2014. DDP is running 24 hours a day and functioning as an open space for public."
+  },
+  "vs-CNP002077": {
+    "cid": "ENP002077",
+    "name": "Itaewon",
+    "address": "Itaewon-ro, Yongsan-gu, Seoul",
+    "openingHours": null,
+    "subwayInfo": null,
+    "summary": "Located smack-dab in the center of Seoul, Itaewon is home for the majority of expats that reside in Korea, making Itaewon a mini melting pot of cultures and religions from all over the world."
+  },
+  "vs-CNP2ts0gq": {
+    "cid": "ENP2ts0gq",
+    "name": "Hongdae Mural Street",
+    "address": "72-36 Sangsu-dong, Mapo-gu, Seoul",
+    "openingHours": "Always open",
+    "subwayInfo": null,
+    "summary": "A street where you come across art by chance while walking through Hongdae"
+  },
+  "vs-CNP000286": {
+    "cid": "ENP000286",
+    "name": "Gwangjang Market ",
+    "address": "88 Changgyeonggung-ro, Jongno-gu, Seoul",
+    "openingHours": "Daily 09:00 - 18:00 KST *Closed Sundays*",
+    "subwayInfo": null,
+    "summary": "Gwangjang Market is one of Korea's largest traditional markets and is renowned for its quality silk goods, linen bedding and hand-made goods."
+  },
+  "vs-CNPouf85a": {
+    "cid": "ENPouf85a",
+    "name": "Seongsu Pedestrian Overpass",
+    "address": "257 Gangbyeonbuk-ro, Seongdong-gu, Seoul",
+    "openingHours": null,
+    "subwayInfo": null,
+    "summary": "A place where you can enjoy a wonderful sunset and night view in Seongsu"
+  },
+  "vs-CNPnj8f9x": {
+    "cid": "ENPnj8f9x",
+    "name": "COEX K-POP Square",
+    "address": "513, Yeongdong-daero, Gangnam-gu, Seoul",
+    "openingHours": null,
+    "subwayInfo": null,
+    "summary": "A landmark destination with giant outdoor screens reminiscent of Times Square"
+  },
+  "vs-CNP002220": {
+    "cid": "ENP002220",
+    "name": "Banpodaegyo Bridge Moonlight Rainbow Fountain ",
+    "address": "649-1 Banpo-dong, Seocho-gu, Seoul",
+    "openingHours": "* Off Season [April - June & September - October]",
+    "subwayInfo": null,
+    "summary": "The world’s longest bridge fountain (recognized by the Guinness Book of World Records) with 380 water jets and a dazzling array of multi-colored lights."
+  },
+  "vs-CNP012993": {
+    "cid": "ENP012993",
+    "name": "Yeouido Hangang Park ",
+    "address": "330 Yeouidong-ro, Yeongdeungpo-gu, Seoul",
+    "openingHours": "24 hours",
+    "subwayInfo": null,
+    "summary": "A park where you can enjoy various things to enjoy, such as cherry blossom festival in spring and water play in summer, and enjoy beautiful riverside"
+  },
+  "vs-CNP016328": {
+    "cid": "ENP016328",
+    "name": "Seokchon Lake at Night",
+    "address": "136, Samhaksa-ro, Songpa-gu, Seoul",
+    "openingHours": "24 hours",
+    "subwayInfo": null,
+    "summary": "Go to Seokchon Lake to see all 123 stories of the Lotte World Tower lit up like something out of a fairy tale."
+  },
+  "vs-CNP000036": {
+    "cid": "ENP000036",
+    "name": "Namsan Seoul Tower ",
+    "address": "105, Namsangongwon-gil, Yongsan-gu, Seoul, Korea",
+    "openingHours": "Weekdays 10:00-22:30, Weekends 10:00-23:00",
+    "subwayInfo": null,
+    "summary": "Namsan Seoul Tower was built in 1969 as Korea's first integrated transmission tower beaming television and radio broadcasts across the capital."
+  },
+  "vs-CNP037008": {
+    "cid": "ENP037008",
+    "name": "Ikseon-dong Hanok Village",
+    "address": "17, Donhwamun-ro 11ga-gil, Jongno-gu, Seoul",
+    "openingHours": null,
+    "subwayInfo": null,
+    "summary": "A famous yet romantic Seoul landmark located in the Jongno area with cozy alleyways that are steeped in Korean tradition in between hanoks."
+  }
+}

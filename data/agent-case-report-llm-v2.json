@@ -1,0 +1,232 @@
+{
+  "generatedAt": "2026-09-18T06:43:37.257Z",
+  "config": {
+    "k": 5,
+    "bigramOnly": true,
+    "minScore": 1.5,
+    "relativeCutoff": 0.35,
+    "minMatched": 2,
+    "expand": false,
+    "citationGate": 0
+  },
+  "generator": "llm:deepseek-chat:v2",
+  "llm": {
+    "calls": 11,
+    "promptTokens": 5349,
+    "completionTokens": 699
+  },
+  "corpus": {
+    "docs": 25
+  },
+  "evalSet": "data/rag-eval-set.json",
+  "benchmark": "（来自 data\\benchmark-travel-model.json，生成于 2026-09-18T06:10:31.358Z）",
+  "totals": {
+    "cases": 18,
+    "passed": 17,
+    "failed": 1,
+    "passRate": 0.9444,
+    "byGroup": [
+      {
+        "group": "A",
+        "cases": 12,
+        "passed": 12
+      },
+      {
+        "group": "B",
+        "cases": 3,
+        "passed": 2
+      },
+      {
+        "group": "C",
+        "cases": 3,
+        "passed": 3
+      }
+    ]
+  },
+  "ragMetrics": {
+    "cases": 15,
+    "passed": 14,
+    "passRate": 0.9333,
+    "answerable": 9,
+    "negative": 3,
+    "retrievalHitRate": 1,
+    "top1Accuracy": 1,
+    "citationPrecisionAnswerable": 0.9167,
+    "citationPrecision": 0.9167,
+    "refusalAccuracy": 1,
+    "negativeRefused": 3,
+    "positiveAnswered": 9,
+    "falseRefusals": [],
+    "missedRefusals": [],
+    "failedCases": [
+      "p01"
+    ],
+    "citationsAreRetrieved": true,
+    "fabricatedCitations": 0,
+    "generator": "llm:deepseek-chat:v2"
+  },
+  "cases": [
+    {
+      "id": "q01",
+      "group": "A",
+      "question": "想买 CORTIS 成员同款的手串，应该去哪里？",
+      "expect": "答出：cortis-004",
+      "actual": "cortis-004, cortis-007",
+      "passed": true,
+      "detail": "命中期望来源"
+    },
+    {
+      "id": "q02",
+      "group": "A",
+      "question": "成员过生日那天去的餐厅是哪家？",
+      "expect": "答出：cortis-008",
+      "actual": "cortis-008",
+      "passed": true,
+      "detail": "命中期望来源"
+    },
+    {
+      "id": "q03",
+      "group": "A",
+      "question": "MV 拍摄地的地铁站怎么打卡？",
+      "expect": "答出：cortis-005 / cortis-009",
+      "actual": "cortis-005, cortis-009, cortis-003",
+      "passed": true,
+      "detail": "命中期望来源"
+    },
+    {
+      "id": "q04",
+      "group": "A",
+      "question": "可以直接和店员说要 CORTIS 同款冰沙的店",
+      "expect": "答出：cortis-002",
+      "actual": "cortis-002",
+      "passed": true,
+      "detail": "命中期望来源"
+    },
+    {
+      "id": "q05",
+      "group": "A",
+      "question": "团综两天一夜的拍摄地是哪里？",
+      "expect": "答出：cortis-003",
+      "actual": "cortis-003",
+      "passed": true,
+      "detail": "命中期望来源"
+    },
+    {
+      "id": "q06",
+      "group": "A",
+      "question": "晚上想看汉江夜景和喷泉，去哪里？",
+      "expect": "答出：vs-CNP002220 / vs-CNP012993",
+      "actual": "vs-CNP002220, vs-CNP012993",
+      "passed": true,
+      "detail": "命中期望来源"
+    },
+    {
+      "id": "q07",
+      "group": "A",
+      "question": "想逛街买美妆，去哪里？",
+      "expect": "答出：vs-CNP000067 / vs-CNP000061",
+      "actual": "vs-CNP000067",
+      "passed": true,
+      "detail": "命中期望来源"
+    },
+    {
+      "id": "q08",
+      "group": "A",
+      "question": "米其林三星餐厅求婚直升机怎么安排？",
+      "expect": "拒答（语料里没有）",
+      "actual": "拒答",
+      "passed": true,
+      "detail": "正确拒答"
+    },
+    {
+      "id": "q09",
+      "group": "A",
+      "question": "济州岛租车自驾方便吗？",
+      "expect": "拒答（语料里没有）",
+      "actual": "拒答",
+      "passed": true,
+      "detail": "正确拒答"
+    },
+    {
+      "id": "q10",
+      "group": "A",
+      "question": "怎么从首尔坐火车去釜山？",
+      "expect": "拒答（语料里没有）",
+      "actual": "拒答",
+      "passed": true,
+      "detail": "正确拒答"
+    },
+    {
+      "id": "q11",
+      "group": "A",
+      "question": "金浦那家烧烤店值得专门跑一趟吗？",
+      "expect": "答出：cortis-010",
+      "actual": "cortis-010",
+      "passed": true,
+      "detail": "命中期望来源"
+    },
+    {
+      "id": "q12",
+      "group": "A",
+      "question": "想找可以散步、拍照、看夜景的地方",
+      "expect": "答出：vs-CNP012993 / vs-CNP016328 / vs-CNP002220 / vs-CNP000036",
+      "actual": "vs-CNP016328",
+      "passed": true,
+      "detail": "命中期望来源"
+    },
+    {
+      "id": "p01",
+      "group": "B",
+      "question": "想找个地方吃东西",
+      "expect": "答出：cortis-002 / cortis-008 / cortis-010",
+      "actual": "拒答",
+      "passed": false,
+      "detail": "未命中（关键词检索的已知边界）"
+    },
+    {
+      "id": "p02",
+      "group": "B",
+      "question": "同款餐厅",
+      "expect": "答出：cortis-008 / cortis-010 / cortis-002",
+      "actual": "cortis-008",
+      "passed": true,
+      "detail": "命中期望来源"
+    },
+    {
+      "id": "p03",
+      "group": "B",
+      "question": "乙支路煤炭烧烤在哪？",
+      "expect": "答出：cortis-010",
+      "actual": "cortis-010",
+      "passed": true,
+      "detail": "命中期望来源"
+    },
+    {
+      "id": "W1",
+      "group": "C",
+      "question": "演唱会日 19:00 必须锁定在场馆",
+      "expect": "在 3 个行程场景下都成立",
+      "actual": "成立",
+      "passed": true,
+      "detail": "3 天 · 适中 · 默认（中午到）:✅ · 5 天 · 适中（中午到）:✅ · 7 天 · 宽松（上午到）:✅"
+    },
+    {
+      "id": "W2",
+      "group": "C",
+      "question": "演出日 18:30 之后不再排景点（按真实耗时复核）",
+      "expect": "在 3 个行程场景下都成立",
+      "actual": "成立",
+      "passed": true,
+      "detail": "3 天 · 适中 · 默认（中午到）:✅ · 5 天 · 适中（中午到）:✅ · 7 天 · 宽松（上午到）:✅"
+    },
+    {
+      "id": "W3",
+      "group": "C",
+      "question": "装不下的地点进「待定清单」，不能丢点",
+      "expect": "在 3 个行程场景下都成立",
+      "actual": "成立",
+      "passed": true,
+      "detail": "3 天 · 适中 · 默认（中午到）:✅（共 25 个点） · 5 天 · 适中（中午到）:✅（共 25 个点） · 7 天 · 宽松（上午到）:✅（共 25 个点）"
+    }
+  ]
+}

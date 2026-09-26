@@ -1,0 +1,397 @@
+{
+  "source": "user-excel",
+  "sourceFile": "CORTIS SPOTS data collecting.xlsx",
+  "importedAt": "2026-09-10",
+  "note": "用户手工整理的 CORTIS 同款地点原始候选；坐标、区名、韩文名尚未核验。",
+  "places": [
+    {
+      "id": "cortis-001",
+      "source": "user-excel",
+      "name": "二村汉江公园cu便利店",
+      "nameLocal": "",
+      "type": "shop",
+      "category": "same_type_shop",
+      "interestRelated": true,
+      "district": "",
+      "address": "CU 한강르네상스 이촌2호",
+      "latitude": null,
+      "longitude": null,
+      "openingHours": "",
+      "description": "这个汉江公园也是同款打卡地",
+      "imageUrl": null,
+      "tags": [
+        "CORTIS",
+        "同款店铺",
+        "小红书"
+      ],
+      "evidence": [
+        {
+          "id": "ev-cortis-001-a",
+          "claim": "这个汉江公园也是同款打卡地",
+          "source": "小红书",
+          "sourceType": "community",
+          "url": "https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5312lw=&xsec_source=pc_share",
+          "publishedAt": "",
+          "summary": "这个汉江公园也是同款打卡地",
+          "confidence": "high"
+        }
+      ],
+      "confidence": "high",
+      "needsVerification": true,
+      "verificationNotes": [
+        "缺少所在区域"
+      ]
+    },
+    {
+      "id": "cortis-002",
+      "source": "user-excel",
+      "name": "oakberry巴西莓碗",
+      "nameLocal": "",
+      "type": "shop",
+      "category": "same_type_shop",
+      "interestRelated": true,
+      "district": "",
+      "address": "新村店（你查一下具体地址）",
+      "latitude": null,
+      "longitude": null,
+      "openingHours": "",
+      "description": "可以直接和店员说要cortis同款 冰沙+花生酱+燕麦+草莓+香蕉",
+      "imageUrl": null,
+      "tags": [
+        "CORTIS",
+        "同款店铺",
+        "小红书"
+      ],
+      "evidence": [
+        {
+          "id": "ev-cortis-002-a",
+          "claim": "可以直接和店员说要cortis同款 冰沙+花生酱+燕麦+草莓+香蕉",
+          "source": "小红书",
+          "sourceType": "community",
+          "url": "https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5313lw=&xsec_source=pc_share",
+          "publishedAt": "",
+          "summary": "可以直接和店员说要cortis同款 冰沙+花生酱+燕麦+草莓+香蕉",
+          "confidence": "medium"
+        }
+      ],
+      "confidence": "medium",
+      "needsVerification": true,
+      "verificationNotes": [
+        "缺少所在区域",
+        "地址待查询/确认",
+        "缺少韩文名/韩文地址"
+      ]
+    },
+    {
+      "id": "cortis-003",
+      "source": "user-excel",
+      "name": "首尔儿童公园",
+      "nameLocal": "",
+      "type": "photo_spot",
+      "category": "same_type_spot",
+      "interestRelated": true,
+      "district": "",
+      "address": "Children's Grand Park",
+      "latitude": null,
+      "longitude": null,
+      "openingHours": "",
+      "description": "团综两天一夜拍摄地",
+      "imageUrl": null,
+      "tags": [
+        "CORTIS",
+        "同款地点",
+        "小红书"
+      ],
+      "evidence": [
+        {
+          "id": "ev-cortis-003-a",
+          "claim": "团综两天一夜拍摄地",
+          "source": "小红书",
+          "sourceType": "community",
+          "url": "https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5314lw=&xsec_source=pc_share",
+          "publishedAt": "",
+          "summary": "团综两天一夜拍摄地",
+          "confidence": "high"
+        }
+      ],
+      "confidence": "high",
+      "needsVerification": true,
+      "verificationNotes": [
+        "缺少所在区域",
+        "缺少韩文名/韩文地址"
+      ]
+    },
+    {
+      "id": "cortis-004",
+      "source": "user-excel",
+      "name": "奉恩寺",
+      "nameLocal": "",
+      "type": "photo_spot",
+      "category": "same_type_spot",
+      "interestRelated": true,
+      "district": "",
+      "address": "봉은사",
+      "latitude": null,
+      "longitude": null,
+      "openingHours": "",
+      "description": "成员严成玹同款手串购买地",
+      "imageUrl": null,
+      "tags": [
+        "CORTIS",
+        "同款地点",
+        "小红书"
+      ],
+      "evidence": [
+        {
+          "id": "ev-cortis-004-a",
+          "claim": "成员严成玹同款手串购买地",
+          "source": "小红书",
+          "sourceType": "community",
+          "url": "https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5315lw=&xsec_source=pc_share",
+          "publishedAt": "",
+          "summary": "成员严成玹同款手串购买地",
+          "confidence": "high"
+        }
+      ],
+      "confidence": "high",
+      "needsVerification": true,
+      "verificationNotes": [
+        "缺少所在区域"
+      ]
+    },
+    {
+      "id": "cortis-005",
+      "source": "user-excel",
+      "name": "新沙",
+      "nameLocal": "",
+      "type": "filming_location",
+      "category": "filming_location",
+      "interestRelated": true,
+      "district": "",
+      "address": "新沙地铁站Sinsa stn.5号出口",
+      "latitude": null,
+      "longitude": null,
+      "openingHours": "",
+      "description": "MV拍摄地",
+      "imageUrl": null,
+      "tags": [
+        "CORTIS",
+        "专辑拍摄地",
+        "小红书"
+      ],
+      "evidence": [
+        {
+          "id": "ev-cortis-005-a",
+          "claim": "MV拍摄地",
+          "source": "小红书",
+          "sourceType": "community",
+          "url": "https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5316lw=&xsec_source=pc_share",
+          "publishedAt": "",
+          "summary": "MV拍摄地",
+          "confidence": "high"
+        }
+      ],
+      "confidence": "high",
+      "needsVerification": true,
+      "verificationNotes": [
+        "缺少所在区域",
+        "缺少韩文名/韩文地址"
+      ]
+    },
+    {
+      "id": "cortis-006",
+      "source": "user-excel",
+      "name": "HYBE大楼",
+      "nameLocal": "",
+      "type": "company",
+      "category": "company",
+      "interestRelated": true,
+      "district": "",
+      "address": "首尔特别市龙山区汉江大路42号，서울특별시 용산구 한강대로 42",
+      "latitude": null,
+      "longitude": null,
+      "openingHours": "",
+      "description": "地铁4号线​​在“ 新龙山站 ”（신용산역）下车，从2号出口出来，步行大约5-10分钟即可到达\n。地铁1号线/京义中央线​​在“ 龙山站 ”（용산역）下车，从1号出口出来，步行约10-11分钟也能到",
+      "imageUrl": null,
+      "tags": [
+        "CORTIS",
+        "公司",
+        "小红书"
+      ],
+      "evidence": [
+        {
+          "id": "ev-cortis-006-a",
+          "claim": "地铁4号线​​在“ 新龙山站 ”（신용산역）下车，从2号出口出来，步行大约5-10分钟即可到达\n。地铁1号线/京义中央线​​在“ 龙山站 ”（용산역）下车，从1号出口出来，步行约10-11分钟也能到",
+          "source": "小红书",
+          "sourceType": "community",
+          "url": "https://www.xiaohongshu.com/discovery/item/6a881d45000000003502368a?source=webshare&xhsshare=pc_web&xsec_token=ABkEzyn-xPxexyXIi58tvjcvJInKq6mY3oKVEi3XMsACg=&xsec_source=pc_share",
+          "publishedAt": "",
+          "summary": "地铁4号线​​在“ 新龙山站 ”（신용산역）下车，从2号出口出来，步行大约5-10分钟即可到达\n。地铁1号线/京义中央线​​在“ 龙山站 ”（용산역）下车，从1号出口出来，步行约10-11分钟也能到",
+          "confidence": "high"
+        }
+      ],
+      "confidence": "high",
+      "needsVerification": true,
+      "verificationNotes": [
+        "缺少所在区域"
+      ]
+    },
+    {
+      "id": "cortis-007",
+      "source": "user-excel",
+      "name": "圣水洞torriden大楼",
+      "nameLocal": "",
+      "type": "ad_spot",
+      "category": "ad_spot",
+      "interestRelated": true,
+      "district": "",
+      "address": "（你帮我查一下）",
+      "latitude": null,
+      "longitude": null,
+      "openingHours": "",
+      "description": "",
+      "imageUrl": null,
+      "tags": [
+        "CORTIS",
+        "广告投放点",
+        "小红书"
+      ],
+      "evidence": [
+        {
+          "id": "ev-cortis-007-a",
+          "claim": "圣水洞torriden大楼 与 CORTIS 相关（用户整理）",
+          "source": "小红书",
+          "sourceType": "community",
+          "url": "https://www.xiaohongshu.com/discovery/item/6a541dfd0000000021015ccb?source=webshare&xhsshare=pc_web&xsec_token=ABRmwKsb93wbSOszmTZYD9J7t5XcjWesb7cMkhBo7aDEs=&xsec_source=pc_share",
+          "publishedAt": "",
+          "summary": "",
+          "confidence": "medium"
+        }
+      ],
+      "confidence": "medium",
+      "needsVerification": true,
+      "verificationNotes": [
+        "缺少所在区域",
+        "地址待查询/确认",
+        "缺少韩文名/韩文地址"
+      ]
+    },
+    {
+      "id": "cortis-008",
+      "source": "user-excel",
+      "name": "直火匠人 龙山店",
+      "nameLocal": "",
+      "type": "shop",
+      "category": "same_type_shop",
+      "interestRelated": true,
+      "district": "",
+      "address": "龙山区 汉江大路 58-1",
+      "latitude": null,
+      "longitude": null,
+      "openingHours": "",
+      "description": "严成玹过生日时的餐厅",
+      "imageUrl": null,
+      "tags": [
+        "CORTIS",
+        "同款店铺",
+        "小红书"
+      ],
+      "evidence": [
+        {
+          "id": "ev-cortis-008-a",
+          "claim": "严成玹过生日时的餐厅",
+          "source": "小红书",
+          "sourceType": "community",
+          "url": "https://www.xiaohongshu.com/discovery/item/69ec9a3b0000000036032fc8?source=webshare&xhsshare=pc_web&xsec_token=AB9LKvZJTjWxpwtrEB4TyhVkK6aylTAYd7Lp8mRjjtdXc=&xsec_source=pc_share",
+          "publishedAt": "",
+          "summary": "严成玹过生日时的餐厅",
+          "confidence": "high"
+        }
+      ],
+      "confidence": "high",
+      "needsVerification": true,
+      "verificationNotes": [
+        "缺少所在区域",
+        "缺少韩文名/韩文地址"
+      ]
+    },
+    {
+      "id": "cortis-009",
+      "source": "user-excel",
+      "name": "“凌晨外出”拍摄地",
+      "nameLocal": "",
+      "type": "photo_spot",
+      "category": "same_type_spot",
+      "interestRelated": true,
+      "district": "",
+      "address": "汉南站1号口",
+      "latitude": null,
+      "longitude": null,
+      "openingHours": "",
+      "description": "",
+      "imageUrl": null,
+      "tags": [
+        "CORTIS",
+        "同款地点",
+        "小红书"
+      ],
+      "evidence": [
+        {
+          "id": "ev-cortis-009-a",
+          "claim": "“凌晨外出”拍摄地 与 CORTIS 相关（用户整理）",
+          "source": "小红书",
+          "sourceType": "community",
+          "url": "https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5312lw=&xsec_source=pc_share",
+          "publishedAt": "",
+          "summary": "",
+          "confidence": "high"
+        }
+      ],
+      "confidence": "high",
+      "needsVerification": true,
+      "verificationNotes": [
+        "缺少所在区域",
+        "缺少韩文名/韩文地址"
+      ]
+    },
+    {
+      "id": "cortis-010",
+      "source": "user-excel",
+      "name": "乙支路煤炭烧烤Gochon店",
+      "nameLocal": "",
+      "type": "filming_location",
+      "category": "filming_location",
+      "interestRelated": true,
+      "district": "",
+      "address": "高村站2号出口",
+      "latitude": null,
+      "longitude": null,
+      "openingHours": "",
+      "description": "",
+      "imageUrl": null,
+      "tags": [
+        "CORTIS",
+        "MV拍摄地",
+        "小红书"
+      ],
+      "evidence": [
+        {
+          "id": "ev-cortis-010-a",
+          "claim": "乙支路煤炭烧烤Gochon店 与 CORTIS 相关（用户整理）",
+          "source": "小红书",
+          "sourceType": "community",
+          "url": "https://www.xiaohongshu.com/discovery/item/6a008d130000000036031377?source=webshare&xhsshare=pc_web&xsec_token=ABXbeyWbuHIo-I3SqM1N8bmbCmlRSbMop0YW4OgJClPJs=&xsec_source=pc_share",
+          "publishedAt": "",
+          "summary": "",
+          "confidence": "high"
+        }
+      ],
+      "confidence": "high",
+      "needsVerification": true,
+      "verificationNotes": [
+        "缺少所在区域",
+        "缺少韩文名/韩文地址"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1721 @@
+{
+  "pairs": {
+    "nyc-met|nyc-neue": {
+      "ok": true,
+      "mode": "walk-estimate",
+      "minutes": 6,
+      "transfers": 0,
+      "walkMinutes": 6,
+      "modes": [
+        "WALK"
+      ],
+      "distanceKm": 0.33,
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "大都会艺术博物馆",
+      "toName": "新画廊 Neue Galerie"
+    },
+    "nyc-cpark|nyc-met": {
+      "ok": true,
+      "mode": "walk-estimate",
+      "minutes": 7,
+      "transfers": 0,
+      "walkMinutes": 7,
+      "modes": [
+        "WALK"
+      ],
+      "distanceKm": 0.406,
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "中央公园",
+      "toName": "大都会艺术博物馆"
+    },
+    "nyc-guggenheim|nyc-met": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 8,
+      "transfers": 0,
+      "walkMinutes": 7,
+      "modes": [
+        "BUS:M3"
+      ],
+      "depart": "2026-09-16T14:03:00Z",
+      "arrive": "2026-09-16T14:11:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "古根海姆博物馆",
+      "toName": "大都会艺术博物馆"
+    },
+    "nyc-frick|nyc-met": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 17,
+      "transfers": 0,
+      "walkMinutes": 14,
+      "modes": [
+        "BUS:M4"
+      ],
+      "depart": "2026-09-16T14:04:00Z",
+      "arrive": "2026-09-16T14:21:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "弗里克收藏",
+      "toName": "大都会艺术博物馆"
+    },
+    "nyc-elmuseo|nyc-met": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 21,
+      "transfers": 0,
+      "walkMinutes": 9,
+      "modes": [
+        "BUS:M2"
+      ],
+      "depart": "2026-09-16T14:06:00Z",
+      "arrive": "2026-09-16T14:27:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "巴里奥博物馆",
+      "toName": "大都会艺术博物馆"
+    },
+    "nyc-grandcentral|nyc-moma": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 17,
+      "transfers": 0,
+      "walkMinutes": 11,
+      "modes": [
+        "BUS:M1"
+      ],
+      "depart": "2026-09-16T14:00:00Z",
+      "arrive": "2026-09-16T14:17:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "中央车站",
+      "toName": "现代艺术博物馆 MoMA"
+    },
+    "nyc-moma|nyc-nypl": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 14,
+      "transfers": 0,
+      "walkMinutes": 7,
+      "modes": [
+        "BUS:Q32"
+      ],
+      "depart": "2026-09-16T14:05:00Z",
+      "arrive": "2026-09-16T14:19:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "现代艺术博物馆 MoMA",
+      "toName": "纽约公共图书馆"
+    },
+    "nyc-frick|nyc-moma": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 20,
+      "transfers": 0,
+      "walkMinutes": 10,
+      "modes": [
+        "BUS:M4"
+      ],
+      "depart": "2026-09-16T14:04:00Z",
+      "arrive": "2026-09-16T14:24:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "弗里克收藏",
+      "toName": "现代艺术博物馆 MoMA"
+    },
+    "nyc-moma|nyc-morgan": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 19,
+      "transfers": 0,
+      "walkMinutes": 10,
+      "modes": [
+        "BUS:M4"
+      ],
+      "depart": "2026-09-16T14:02:00Z",
+      "arrive": "2026-09-16T14:21:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "现代艺术博物馆 MoMA",
+      "toName": "摩根图书馆与博物馆"
+    },
+    "nyc-met|nyc-moma": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 26,
+      "transfers": 0,
+      "walkMinutes": 9,
+      "modes": [
+        "BUS:M4"
+      ],
+      "depart": "2026-09-16T14:11:00Z",
+      "arrive": "2026-09-16T14:37:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "大都会艺术博物馆",
+      "toName": "现代艺术博物馆 MoMA"
+    },
+    "nyc-guggenheim|nyc-neue": {
+      "ok": true,
+      "mode": "walk-estimate",
+      "minutes": 4,
+      "transfers": 0,
+      "walkMinutes": 4,
+      "modes": [
+        "WALK"
+      ],
+      "distanceKm": 0.226,
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "古根海姆博物馆",
+      "toName": "新画廊 Neue Galerie"
+    },
+    "nyc-cpark|nyc-guggenheim": {
+      "ok": true,
+      "mode": "walk-estimate",
+      "minutes": 9,
+      "transfers": 0,
+      "walkMinutes": 9,
+      "modes": [
+        "WALK"
+      ],
+      "distanceKm": 0.543,
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "中央公园",
+      "toName": "古根海姆博物馆"
+    },
+    "nyc-elmuseo|nyc-guggenheim": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 17,
+      "transfers": 0,
+      "walkMinutes": 6,
+      "modes": [
+        "BUS:M3"
+      ],
+      "depart": "2026-09-16T14:06:00Z",
+      "arrive": "2026-09-16T14:23:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "巴里奥博物馆",
+      "toName": "古根海姆博物馆"
+    },
+    "nyc-frick|nyc-guggenheim": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 16,
+      "transfers": 0,
+      "walkMinutes": 9,
+      "modes": [
+        "BUS:M4"
+      ],
+      "depart": "2026-09-16T14:04:00Z",
+      "arrive": "2026-09-16T14:20:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "弗里克收藏",
+      "toName": "古根海姆博物馆"
+    },
+    "nyc-littleisland|nyc-whitney": {
+      "ok": true,
+      "mode": "walk-estimate",
+      "minutes": 5,
+      "transfers": 0,
+      "walkMinutes": 5,
+      "modes": [
+        "WALK"
+      ],
+      "distanceKm": 0.298,
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "Little Island",
+      "toName": "惠特尼美国艺术博物馆"
+    },
+    "nyc-chelseamarket|nyc-whitney": {
+      "ok": true,
+      "mode": "walk-estimate",
+      "minutes": 7,
+      "transfers": 0,
+      "walkMinutes": 7,
+      "modes": [
+        "WALK"
+      ],
+      "distanceKm": 0.431,
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "切尔西市场",
+      "toName": "惠特尼美国艺术博物馆"
+    },
+    "nyc-highline|nyc-whitney": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 19,
+      "transfers": 0,
+      "walkMinutes": 13,
+      "modes": [
+        "BUS:M11"
+      ],
+      "depart": "2026-09-16T14:02:00Z",
+      "arrive": "2026-09-16T14:21:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "高线公园",
+      "toName": "惠特尼美国艺术博物馆"
+    },
+    "nyc-printedmatter|nyc-whitney": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 17,
+      "transfers": 0,
+      "walkMinutes": 7,
+      "modes": [
+        "BUS:M12"
+      ],
+      "depart": "2026-09-16T14:21:00Z",
+      "arrive": "2026-09-16T14:38:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "Printed Matter 艺术书店",
+      "toName": "惠特尼美国艺术博物馆"
+    },
+    "nyc-whitney|nyc-wsquare": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 21,
+      "transfers": 1,
+      "walkMinutes": 15,
+      "modes": [
+        "BUS:M14D-SBS",
+        "BUS:M8"
+      ],
+      "depart": "2026-09-16T14:01:00Z",
+      "arrive": "2026-09-16T14:22:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "惠特尼美国艺术博物馆",
+      "toName": "华盛顿广场公园"
+    },
+    "nyc-morgan|nyc-nypl": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 8,
+      "transfers": 0,
+      "walkMinutes": 7,
+      "modes": [
+        "BUS:M4"
+      ],
+      "depart": "2026-09-16T14:02:00Z",
+      "arrive": "2026-09-16T14:10:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "摩根图书馆与博物馆",
+      "toName": "纽约公共图书馆"
+    },
+    "nyc-grandcentral|nyc-morgan": {
+      "ok": true,
+      "mode": "walk-estimate",
+      "minutes": 9,
+      "transfers": 0,
+      "walkMinutes": 9,
+      "modes": [
+        "WALK"
+      ],
+      "distanceKm": 0.521,
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "中央车站",
+      "toName": "摩根图书馆与博物馆"
+    },
+    "nyc-morgan|nyc-shed": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 19,
+      "transfers": 0,
+      "walkMinutes": 11,
+      "modes": [
+        "BUS:34th St"
+      ],
+      "depart": "2026-09-16T14:16:00Z",
+      "arrive": "2026-09-16T14:35:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "摩根图书馆与博物馆",
+      "toName": "The Shed"
+    },
+    "nyc-highline|nyc-morgan": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 20,
+      "transfers": 0,
+      "walkMinutes": 15,
+      "modes": [
+        "BUS:34th St"
+      ],
+      "depart": "2026-09-16T14:01:00Z",
+      "arrive": "2026-09-16T14:21:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "高线公园",
+      "toName": "摩根图书馆与博物馆"
+    },
+    "nyc-frick|nyc-neue": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 14,
+      "transfers": 0,
+      "walkMinutes": 7,
+      "modes": [
+        "BUS:M4"
+      ],
+      "depart": "2026-09-16T14:04:00Z",
+      "arrive": "2026-09-16T14:18:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "弗里克收藏",
+      "toName": "新画廊 Neue Galerie"
+    },
+    "nyc-cpark|nyc-frick": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 19,
+      "transfers": 0,
+      "walkMinutes": 14,
+      "modes": [
+        "BUS:M1"
+      ],
+      "depart": "2026-09-16T14:02:00Z",
+      "arrive": "2026-09-16T14:21:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "中央公园",
+      "toName": "弗里克收藏"
+    },
+    "nyc-cpark|nyc-neue": {
+      "ok": true,
+      "mode": "walk-estimate",
+      "minutes": 8,
+      "transfers": 0,
+      "walkMinutes": 8,
+      "modes": [
+        "WALK"
+      ],
+      "distanceKm": 0.464,
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "中央公园",
+      "toName": "新画廊 Neue Galerie"
+    },
+    "nyc-elmuseo|nyc-neue": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 19,
+      "transfers": 0,
+      "walkMinutes": 6,
+      "modes": [
+        "BUS:M3"
+      ],
+      "depart": "2026-09-16T14:06:00Z",
+      "arrive": "2026-09-16T14:25:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "巴里奥博物馆",
+      "toName": "新画廊 Neue Galerie"
+    },
+    "nyc-cloisters|nyc-elmuseo": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 41,
+      "transfers": 3,
+      "walkMinutes": 12,
+      "modes": [
+        "BUS:M4",
+        "SUBWAY:A",
+        "SUBWAY:B",
+        "BUS:M4"
+      ],
+      "depart": "2026-09-16T14:18:00Z",
+      "arrive": "2026-09-16T14:59:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "修道院博物馆 The Cloisters",
+      "toName": "巴里奥博物馆"
+    },
+    "nyc-cloisters|nyc-guggenheim": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 46,
+      "transfers": 3,
+      "walkMinutes": 19,
+      "modes": [
+        "BUS:M4",
+        "SUBWAY:A",
+        "SUBWAY:B",
+        "BUS:M106"
+      ],
+      "depart": "2026-09-16T14:10:00Z",
+      "arrive": "2026-09-16T14:56:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "修道院博物馆 The Cloisters",
+      "toName": "古根海姆博物馆"
+    },
+    "nyc-cloisters|nyc-cpark": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 43,
+      "transfers": 3,
+      "walkMinutes": 18,
+      "modes": [
+        "BUS:M4",
+        "SUBWAY:A",
+        "SUBWAY:B",
+        "BUS:M10"
+      ],
+      "depart": "2026-09-16T14:02:00Z",
+      "arrive": "2026-09-16T14:45:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "修道院博物馆 The Cloisters",
+      "toName": "中央公园"
+    },
+    "nyc-cloisters|nyc-neue": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 46,
+      "transfers": 3,
+      "walkMinutes": 13,
+      "modes": [
+        "BUS:M4",
+        "SUBWAY:A",
+        "SUBWAY:B",
+        "BUS:M86-SBS"
+      ],
+      "depart": "2026-09-16T14:10:00Z",
+      "arrive": "2026-09-16T14:56:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "修道院博物馆 The Cloisters",
+      "toName": "新画廊 Neue Galerie"
+    },
+    "nyc-cloisters|nyc-met": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 47,
+      "transfers": 3,
+      "walkMinutes": 14,
+      "modes": [
+        "BUS:M4",
+        "SUBWAY:A",
+        "SUBWAY:B",
+        "BUS:M86-SBS"
+      ],
+      "depart": "2026-09-16T14:10:00Z",
+      "arrive": "2026-09-16T14:57:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "修道院博物馆 The Cloisters",
+      "toName": "大都会艺术博物馆"
+    },
+    "nyc-brooklynbridge|nyc-brooklynmuseum": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 46,
+      "transfers": 2,
+      "walkMinutes": 30,
+      "modes": [
+        "BUS:B25",
+        "SUBWAY:C",
+        "SUBWAY:S"
+      ],
+      "depart": "2026-09-16T14:10:00Z",
+      "arrive": "2026-09-16T14:56:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "布鲁克林大桥",
+      "toName": "布鲁克林博物馆"
+    },
+    "nyc-brooklynmuseum|nyc-newmuseum": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 43,
+      "transfers": 2,
+      "walkMinutes": 19,
+      "modes": [
+        "BUS:B41",
+        "SUBWAY:D",
+        "BUS:M103"
+      ],
+      "depart": "2026-09-16T14:08:00Z",
+      "arrive": "2026-09-16T14:51:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "布鲁克林博物馆",
+      "toName": "新当代艺术博物馆"
+    },
+    "nyc-brooklynmuseum|nyc-wsquare": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 48,
+      "transfers": 2,
+      "walkMinutes": 27,
+      "modes": [
+        "BUS:B69",
+        "SUBWAY:B",
+        "BUS:M8"
+      ],
+      "depart": "2026-09-16T14:01:00Z",
+      "arrive": "2026-09-16T14:49:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "布鲁克林博物馆",
+      "toName": "华盛顿广场公园"
+    },
+    "nyc-brooklynmuseum|nyc-ps1": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 40,
+      "transfers": 2,
+      "walkMinutes": 15,
+      "modes": [
+        "BUS:B48",
+        "SUBWAY:G",
+        "BUS:Q67"
+      ],
+      "depart": "2026-09-16T14:19:00Z",
+      "arrive": "2026-09-16T14:59:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "布鲁克林博物馆",
+      "toName": "MoMA PS1"
+    },
+    "nyc-brooklynmuseum|nyc-whitney": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 49,
+      "transfers": 2,
+      "walkMinutes": 19,
+      "modes": [
+        "BUS:B48",
+        "SUBWAY:C",
+        "BUS:M14D-SBS"
+      ],
+      "depart": "2026-09-16T14:19:00Z",
+      "arrive": "2026-09-16T15:08:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "布鲁克林博物馆",
+      "toName": "惠特尼美国艺术博物馆"
+    },
+    "nyc-noguchi|nyc-ps1": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 23,
+      "transfers": 0,
+      "walkMinutes": 8,
+      "modes": [
+        "BUS:Q103"
+      ],
+      "depart": "2026-09-16T14:02:00Z",
+      "arrive": "2026-09-16T14:25:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "野口勇博物馆",
+      "toName": "MoMA PS1"
+    },
+    "nyc-grandcentral|nyc-ps1": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 22,
+      "transfers": 2,
+      "walkMinutes": 13,
+      "modes": [
+        "BUS:M42",
+        "SUBWAY:7",
+        "BUS:B32"
+      ],
+      "depart": "2026-09-16T14:03:00Z",
+      "arrive": "2026-09-16T14:25:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "中央车站",
+      "toName": "MoMA PS1"
+    },
+    "nyc-morgan|nyc-ps1": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 21,
+      "transfers": 3,
+      "walkMinutes": 14,
+      "modes": [
+        "BUS:M1",
+        "SUBWAY:6",
+        "SUBWAY:E",
+        "BUS:B32"
+      ],
+      "depart": "2026-09-16T14:12:00Z",
+      "arrive": "2026-09-16T14:33:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "摩根图书馆与博物馆",
+      "toName": "MoMA PS1"
+    },
+    "nyc-nypl|nyc-ps1": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 19,
+      "transfers": 1,
+      "walkMinutes": 13,
+      "modes": [
+        "SUBWAY:7",
+        "BUS:B32"
+      ],
+      "depart": "2026-09-16T14:06:00Z",
+      "arrive": "2026-09-16T14:25:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "纽约公共图书馆",
+      "toName": "MoMA PS1"
+    },
+    "nyc-moma|nyc-ps1": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 19,
+      "transfers": 2,
+      "walkMinutes": 12,
+      "modes": [
+        "BUS:M4",
+        "SUBWAY:E",
+        "BUS:B32"
+      ],
+      "depart": "2026-09-16T14:14:00Z",
+      "arrive": "2026-09-16T14:33:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "现代艺术博物馆 MoMA",
+      "toName": "MoMA PS1"
+    },
+    "nyc-neue|nyc-noguchi": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 35,
+      "transfers": 3,
+      "walkMinutes": 13,
+      "modes": [
+        "BUS:M86-SBS",
+        "SUBWAY:5",
+        "SUBWAY:M",
+        "BUS:Q103"
+      ],
+      "depart": "2026-09-16T14:12:00Z",
+      "arrive": "2026-09-16T14:47:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "新画廊 Neue Galerie",
+      "toName": "野口勇博物馆"
+    },
+    "nyc-guggenheim|nyc-noguchi": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 38,
+      "transfers": 3,
+      "walkMinutes": 16,
+      "modes": [
+        "BUS:M86-SBS",
+        "SUBWAY:5",
+        "SUBWAY:M",
+        "BUS:Q103"
+      ],
+      "depart": "2026-09-16T14:09:00Z",
+      "arrive": "2026-09-16T14:47:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "古根海姆博物馆",
+      "toName": "野口勇博物馆"
+    },
+    "nyc-frick|nyc-noguchi": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 35,
+      "transfers": 2,
+      "walkMinutes": 19,
+      "modes": [
+        "BUS:M1",
+        "SUBWAY:M",
+        "BUS:Q103"
+      ],
+      "depart": "2026-09-16T14:12:00Z",
+      "arrive": "2026-09-16T14:47:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "弗里克收藏",
+      "toName": "野口勇博物馆"
+    },
+    "nyc-met|nyc-noguchi": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 38,
+      "transfers": 3,
+      "walkMinutes": 19,
+      "modes": [
+        "BUS:M1",
+        "SUBWAY:6",
+        "SUBWAY:M",
+        "BUS:Q103"
+      ],
+      "depart": "2026-09-16T14:09:00Z",
+      "arrive": "2026-09-16T14:47:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "大都会艺术博物馆",
+      "toName": "野口勇博物馆"
+    },
+    "nyc-newmuseum|nyc-wsquare": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 17,
+      "transfers": 0,
+      "walkMinutes": 15,
+      "modes": [
+        "BUS:M103"
+      ],
+      "depart": "2026-09-16T14:01:00Z",
+      "arrive": "2026-09-16T14:18:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "新当代艺术博物馆",
+      "toName": "华盛顿广场公园"
+    },
+    "nyc-brooklynbridge|nyc-newmuseum": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 37,
+      "transfers": 2,
+      "walkMinutes": 28,
+      "modes": [
+        "BUS:B25",
+        "SUBWAY:F",
+        "BUS:M21"
+      ],
+      "depart": "2026-09-16T14:06:00Z",
+      "arrive": "2026-09-16T14:43:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "布鲁克林大桥",
+      "toName": "新当代艺术博物馆"
+    },
+    "nyc-newmuseum|nyc-whitney": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 27,
+      "transfers": 3,
+      "walkMinutes": 15,
+      "modes": [
+        "BUS:M103",
+        "SUBWAY:B",
+        "SUBWAY:A",
+        "BUS:M14D-SBS"
+      ],
+      "depart": "2026-09-16T14:02:00Z",
+      "arrive": "2026-09-16T14:29:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "新当代艺术博物馆",
+      "toName": "惠特尼美国艺术博物馆"
+    },
+    "nyc-chelseamarket|nyc-newmuseum": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 24,
+      "transfers": 2,
+      "walkMinutes": 10,
+      "modes": [
+        "BUS:M14D-SBS",
+        "SUBWAY:6X",
+        "BUS:M103"
+      ],
+      "depart": "2026-09-16T14:11:00Z",
+      "arrive": "2026-09-16T14:35:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "切尔西市场",
+      "toName": "新当代艺术博物馆"
+    },
+    "nyc-littleisland|nyc-newmuseum": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 29,
+      "transfers": 2,
+      "walkMinutes": 17,
+      "modes": [
+        "BUS:M11",
+        "SUBWAY:L",
+        "BUS:M103"
+      ],
+      "depart": "2026-09-16T14:06:00Z",
+      "arrive": "2026-09-16T14:35:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "Little Island",
+      "toName": "新当代艺术博物馆"
+    },
+    "nyc-cpark|nyc-elmuseo": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 24,
+      "transfers": 0,
+      "walkMinutes": 16,
+      "modes": [
+        "BUS:M2"
+      ],
+      "depart": "2026-09-16T14:05:00Z",
+      "arrive": "2026-09-16T14:29:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "中央公园",
+      "toName": "巴里奥博物馆"
+    },
+    "nyc-elmuseo|nyc-frick": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 26,
+      "transfers": 1,
+      "walkMinutes": 14,
+      "modes": [
+        "BUS:M98",
+        "BUS:M72"
+      ],
+      "depart": "2026-09-16T14:18:00Z",
+      "arrive": "2026-09-16T14:44:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "巴里奥博物馆",
+      "toName": "弗里克收藏"
+    },
+    "nyc-highline|nyc-printedmatter": {
+      "ok": true,
+      "mode": "walk-estimate",
+      "minutes": 4,
+      "transfers": 0,
+      "walkMinutes": 4,
+      "modes": [
+        "WALK"
+      ],
+      "distanceKm": 0.237,
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "高线公园",
+      "toName": "Printed Matter 艺术书店"
+    },
+    "nyc-highline|nyc-shed": {
+      "ok": true,
+      "mode": "walk-estimate",
+      "minutes": 7,
+      "transfers": 0,
+      "walkMinutes": 7,
+      "modes": [
+        "WALK"
+      ],
+      "distanceKm": 0.402,
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "高线公园",
+      "toName": "The Shed"
+    },
+    "nyc-chelseamarket|nyc-highline": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 12,
+      "transfers": 0,
+      "walkMinutes": 5,
+      "modes": [
+        "BUS:M11"
+      ],
+      "depart": "2026-09-16T14:01:00Z",
+      "arrive": "2026-09-16T14:13:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "切尔西市场",
+      "toName": "高线公园"
+    },
+    "nyc-highline|nyc-littleisland": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 22,
+      "transfers": 0,
+      "walkMinutes": 16,
+      "modes": [
+        "BUS:M11"
+      ],
+      "depart": "2026-09-16T14:02:00Z",
+      "arrive": "2026-09-16T14:24:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "高线公园",
+      "toName": "Little Island"
+    },
+    "nyc-printedmatter|nyc-shed": {
+      "ok": true,
+      "mode": "walk-estimate",
+      "minutes": 7,
+      "transfers": 0,
+      "walkMinutes": 7,
+      "modes": [
+        "WALK"
+      ],
+      "distanceKm": 0.399,
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "Printed Matter 艺术书店",
+      "toName": "The Shed"
+    },
+    "nyc-chelseamarket|nyc-shed": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 17,
+      "transfers": 0,
+      "walkMinutes": 7,
+      "modes": [
+        "BUS:M11"
+      ],
+      "depart": "2026-09-16T14:01:00Z",
+      "arrive": "2026-09-16T14:18:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "切尔西市场",
+      "toName": "The Shed"
+    },
+    "nyc-littleisland|nyc-shed": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 21,
+      "transfers": 0,
+      "walkMinutes": 13,
+      "modes": [
+        "BUS:M11"
+      ],
+      "depart": "2026-09-16T14:09:00Z",
+      "arrive": "2026-09-16T14:30:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "Little Island",
+      "toName": "The Shed"
+    },
+    "nyc-shed|nyc-whitney": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 22,
+      "transfers": 0,
+      "walkMinutes": 14,
+      "modes": [
+        "BUS:M11"
+      ],
+      "depart": "2026-09-16T14:11:00Z",
+      "arrive": "2026-09-16T14:33:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "The Shed",
+      "toName": "惠特尼美国艺术博物馆"
+    },
+    "nyc-chelseamarket|nyc-printedmatter": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 13,
+      "transfers": 0,
+      "walkMinutes": 5,
+      "modes": [
+        "BUS:M12"
+      ],
+      "depart": "2026-09-16T14:16:00Z",
+      "arrive": "2026-09-16T14:29:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "切尔西市场",
+      "toName": "Printed Matter 艺术书店"
+    },
+    "nyc-littleisland|nyc-printedmatter": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 14,
+      "transfers": 0,
+      "walkMinutes": 9,
+      "modes": [
+        "BUS:M12"
+      ],
+      "depart": "2026-09-16T14:15:00Z",
+      "arrive": "2026-09-16T14:29:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "Little Island",
+      "toName": "Printed Matter 艺术书店"
+    },
+    "nyc-brooklynbridge|nyc-wsquare": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 36,
+      "transfers": 2,
+      "walkMinutes": 23,
+      "modes": [
+        "BUS:B25",
+        "SUBWAY:F",
+        "BUS:M8"
+      ],
+      "depart": "2026-09-16T14:06:00Z",
+      "arrive": "2026-09-16T14:42:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "布鲁克林大桥",
+      "toName": "华盛顿广场公园"
+    },
+    "nyc-brooklynbridge|nyc-whitney": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 39,
+      "transfers": 2,
+      "walkMinutes": 27,
+      "modes": [
+        "BUS:B25",
+        "SUBWAY:A",
+        "BUS:M11"
+      ],
+      "depart": "2026-09-16T14:19:00Z",
+      "arrive": "2026-09-16T14:58:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "布鲁克林大桥",
+      "toName": "惠特尼美国艺术博物馆"
+    },
+    "nyc-brooklynbridge|nyc-chelseamarket": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 37,
+      "transfers": 2,
+      "walkMinutes": 20,
+      "modes": [
+        "BUS:B25",
+        "SUBWAY:A",
+        "BUS:M14D-SBS"
+      ],
+      "depart": "2026-09-16T14:19:00Z",
+      "arrive": "2026-09-16T14:56:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "布鲁克林大桥",
+      "toName": "切尔西市场"
+    },
+    "nyc-brooklynbridge|nyc-littleisland": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 43,
+      "transfers": 2,
+      "walkMinutes": 24,
+      "modes": [
+        "BUS:B25",
+        "SUBWAY:A",
+        "BUS:M14D-SBS"
+      ],
+      "depart": "2026-09-16T14:19:00Z",
+      "arrive": "2026-09-16T15:02:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "布鲁克林大桥",
+      "toName": "Little Island"
+    },
+    "nyc-chelseamarket|nyc-wsquare": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 17,
+      "transfers": 1,
+      "walkMinutes": 11,
+      "modes": [
+        "BUS:M14D-SBS",
+        "BUS:M8"
+      ],
+      "depart": "2026-09-16T14:05:00Z",
+      "arrive": "2026-09-16T14:22:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "切尔西市场",
+      "toName": "华盛顿广场公园"
+    },
+    "nyc-littleisland|nyc-wsquare": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 24,
+      "transfers": 2,
+      "walkMinutes": 21,
+      "modes": [
+        "BUS:M14D-SBS",
+        "SUBWAY:C",
+        "BUS:M8"
+      ],
+      "depart": "2026-09-16T14:05:00Z",
+      "arrive": "2026-09-16T14:29:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "Little Island",
+      "toName": "华盛顿广场公园"
+    },
+    "nyc-highline|nyc-wsquare": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 26,
+      "transfers": 2,
+      "walkMinutes": 17,
+      "modes": [
+        "BUS:M11",
+        "SUBWAY:C",
+        "BUS:Downtown Local"
+      ],
+      "depart": "2026-09-16T14:13:00Z",
+      "arrive": "2026-09-16T14:39:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "高线公园",
+      "toName": "华盛顿广场公园"
+    },
+    "nyc-grandcentral|nyc-nypl": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 7,
+      "transfers": 0,
+      "walkMinutes": 5,
+      "modes": [
+        "BUS:M42"
+      ],
+      "depart": "2026-09-16T14:03:00Z",
+      "arrive": "2026-09-16T14:10:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "中央车站",
+      "toName": "纽约公共图书馆"
+    },
+    "nyc-grandcentral|nyc-shed": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 21,
+      "transfers": 2,
+      "walkMinutes": 10,
+      "modes": [
+        "BUS:M42",
+        "SUBWAY:7",
+        "BUS:M12"
+      ],
+      "depart": "2026-09-16T14:03:00Z",
+      "arrive": "2026-09-16T14:24:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "中央车站",
+      "toName": "The Shed"
+    },
+    "nyc-grandcentral|nyc-highline": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 23,
+      "transfers": 2,
+      "walkMinutes": 10,
+      "modes": [
+        "BUS:M42",
+        "SUBWAY:7",
+        "BUS:M12"
+      ],
+      "depart": "2026-09-16T14:03:00Z",
+      "arrive": "2026-09-16T14:26:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "中央车站",
+      "toName": "高线公园"
+    },
+    "nyc-nypl|nyc-shed": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 18,
+      "transfers": 1,
+      "walkMinutes": 10,
+      "modes": [
+        "SUBWAY:7",
+        "BUS:M12"
+      ],
+      "depart": "2026-09-16T14:06:00Z",
+      "arrive": "2026-09-16T14:24:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "纽约公共图书馆",
+      "toName": "The Shed"
+    },
+    "nyc-highline|nyc-nypl": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 20,
+      "transfers": 1,
+      "walkMinutes": 14,
+      "modes": [
+        "BUS:M12",
+        "SUBWAY:7"
+      ],
+      "depart": "2026-09-16T14:19:00Z",
+      "arrive": "2026-09-16T14:39:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "高线公园",
+      "toName": "纽约公共图书馆"
+    },
+    "nyc-chelseamarket|nyc-littleisland": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 10,
+      "transfers": 0,
+      "walkMinutes": 8,
+      "modes": [
+        "BUS:M14D-SBS"
+      ],
+      "depart": "2026-09-16T14:01:00Z",
+      "arrive": "2026-09-16T14:11:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "切尔西市场",
+      "toName": "Little Island"
+    },
+    "nyc-flushingmain|nyc-queensmuseum": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 26,
+      "transfers": 1,
+      "walkMinutes": 16,
+      "modes": [
+        "BUS:Q20",
+        "REGIONAL_RAIL:303"
+      ],
+      "depart": "2026-09-18T04:52:00Z",
+      "arrive": "2026-09-18T05:18:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "法拉盛唐人街（Main Street 一带）",
+      "toName": "皇后区博物馆"
+    },
+    "nyc-flushingmain|nyc-noguchi": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 52,
+      "transfers": 3,
+      "walkMinutes": 19,
+      "modes": [
+        "BUS:Q44-SBS",
+        "SUBWAY:7",
+        "SUBWAY:E",
+        "BUS:B62"
+      ],
+      "depart": "2026-09-16T14:10:00Z",
+      "arrive": "2026-09-16T15:02:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "法拉盛唐人街（Main Street 一带）",
+      "toName": "野口勇博物馆"
+    },
+    "nyc-flushingmain|nyc-ps1": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 40,
+      "transfers": 3,
+      "walkMinutes": 13,
+      "modes": [
+        "BUS:Q44-SBS",
+        "SUBWAY:7",
+        "SUBWAY:E",
+        "BUS:Q101"
+      ],
+      "depart": "2026-09-16T14:10:00Z",
+      "arrive": "2026-09-16T14:50:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "法拉盛唐人街（Main Street 一带）",
+      "toName": "MoMA PS1"
+    },
+    "nyc-elmuseo|nyc-flushingmain": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 70,
+      "transfers": 4,
+      "walkMinutes": 20,
+      "modes": [
+        "BUS:M103",
+        "SUBWAY:6X",
+        "SUBWAY:F",
+        "BUS:Q64",
+        "BUS:Q20"
+      ],
+      "depart": "2026-09-16T14:07:00Z",
+      "arrive": "2026-09-16T15:17:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "巴里奥博物馆",
+      "toName": "法拉盛唐人街（Main Street 一带）"
+    },
+    "nyc-noguchi|nyc-queensmuseum": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 58,
+      "transfers": 1,
+      "walkMinutes": 27,
+      "modes": [
+        "BUS:Q18",
+        "REGIONAL_RAIL:300"
+      ],
+      "depart": "2026-09-18T04:00:00Z",
+      "arrive": "2026-09-18T04:58:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "野口勇博物馆",
+      "toName": "皇后区博物馆"
+    },
+    "nyc-ps1|nyc-queensmuseum": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 47,
+      "transfers": 2,
+      "walkMinutes": 23,
+      "modes": [
+        "BUS:B62",
+        "SUBWAY:7",
+        "REGIONAL_RAIL:300"
+      ],
+      "depart": "2026-09-18T04:11:00Z",
+      "arrive": "2026-09-18T04:58:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "MoMA PS1",
+      "toName": "皇后区博物馆"
+    },
+    "nyc-elmuseo|nyc-queensmuseum": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 59,
+      "transfers": 2,
+      "walkMinutes": 26,
+      "modes": [
+        "BUS:M101",
+        "SUBWAY:6",
+        "REGIONAL_RAIL:400"
+      ],
+      "depart": "2026-09-18T04:43:00Z",
+      "arrive": "2026-09-18T05:42:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "巴里奥博物馆",
+      "toName": "皇后区博物馆"
+    },
+    "nyc-met|nyc-whitney": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 36,
+      "transfers": 2,
+      "walkMinutes": 16,
+      "modes": [
+        "BUS:M79-SBS",
+        "SUBWAY:C",
+        "BUS:M14A-SBS"
+      ],
+      "depart": "2026-09-16T14:16:00Z",
+      "arrive": "2026-09-16T14:52:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "大都会艺术博物馆",
+      "toName": "惠特尼美国艺术博物馆"
+    },
+    "nyc-met|nyc-morgan": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 27,
+      "transfers": 2,
+      "walkMinutes": 16,
+      "modes": [
+        "BUS:M1",
+        "SUBWAY:6",
+        "BUS:M4"
+      ],
+      "depart": "2026-09-16T14:09:00Z",
+      "arrive": "2026-09-16T14:36:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "大都会艺术博物馆",
+      "toName": "摩根图书馆与博物馆"
+    },
+    "nyc-brooklynmuseum|nyc-met": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 58,
+      "transfers": 2,
+      "walkMinutes": 21,
+      "modes": [
+        "BUS:B48",
+        "SUBWAY:5",
+        "BUS:M1"
+      ],
+      "depart": "2026-09-16T14:19:00Z",
+      "arrive": "2026-09-16T15:17:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "布鲁克林博物馆",
+      "toName": "大都会艺术博物馆"
+    },
+    "nyc-met|nyc-ps1": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 31,
+      "transfers": 3,
+      "walkMinutes": 18,
+      "modes": [
+        "BUS:M86-SBS",
+        "SUBWAY:4",
+        "SUBWAY:E",
+        "BUS:B32"
+      ],
+      "depart": "2026-09-16T14:02:00Z",
+      "arrive": "2026-09-16T14:33:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "大都会艺术博物馆",
+      "toName": "MoMA PS1"
+    },
+    "nyc-met|nyc-newmuseum": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 36,
+      "transfers": 2,
+      "walkMinutes": 12,
+      "modes": [
+        "BUS:M86-SBS",
+        "SUBWAY:6",
+        "BUS:M103"
+      ],
+      "depart": "2026-09-16T14:15:00Z",
+      "arrive": "2026-09-16T14:51:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "大都会艺术博物馆",
+      "toName": "新当代艺术博物馆"
+    },
+    "nyc-highline|nyc-met": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 37,
+      "transfers": 2,
+      "walkMinutes": 14,
+      "modes": [
+        "BUS:M23-SBS",
+        "SUBWAY:C",
+        "BUS:M86-SBS"
+      ],
+      "depart": "2026-09-16T14:01:00Z",
+      "arrive": "2026-09-16T14:38:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "高线公园",
+      "toName": "大都会艺术博物馆"
+    },
+    "nyc-met|nyc-shed": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 36,
+      "transfers": 3,
+      "walkMinutes": 17,
+      "modes": [
+        "BUS:M79-SBS",
+        "SUBWAY:C",
+        "BUS:M42",
+        "BUS:M12"
+      ],
+      "depart": "2026-09-16T14:16:00Z",
+      "arrive": "2026-09-16T14:52:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "大都会艺术博物馆",
+      "toName": "The Shed"
+    },
+    "nyc-met|nyc-printedmatter": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 35,
+      "transfers": 2,
+      "walkMinutes": 13,
+      "modes": [
+        "BUS:M79-SBS",
+        "SUBWAY:C",
+        "BUS:M23-SBS"
+      ],
+      "depart": "2026-09-16T14:09:00Z",
+      "arrive": "2026-09-16T14:44:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "大都会艺术博物馆",
+      "toName": "Printed Matter 艺术书店"
+    },
+    "nyc-brooklynbridge|nyc-met": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 52,
+      "transfers": 3,
+      "walkMinutes": 27,
+      "modes": [
+        "BUS:B25",
+        "SUBWAY:C",
+        "SUBWAY:5",
+        "BUS:M86-SBS"
+      ],
+      "depart": "2026-09-16T14:09:00Z",
+      "arrive": "2026-09-16T15:01:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "布鲁克林大桥",
+      "toName": "大都会艺术博物馆"
+    },
+    "nyc-met|nyc-wsquare": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 33,
+      "transfers": 2,
+      "walkMinutes": 16,
+      "modes": [
+        "BUS:M86-SBS",
+        "SUBWAY:4",
+        "BUS:M3"
+      ],
+      "depart": "2026-09-16T14:02:00Z",
+      "arrive": "2026-09-16T14:35:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "大都会艺术博物馆",
+      "toName": "华盛顿广场公园"
+    },
+    "nyc-grandcentral|nyc-met": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 24,
+      "transfers": 2,
+      "walkMinutes": 16,
+      "modes": [
+        "BUS:M42",
+        "SUBWAY:5",
+        "BUS:M4"
+      ],
+      "depart": "2026-09-16T14:10:00Z",
+      "arrive": "2026-09-16T14:34:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "中央车站",
+      "toName": "大都会艺术博物馆"
+    },
+    "nyc-met|nyc-nypl": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 25,
+      "transfers": 2,
+      "walkMinutes": 13,
+      "modes": [
+        "BUS:M86-SBS",
+        "SUBWAY:4",
+        "BUS:42nd St"
+      ],
+      "depart": "2026-09-16T14:02:00Z",
+      "arrive": "2026-09-16T14:27:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "大都会艺术博物馆",
+      "toName": "纽约公共图书馆"
+    },
+    "nyc-chelseamarket|nyc-met": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 33,
+      "transfers": 2,
+      "walkMinutes": 12,
+      "modes": [
+        "BUS:M14D-SBS",
+        "SUBWAY:C",
+        "BUS:M86-SBS"
+      ],
+      "depart": "2026-09-16T14:05:00Z",
+      "arrive": "2026-09-16T14:38:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "切尔西市场",
+      "toName": "大都会艺术博物馆"
+    },
+    "nyc-littleisland|nyc-met": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 42,
+      "transfers": 3,
+      "walkMinutes": 23,
+      "modes": [
+        "BUS:M11",
+        "SUBWAY:L",
+        "SUBWAY:4",
+        "BUS:M86-SBS"
+      ],
+      "depart": "2026-09-16T14:06:00Z",
+      "arrive": "2026-09-16T14:48:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "Little Island",
+      "toName": "大都会艺术博物馆"
+    },
+    "nyc-flushingmain|nyc-met": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 56,
+      "transfers": 4,
+      "walkMinutes": 19,
+      "modes": [
+        "BUS:Q44-SBS",
+        "SUBWAY:7",
+        "SUBWAY:F",
+        "SUBWAY:6",
+        "BUS:M79-SBS"
+      ],
+      "depart": "2026-09-16T14:14:00Z",
+      "arrive": "2026-09-16T15:10:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "法拉盛唐人街（Main Street 一带）",
+      "toName": "大都会艺术博物馆"
+    },
+    "nyc-met|nyc-queensmuseum": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 59,
+      "transfers": 2,
+      "walkMinutes": 31,
+      "modes": [
+        "BUS:M1",
+        "SUBWAY:6",
+        "REGIONAL_RAIL:400"
+      ],
+      "depart": "2026-09-18T04:43:00Z",
+      "arrive": "2026-09-18T05:42:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "大都会艺术博物馆",
+      "toName": "皇后区博物馆"
+    },
+    "nyc-flushingmeadows|nyc-queensmuseum": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 32,
+      "transfers": 1,
+      "walkMinutes": 23,
+      "modes": [
+        "SUBWAY:7",
+        "REGIONAL_RAIL:305"
+      ],
+      "depart": "2026-09-18T06:19:00Z",
+      "arrive": "2026-09-18T06:51:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "法拉盛草原可乐娜公园",
+      "toName": "皇后区博物馆"
+    },
+    "nyc-flushingmain|nyc-flushingmeadows": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 22,
+      "transfers": 1,
+      "walkMinutes": 14,
+      "modes": [
+        "BUS:Q44-SBS",
+        "SUBWAY:7"
+      ],
+      "depart": "2026-09-16T14:10:00Z",
+      "arrive": "2026-09-16T14:32:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "法拉盛唐人街（Main Street 一带）",
+      "toName": "法拉盛草原可乐娜公园"
+    },
+    "nyc-flushingmeadows|nyc-noguchi": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 46,
+      "transfers": 2,
+      "walkMinutes": 16,
+      "modes": [
+        "SUBWAY:7",
+        "SUBWAY:M",
+        "BUS:Q104"
+      ],
+      "depart": "2026-09-16T14:09:00Z",
+      "arrive": "2026-09-16T14:55:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "法拉盛草原可乐娜公园",
+      "toName": "野口勇博物馆"
+    },
+    "nyc-flushingmeadows|nyc-ps1": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 34,
+      "transfers": 2,
+      "walkMinutes": 17,
+      "modes": [
+        "SUBWAY:7",
+        "SUBWAY:E",
+        "BUS:Q67"
+      ],
+      "depart": "2026-09-16T14:09:00Z",
+      "arrive": "2026-09-16T14:43:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "法拉盛草原可乐娜公园",
+      "toName": "MoMA PS1"
+    },
+    "nyc-elmuseo|nyc-flushingmeadows": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 59,
+      "transfers": 3,
+      "walkMinutes": 23,
+      "modes": [
+        "BUS:M106",
+        "SUBWAY:6",
+        "SUBWAY:E",
+        "SUBWAY:7"
+      ],
+      "depart": "2026-09-16T14:05:00Z",
+      "arrive": "2026-09-16T15:04:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "巴里奥博物馆",
+      "toName": "法拉盛草原可乐娜公园"
+    },
+    "nyc-flushingmeadows|nyc-met": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 52,
+      "transfers": 3,
+      "walkMinutes": 26,
+      "modes": [
+        "SUBWAY:7",
+        "SUBWAY:E",
+        "SUBWAY:5",
+        "BUS:M86-SBS"
+      ],
+      "depart": "2026-09-16T14:09:00Z",
+      "arrive": "2026-09-16T15:01:00Z",
+      "queryTime": "2026-09-16T10:00:00-04:00",
+      "fromName": "法拉盛草原可乐娜公园",
+      "toName": "大都会艺术博物馆"
+    }
+  },
+  "generatedAt": "2026-09-19T13:57:41.719Z",
+  "source": "Transitous (MOTIS) - data: MTA / NYC GTFS",
+  "sourceUrl": "https://transitous.org/sources/",
+  "queryTime": "2026-09-16T10:00:00-04:00",
+  "timeLabel": "weekday-10am-ET",
+  "note": "耗时来自 Transitous 免费公益接口（MOTIS）。时刻取工作日 10:00 一次采样，个别线路可能有偏差。",
+  "stats": {
+    "places": 26,
+    "pairs": 105,
+    "computed": 6,
+    "cached": 99,
+    "failed": 0
+  }
+}

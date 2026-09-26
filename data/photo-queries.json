@@ -1,0 +1,42 @@
+{
+  "note": "每个地点用哪句英文去 Wikipedia 找主图。改这里就能换搜索词。",
+  "places": [
+    { "id": "nyc-met", "query": "Metropolitan Museum of Art" },
+    { "id": "nyc-moma", "query": "Museum of Modern Art" },
+    { "id": "nyc-guggenheim", "query": "Solomon R. Guggenheim Museum" },
+    { "id": "nyc-whitney", "query": "Whitney Museum of American Art" },
+    { "id": "nyc-morgan", "query": "Morgan Library & Museum" },
+    { "id": "nyc-frick", "query": "Frick Collection" },
+    { "id": "nyc-neue", "query": "William Starr Miller House" },
+    { "id": "nyc-cloisters", "query": "The Cloisters" },
+    { "id": "nyc-brooklynmuseum", "query": "Brooklyn Museum" },
+    { "id": "nyc-ps1", "query": "PS1 Contemporary Art Center" },
+    { "id": "nyc-noguchi", "query": "Noguchi Museum" },
+    { "id": "nyc-newmuseum", "query": "New Museum New York" },
+    { "id": "nyc-elmuseo", "query": "El Museo del Barrio" },
+    { "id": "nyc-highline", "query": "High Line New York" },
+    { "id": "nyc-shed", "query": "The Shed Hudson Yards" },
+    { "id": "nyc-printedmatter", "query": "Printed Matter Inc" },
+    { "id": "nyc-queensmuseum", "query": "Queens Museum" },
+    { "id": "nyc-cpark", "query": "Central Park" },
+    { "id": "nyc-brooklynbridge", "query": "Brooklyn Bridge" },
+    { "id": "nyc-wsquare", "query": "Washington Square Park" },
+    { "id": "nyc-grandcentral", "query": "Grand Central Terminal" },
+    { "id": "nyc-nypl", "query": "New York Public Library Main Branch" },
+    { "id": "nyc-chelseamarket", "query": "Chelsea Market" },
+    { "id": "nyc-littleisland", "query": "Little Island Hudson River" },
+    { "id": "nyc-flushingmeadows", "query": "Flushing Meadows-Corona Park" },
+    { "id": "nyc-flushingmain", "query": "Flushing Queens" },
+
+    { "id": "cortis-004", "query": "Bongeunsa" },
+    { "id": "cortis-003", "query": "Seoul Children's Grand Park" },
+    { "id": "cortis-001", "query": "Ichon Hangang Park" },
+    { "id": "cortis-006", "query": "HYBE" },
+    { "id": "cortis-005", "query": "Sinsa station" },
+    { "id": "cortis-009", "query": "Hannam station" }
+  ],
+  "heroes": [
+    { "id": "hero-seoul", "query": "Seoul skyline night" },
+    { "id": "hero-nyc", "query": "New York City" }
+  ]
+}

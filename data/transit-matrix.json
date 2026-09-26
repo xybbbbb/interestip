@@ -1,0 +1,1665 @@
+{
+  "pairs": {
+    "demo-concert-001|vs-CNP016328": {
+      "ok": true,
+      "minutes": 29,
+      "transfers": 1,
+      "walkMinutes": 21,
+      "modes": [
+        "TRAM:30-5",
+        "TRAM:333"
+      ],
+      "depart": "2026-09-16T01:06:00Z",
+      "arrive": "2026-09-16T01:35:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "示例·演唱会场地（待替换为真实场馆）",
+      "toName": "石村湖夜景",
+      "mode": "transit"
+    },
+    "cortis-003|demo-concert-001": {
+      "ok": true,
+      "minutes": 37,
+      "transfers": 1,
+      "walkMinutes": 21,
+      "modes": [
+        "TRAM:3216",
+        "TRAM:3411"
+      ],
+      "depart": "2026-09-16T01:08:00Z",
+      "arrive": "2026-09-16T01:45:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "首尔儿童公园",
+      "toName": "示例·演唱会场地（待替换为真实场馆）",
+      "mode": "transit"
+    },
+    "cortis-004|demo-concert-001": {
+      "ok": true,
+      "minutes": 28,
+      "transfers": 1,
+      "walkMinutes": 16,
+      "modes": [
+        "SUBWAY:서울9호선",
+        "TRAM:30-5"
+      ],
+      "depart": "2026-09-16T01:08:00Z",
+      "arrive": "2026-09-16T01:36:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "奉恩寺",
+      "toName": "示例·演唱会场地（待替换为真实场馆）",
+      "mode": "transit"
+    },
+    "cortis-001|cortis-006": {
+      "ok": true,
+      "minutes": 20,
+      "transfers": 0,
+      "walkMinutes": 18,
+      "modes": [
+        "TRAM:100"
+      ],
+      "depart": "2026-09-16T01:02:00Z",
+      "arrive": "2026-09-16T01:22:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "二村汉江公园",
+      "toName": "HYBE大楼",
+      "mode": "transit"
+    },
+    "cortis-001|cortis-008": {
+      "ok": true,
+      "minutes": 20,
+      "transfers": 0,
+      "walkMinutes": 18,
+      "modes": [
+        "TRAM:100"
+      ],
+      "depart": "2026-09-16T01:02:00Z",
+      "arrive": "2026-09-16T01:22:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "二村汉江公园",
+      "toName": "直火匠人 龙山店",
+      "mode": "transit"
+    },
+    "cortis-001|vs-CNP002220": {
+      "ok": true,
+      "minutes": 28,
+      "transfers": 0,
+      "walkMinutes": 22,
+      "modes": [
+        "TRAM:3012"
+      ],
+      "depart": "2026-09-16T01:08:00Z",
+      "arrive": "2026-09-16T01:36:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "二村汉江公园",
+      "toName": "盘浦大桥月光彩虹喷泉",
+      "mode": "transit"
+    },
+    "cortis-002|vs-CNP2ts0gq": {
+      "ok": true,
+      "minutes": 14,
+      "transfers": 0,
+      "walkMinutes": 10,
+      "modes": [
+        "TRAM:273"
+      ],
+      "depart": "2026-09-16T01:00:00Z",
+      "arrive": "2026-09-16T01:14:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "oakberry巴西莓碗",
+      "toName": "弘大壁画街",
+      "mode": "transit"
+    },
+    "cortis-002|vs-CNP012993": {
+      "ok": true,
+      "minutes": 19,
+      "transfers": 2,
+      "walkMinutes": 10,
+      "modes": [
+        "TRAM:3400",
+        "SUBWAY:서울6호선",
+        "SUBWAY:서울5호선"
+      ],
+      "depart": "2026-09-16T01:14:00Z",
+      "arrive": "2026-09-16T01:33:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "oakberry巴西莓碗",
+      "toName": "汝矣岛汉江公园",
+      "mode": "transit"
+    },
+    "cortis-002|cortis-008": {
+      "ok": true,
+      "minutes": 25,
+      "transfers": 2,
+      "walkMinutes": 15,
+      "modes": [
+        "TRAM:3400",
+        "SUBWAY:서울6호선",
+        "TRAM:150"
+      ],
+      "depart": "2026-09-16T01:14:00Z",
+      "arrive": "2026-09-16T01:39:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "oakberry巴西莓碗",
+      "toName": "直火匠人 龙山店",
+      "mode": "transit"
+    },
+    "cortis-003|cortis-007": {
+      "ok": true,
+      "minutes": 18,
+      "transfers": 0,
+      "walkMinutes": 10,
+      "modes": [
+        "TRAM:2016"
+      ],
+      "depart": "2026-09-16T01:05:00Z",
+      "arrive": "2026-09-16T01:23:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "首尔儿童公园",
+      "toName": "Torriden 圣水快闪（Factory Seongsu）",
+      "mode": "transit"
+    },
+    "cortis-003|vs-CNPouf85a": {
+      "ok": true,
+      "minutes": 26,
+      "transfers": 2,
+      "walkMinutes": 16,
+      "modes": [
+        "SUBWAY:서울7호선",
+        "SUBWAY:서울2호선",
+        "TRAM:2413"
+      ],
+      "depart": "2026-09-16T01:03:00Z",
+      "arrive": "2026-09-16T01:29:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "首尔儿童公园",
+      "toName": "圣水云桥",
+      "mode": "transit"
+    },
+    "cortis-003|cortis-004": {
+      "ok": true,
+      "minutes": 19,
+      "transfers": 1,
+      "walkMinutes": 10,
+      "modes": [
+        "SUBWAY:서울7호선",
+        "TRAM:301"
+      ],
+      "depart": "2026-09-16T01:03:00Z",
+      "arrive": "2026-09-16T01:22:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "首尔儿童公园",
+      "toName": "奉恩寺",
+      "mode": "transit"
+    },
+    "cortis-004|vs-CNPnj8f9x": {
+      "ok": true,
+      "mode": "walk-estimate",
+      "minutes": 5,
+      "transfers": 0,
+      "walkMinutes": 5,
+      "modes": [
+        "WALK"
+      ],
+      "distanceKm": 0.28,
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "奉恩寺",
+      "toName": "COEX K-POP广场"
+    },
+    "cortis-004|vs-CNPouf85a": {
+      "ok": true,
+      "minutes": 24,
+      "transfers": 2,
+      "walkMinutes": 12,
+      "modes": [
+        "SUBWAY:서울9호선",
+        "SUBWAY:수인분당선",
+        "TRAM:2014"
+      ],
+      "depart": "2026-09-16T01:05:00Z",
+      "arrive": "2026-09-16T01:29:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "奉恩寺",
+      "toName": "圣水云桥",
+      "mode": "transit"
+    },
+    "cortis-004|vs-CNP016328": {
+      "ok": true,
+      "minutes": 21,
+      "transfers": 1,
+      "walkMinutes": 11,
+      "modes": [
+        "TRAM:2415",
+        "TRAM:333"
+      ],
+      "depart": "2026-09-16T01:03:00Z",
+      "arrive": "2026-09-16T01:24:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "奉恩寺",
+      "toName": "石村湖夜景",
+      "mode": "transit"
+    },
+    "cortis-005|cortis-009": {
+      "ok": true,
+      "minutes": 16,
+      "transfers": 1,
+      "walkMinutes": 5,
+      "modes": [
+        "SUBWAY:서울3호선",
+        "SUBWAY:경의중앙선"
+      ],
+      "depart": "2026-09-16T01:03:00Z",
+      "arrive": "2026-09-16T01:19:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "新沙站（5号出口）",
+      "toName": "汉南站（1号出口）",
+      "mode": "transit"
+    },
+    "cortis-005|vs-CNP002077": {
+      "ok": true,
+      "minutes": 18,
+      "transfers": 1,
+      "walkMinutes": 4,
+      "modes": [
+        "SUBWAY:서울3호선",
+        "SUBWAY:서울6호선"
+      ],
+      "depart": "2026-09-16T01:03:00Z",
+      "arrive": "2026-09-16T01:21:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "新沙站（5号出口）",
+      "toName": "梨泰院街道",
+      "mode": "transit"
+    },
+    "cortis-005|vs-CNPouf85a": {
+      "ok": true,
+      "minutes": 24,
+      "transfers": 0,
+      "walkMinutes": 17,
+      "modes": [
+        "TRAM:148"
+      ],
+      "depart": "2026-09-16T01:05:00Z",
+      "arrive": "2026-09-16T01:29:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "新沙站（5号出口）",
+      "toName": "圣水云桥",
+      "mode": "transit"
+    },
+    "cortis-006|cortis-008": {
+      "ok": true,
+      "mode": "walk-estimate",
+      "minutes": 3,
+      "transfers": 0,
+      "walkMinutes": 3,
+      "modes": [
+        "WALK"
+      ],
+      "distanceKm": 0.16,
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "HYBE大楼",
+      "toName": "直火匠人 龙山店"
+    },
+    "cortis-006|vs-CNP002220": {
+      "ok": true,
+      "minutes": 20,
+      "transfers": 0,
+      "walkMinutes": 15,
+      "modes": [
+        "TRAM:502"
+      ],
+      "depart": "2026-09-16T01:06:00Z",
+      "arrive": "2026-09-16T01:26:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "HYBE大楼",
+      "toName": "盘浦大桥月光彩虹喷泉",
+      "mode": "transit"
+    },
+    "cortis-007|vs-CNPouf85a": {
+      "ok": true,
+      "minutes": 18,
+      "transfers": 0,
+      "walkMinutes": 12,
+      "modes": [
+        "TRAM:2224"
+      ],
+      "depart": "2026-09-16T01:08:00Z",
+      "arrive": "2026-09-16T01:26:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "Torriden 圣水快闪（Factory Seongsu）",
+      "toName": "圣水云桥",
+      "mode": "transit"
+    },
+    "cortis-004|cortis-007": {
+      "ok": true,
+      "minutes": 27,
+      "transfers": 0,
+      "walkMinutes": 16,
+      "modes": [
+        "TRAM:2413"
+      ],
+      "depart": "2026-09-16T01:15:00Z",
+      "arrive": "2026-09-16T01:42:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "奉恩寺",
+      "toName": "Torriden 圣水快闪（Factory Seongsu）",
+      "mode": "transit"
+    },
+    "cortis-008|vs-CNP002220": {
+      "ok": true,
+      "minutes": 17,
+      "transfers": 0,
+      "walkMinutes": 12,
+      "modes": [
+        "TRAM:502"
+      ],
+      "depart": "2026-09-16T01:09:00Z",
+      "arrive": "2026-09-16T01:26:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "直火匠人 龙山店",
+      "toName": "盘浦大桥月光彩虹喷泉",
+      "mode": "transit"
+    },
+    "cortis-009|vs-CNP002077": {
+      "ok": true,
+      "minutes": 16,
+      "transfers": 0,
+      "walkMinutes": 9,
+      "modes": [
+        "TRAM:421"
+      ],
+      "depart": "2026-09-16T01:00:00Z",
+      "arrive": "2026-09-16T01:16:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "汉南站（1号出口）",
+      "toName": "梨泰院街道",
+      "mode": "transit"
+    },
+    "cortis-009|vs-CNPouf85a": {
+      "ok": true,
+      "minutes": 29,
+      "transfers": 2,
+      "walkMinutes": 12,
+      "modes": [
+        "SUBWAY:경의중앙선",
+        "SUBWAY:수인분당선",
+        "TRAM:2224"
+      ],
+      "depart": "2026-09-16T01:23:00Z",
+      "arrive": "2026-09-16T01:52:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "汉南站（1号出口）",
+      "toName": "圣水云桥",
+      "mode": "transit"
+    },
+    "cortis-010|vs-CNP2ts0gq": {
+      "ok": true,
+      "minutes": 46,
+      "transfers": 1,
+      "walkMinutes": 22,
+      "modes": [
+        "SUBWAY:김포도시철도",
+        "SUBWAY:공항철도"
+      ],
+      "depart": "2026-09-16T01:02:00Z",
+      "arrive": "2026-09-16T01:48:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "乙支路煤炭烧烤 Gochon店",
+      "toName": "弘大壁画街",
+      "mode": "transit"
+    },
+    "cortis-002|cortis-010": {
+      "ok": true,
+      "minutes": 37,
+      "transfers": 1,
+      "walkMinutes": 10,
+      "modes": [
+        "TRAM:5714",
+        "TRAM:G6005"
+      ],
+      "depart": "2026-09-16T01:16:00Z",
+      "arrive": "2026-09-16T01:53:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "oakberry巴西莓碗",
+      "toName": "乙支路煤炭烧烤 Gochon店",
+      "mode": "transit"
+    },
+    "cortis-010|vs-CNP012993": {
+      "ok": true,
+      "minutes": 42,
+      "transfers": 2,
+      "walkMinutes": 11,
+      "modes": [
+        "SUBWAY:김포도시철도",
+        "SUBWAY:공항철도",
+        "SUBWAY:서울5호선"
+      ],
+      "depart": "2026-09-16T01:08:00Z",
+      "arrive": "2026-09-16T01:50:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "乙支路煤炭烧烤 Gochon店",
+      "toName": "汝矣岛汉江公园",
+      "mode": "transit"
+    },
+    "vs-CNP000067|vs-CNP015338": {
+      "ok": true,
+      "mode": "walk-estimate",
+      "minutes": 3,
+      "transfers": 0,
+      "walkMinutes": 3,
+      "modes": [
+        "WALK"
+      ],
+      "distanceKm": 0.191,
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "明洞",
+      "toName": "明洞圣堂1898广场"
+    },
+    "vs-CNP000036|vs-CNP000067": {
+      "ok": true,
+      "minutes": 23,
+      "transfers": 1,
+      "walkMinutes": 13,
+      "modes": [
+        "TRAM:02",
+        "TRAM:105"
+      ],
+      "depart": "2026-09-16T01:11:00Z",
+      "arrive": "2026-09-16T01:34:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "南山首尔塔",
+      "toName": "明洞",
+      "mode": "transit"
+    },
+    "vs-CNP000067|vs-CNP037008": {
+      "ok": true,
+      "minutes": 15,
+      "transfers": 1,
+      "walkMinutes": 12,
+      "modes": [
+        "SUBWAY:서울4호선",
+        "SUBWAY:서울3호선"
+      ],
+      "depart": "2026-09-16T01:03:00Z",
+      "arrive": "2026-09-16T01:18:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "明洞",
+      "toName": "益善洞韩屋街道",
+      "mode": "transit"
+    },
+    "vs-CNP015338|vs-CNP037008": {
+      "ok": true,
+      "minutes": 14,
+      "transfers": 0,
+      "walkMinutes": 13,
+      "modes": [
+        "TRAM:140"
+      ],
+      "depart": "2026-09-16T01:04:00Z",
+      "arrive": "2026-09-16T01:18:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "明洞圣堂1898广场",
+      "toName": "益善洞韩屋街道",
+      "mode": "transit"
+    },
+    "vs-CNP000286|vs-CNP015338": {
+      "ok": true,
+      "minutes": 13,
+      "transfers": 1,
+      "walkMinutes": 9,
+      "modes": [
+        "TRAM:173",
+        "TRAM:G8110"
+      ],
+      "depart": "2026-09-16T01:06:00Z",
+      "arrive": "2026-09-16T01:19:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "广藏市场",
+      "toName": "明洞圣堂1898广场",
+      "mode": "transit"
+    },
+    "vs-CNP000061|vs-CNP024679": {
+      "ok": true,
+      "mode": "walk-estimate",
+      "minutes": 3,
+      "transfers": 0,
+      "walkMinutes": 3,
+      "modes": [
+        "WALK"
+      ],
+      "distanceKm": 0.156,
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "东大门购物城",
+      "toName": "东大门设计广场(DDP)"
+    },
+    "vs-CNP000061|vs-CNP000286": {
+      "ok": true,
+      "minutes": 13,
+      "transfers": 0,
+      "walkMinutes": 12,
+      "modes": [
+        "TRAM:261"
+      ],
+      "depart": "2026-09-16T01:00:00Z",
+      "arrive": "2026-09-16T01:13:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "东大门购物城",
+      "toName": "广藏市场",
+      "mode": "transit"
+    },
+    "vs-CNP000061|vs-CNP037008": {
+      "ok": true,
+      "minutes": 15,
+      "transfers": 1,
+      "walkMinutes": 11,
+      "modes": [
+        "TRAM:01A",
+        "SUBWAY:서울3호선"
+      ],
+      "depart": "2026-09-16T01:03:00Z",
+      "arrive": "2026-09-16T01:18:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "东大门购物城",
+      "toName": "益善洞韩屋街道",
+      "mode": "transit"
+    },
+    "vs-CNP000286|vs-CNP024679": {
+      "ok": true,
+      "minutes": 11,
+      "transfers": 0,
+      "walkMinutes": 9,
+      "modes": [
+        "TRAM:04"
+      ],
+      "depart": "2026-09-16T01:00:00Z",
+      "arrive": "2026-09-16T01:11:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "广藏市场",
+      "toName": "东大门设计广场(DDP)",
+      "mode": "transit"
+    },
+    "vs-CNP024679|vs-CNP037008": {
+      "ok": true,
+      "minutes": 16,
+      "transfers": 1,
+      "walkMinutes": 12,
+      "modes": [
+        "SUBWAY:서울2호선",
+        "SUBWAY:서울3호선"
+      ],
+      "depart": "2026-09-16T01:02:00Z",
+      "arrive": "2026-09-16T01:18:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "东大门设计广场(DDP)",
+      "toName": "益善洞韩屋街道",
+      "mode": "transit"
+    },
+    "vs-CNP000036|vs-CNP002077": {
+      "ok": true,
+      "minutes": 27,
+      "transfers": 3,
+      "walkMinutes": 12,
+      "modes": [
+        "TRAM:04",
+        "TRAM:402",
+        "TRAM:용산02",
+        "SUBWAY:서울6호선"
+      ],
+      "depart": "2026-09-16T01:00:00Z",
+      "arrive": "2026-09-16T01:27:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "南山首尔塔",
+      "toName": "梨泰院街道",
+      "mode": "transit"
+    },
+    "cortis-008|vs-CNP002077": {
+      "ok": true,
+      "minutes": 13,
+      "transfers": 1,
+      "walkMinutes": 8,
+      "modes": [
+        "TRAM:504",
+        "SUBWAY:서울6호선"
+      ],
+      "depart": "2026-09-16T01:03:00Z",
+      "arrive": "2026-09-16T01:16:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "直火匠人 龙山店",
+      "toName": "梨泰院街道",
+      "mode": "transit"
+    },
+    "vs-CNP012993|vs-CNP2ts0gq": {
+      "ok": true,
+      "minutes": 17,
+      "transfers": 1,
+      "walkMinutes": 12,
+      "modes": [
+        "TRAM:5713",
+        "SUBWAY:서울6호선"
+      ],
+      "depart": "2026-09-16T01:07:00Z",
+      "arrive": "2026-09-16T01:24:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "汝矣岛汉江公园",
+      "toName": "弘大壁画街",
+      "mode": "transit"
+    },
+    "cortis-008|vs-CNP2ts0gq": {
+      "ok": true,
+      "minutes": 25,
+      "transfers": 1,
+      "walkMinutes": 14,
+      "modes": [
+        "TRAM:150",
+        "SUBWAY:서울6호선"
+      ],
+      "depart": "2026-09-16T01:07:00Z",
+      "arrive": "2026-09-16T01:32:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "直火匠人 龙山店",
+      "toName": "弘大壁画街",
+      "mode": "transit"
+    },
+    "vs-CNP000286|vs-CNP037008": {
+      "ok": true,
+      "minutes": 13,
+      "transfers": 0,
+      "walkMinutes": 8,
+      "modes": [
+        "TRAM:종로12"
+      ],
+      "depart": "2026-09-16T01:00:00Z",
+      "arrive": "2026-09-16T01:13:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "广藏市场",
+      "toName": "益善洞韩屋街道",
+      "mode": "transit"
+    },
+    "vs-CNPnj8f9x|vs-CNPouf85a": {
+      "ok": true,
+      "minutes": 29,
+      "transfers": 3,
+      "walkMinutes": 18,
+      "modes": [
+        "TRAM:9407",
+        "SUBWAY:서울2호선",
+        "SUBWAY:수인분당선",
+        "TRAM:2014"
+      ],
+      "depart": "2026-09-16T01:00:00Z",
+      "arrive": "2026-09-16T01:29:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "COEX K-POP广场",
+      "toName": "圣水云桥",
+      "mode": "transit"
+    },
+    "vs-CNP016328|vs-CNPnj8f9x": {
+      "ok": true,
+      "minutes": 25,
+      "transfers": 1,
+      "walkMinutes": 13,
+      "modes": [
+        "TRAM:3422",
+        "TRAM:강남06"
+      ],
+      "depart": "2026-09-16T01:11:00Z",
+      "arrive": "2026-09-16T01:36:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "石村湖夜景",
+      "toName": "COEX K-POP广场",
+      "mode": "transit"
+    },
+    "cortis-006|vs-CNP012993": {
+      "ok": true,
+      "minutes": 20,
+      "transfers": 1,
+      "walkMinutes": 10,
+      "modes": [
+        "TRAM:5012",
+        "SUBWAY:서울5호선"
+      ],
+      "depart": "2026-09-16T01:07:00Z",
+      "arrive": "2026-09-16T01:27:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "HYBE大楼",
+      "toName": "汝矣岛汉江公园",
+      "mode": "transit"
+    },
+    "cortis-008|vs-CNP012993": {
+      "ok": true,
+      "minutes": 18,
+      "transfers": 1,
+      "walkMinutes": 8,
+      "modes": [
+        "TRAM:5012",
+        "SUBWAY:서울5호선"
+      ],
+      "depart": "2026-09-16T01:09:00Z",
+      "arrive": "2026-09-16T01:27:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "直火匠人 龙山店",
+      "toName": "汝矣岛汉江公园",
+      "mode": "transit"
+    },
+    "vs-CNP000036|vs-CNP015338": {
+      "ok": true,
+      "minutes": 26,
+      "transfers": 2,
+      "walkMinutes": 13,
+      "modes": [
+        "TRAM:04",
+        "TRAM:405",
+        "TRAM:5007"
+      ],
+      "depart": "2026-09-16T01:00:00Z",
+      "arrive": "2026-09-16T01:26:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "南山首尔塔",
+      "toName": "明洞圣堂1898广场",
+      "mode": "transit"
+    },
+    "cortis-001|demo-concert-001": {
+      "ok": true,
+      "minutes": 68,
+      "transfers": 4,
+      "walkMinutes": 34,
+      "modes": [
+        "TRAM:100",
+        "TRAM:151",
+        "SUBWAY:서울9호선",
+        "SUBWAY:서울9호선",
+        "TRAM:35"
+      ],
+      "depart": "2026-09-16T01:02:00Z",
+      "arrive": "2026-09-16T02:10:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "二村汉江公园",
+      "toName": "示例·演唱会场地（待替换为真实场馆）",
+      "mode": "transit"
+    },
+    "cortis-002|demo-concert-001": {
+      "ok": true,
+      "minutes": 63,
+      "transfers": 1,
+      "walkMinutes": 24,
+      "modes": [
+        "SUBWAY:서울2호선",
+        "TRAM:3318"
+      ],
+      "depart": "2026-09-16T01:03:00Z",
+      "arrive": "2026-09-16T02:06:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "oakberry巴西莓碗",
+      "toName": "示例·演唱会场地（待替换为真实场馆）",
+      "mode": "transit"
+    },
+    "cortis-005|demo-concert-001": {
+      "ok": true,
+      "minutes": 45,
+      "transfers": 2,
+      "walkMinutes": 20,
+      "modes": [
+        "TRAM:4212",
+        "SUBWAY:서울9호선",
+        "TRAM:3413"
+      ],
+      "depart": "2026-09-16T01:02:00Z",
+      "arrive": "2026-09-16T01:47:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "新沙站（5号出口）",
+      "toName": "示例·演唱会场地（待替换为真实场馆）",
+      "mode": "transit"
+    },
+    "cortis-006|demo-concert-001": {
+      "ok": true,
+      "minutes": 58,
+      "transfers": 3,
+      "walkMinutes": 26,
+      "modes": [
+        "TRAM:400",
+        "SUBWAY:서울4호선",
+        "SUBWAY:서울9호선",
+        "TRAM:35"
+      ],
+      "depart": "2026-09-16T01:12:00Z",
+      "arrive": "2026-09-16T02:10:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "HYBE大楼",
+      "toName": "示例·演唱会场地（待替换为真实场馆）",
+      "mode": "transit"
+    },
+    "cortis-007|demo-concert-001": {
+      "ok": true,
+      "minutes": 45,
+      "transfers": 2,
+      "walkMinutes": 24,
+      "modes": [
+        "TRAM:2016",
+        "SUBWAY:서울2호선",
+        "TRAM:30-3"
+      ],
+      "depart": "2026-09-16T01:00:00Z",
+      "arrive": "2026-09-16T01:45:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "Torriden 圣水快闪（Factory Seongsu）",
+      "toName": "示例·演唱会场地（待替换为真实场馆）",
+      "mode": "transit"
+    },
+    "cortis-008|demo-concert-001": {
+      "ok": true,
+      "minutes": 55,
+      "transfers": 3,
+      "walkMinutes": 23,
+      "modes": [
+        "TRAM:400",
+        "SUBWAY:서울4호선",
+        "SUBWAY:서울9호선",
+        "TRAM:35"
+      ],
+      "depart": "2026-09-16T01:15:00Z",
+      "arrive": "2026-09-16T02:10:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "直火匠人 龙山店",
+      "toName": "示例·演唱会场地（待替换为真实场馆）",
+      "mode": "transit"
+    },
+    "cortis-009|demo-concert-001": {
+      "ok": true,
+      "minutes": 50,
+      "transfers": 2,
+      "walkMinutes": 18,
+      "modes": [
+        "SUBWAY:경의중앙선",
+        "SUBWAY:서울5호선",
+        "TRAM:3413"
+      ],
+      "depart": "2026-09-16T01:14:00Z",
+      "arrive": "2026-09-16T02:04:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "汉南站（1号出口）",
+      "toName": "示例·演唱会场地（待替换为真实场馆）",
+      "mode": "transit"
+    },
+    "cortis-010|demo-concert-001": {
+      "ok": true,
+      "minutes": 82,
+      "transfers": 2,
+      "walkMinutes": 22,
+      "modes": [
+        "SUBWAY:김포도시철도",
+        "SUBWAY:서울9호선",
+        "TRAM:30-5"
+      ],
+      "depart": "2026-09-16T01:32:00Z",
+      "arrive": "2026-09-16T02:54:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "乙支路煤炭烧烤 Gochon店",
+      "toName": "示例·演唱会场地（待替换为真实场馆）",
+      "mode": "transit"
+    },
+    "demo-concert-001|vs-CNP000067": {
+      "ok": true,
+      "minutes": 56,
+      "transfers": 2,
+      "walkMinutes": 26,
+      "modes": [
+        "TRAM:30-3",
+        "SUBWAY:서울2호선",
+        "SUBWAY:서울4호선"
+      ],
+      "depart": "2026-09-16T01:17:00Z",
+      "arrive": "2026-09-16T02:13:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "示例·演唱会场地（待替换为真实场馆）",
+      "toName": "明洞",
+      "mode": "transit"
+    },
+    "demo-concert-001|vs-CNP015338": {
+      "ok": true,
+      "minutes": 57,
+      "transfers": 2,
+      "walkMinutes": 27,
+      "modes": [
+        "TRAM:30-5",
+        "SUBWAY:서울2호선",
+        "TRAM:100"
+      ],
+      "depart": "2026-09-16T01:11:00Z",
+      "arrive": "2026-09-16T02:08:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "示例·演唱会场地（待替换为真实场馆）",
+      "toName": "明洞圣堂1898广场",
+      "mode": "transit"
+    },
+    "demo-concert-001|vs-CNP000061": {
+      "ok": true,
+      "minutes": 51,
+      "transfers": 1,
+      "walkMinutes": 24,
+      "modes": [
+        "TRAM:30-5",
+        "SUBWAY:서울2호선"
+      ],
+      "depart": "2026-09-16T01:01:00Z",
+      "arrive": "2026-09-16T01:52:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "示例·演唱会场地（待替换为真实场馆）",
+      "toName": "东大门购物城",
+      "mode": "transit"
+    },
+    "demo-concert-001|vs-CNP024679": {
+      "ok": true,
+      "minutes": 49,
+      "transfers": 1,
+      "walkMinutes": 22,
+      "modes": [
+        "TRAM:30-5",
+        "SUBWAY:서울2호선"
+      ],
+      "depart": "2026-09-16T01:01:00Z",
+      "arrive": "2026-09-16T01:50:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "示例·演唱会场地（待替换为真实场馆）",
+      "toName": "东大门设计广场(DDP)",
+      "mode": "transit"
+    },
+    "demo-concert-001|vs-CNP002077": {
+      "ok": true,
+      "minutes": 56,
+      "transfers": 2,
+      "walkMinutes": 25,
+      "modes": [
+        "TRAM:3413",
+        "SUBWAY:서울2호선",
+        "SUBWAY:서울6호선"
+      ],
+      "depart": "2026-09-16T01:05:00Z",
+      "arrive": "2026-09-16T02:01:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "示例·演唱会场地（待替换为真实场馆）",
+      "toName": "梨泰院街道",
+      "mode": "transit"
+    },
+    "demo-concert-001|vs-CNP2ts0gq": {
+      "ok": true,
+      "minutes": 72,
+      "transfers": 2,
+      "walkMinutes": 26,
+      "modes": [
+        "TRAM:30-5",
+        "SUBWAY:서울2호선",
+        "TRAM:273"
+      ],
+      "depart": "2026-09-16T01:01:00Z",
+      "arrive": "2026-09-16T02:13:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "示例·演唱会场地（待替换为真实场馆）",
+      "toName": "弘大壁画街",
+      "mode": "transit"
+    },
+    "demo-concert-001|vs-CNP000286": {
+      "ok": true,
+      "minutes": 55,
+      "transfers": 1,
+      "walkMinutes": 26,
+      "modes": [
+        "TRAM:30-5",
+        "SUBWAY:서울2호선"
+      ],
+      "depart": "2026-09-16T01:11:00Z",
+      "arrive": "2026-09-16T02:06:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "示例·演唱会场地（待替换为真实场馆）",
+      "toName": "广藏市场",
+      "mode": "transit"
+    },
+    "demo-concert-001|vs-CNPouf85a": {
+      "ok": true,
+      "minutes": 49,
+      "transfers": 3,
+      "walkMinutes": 28,
+      "modes": [
+        "TRAM:16",
+        "SUBWAY:서울2호선",
+        "SUBWAY:수인분당선",
+        "TRAM:2224"
+      ],
+      "depart": "2026-09-16T01:03:00Z",
+      "arrive": "2026-09-16T01:52:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "示例·演唱会场地（待替换为真实场馆）",
+      "toName": "圣水云桥",
+      "mode": "transit"
+    },
+    "demo-concert-001|vs-CNPnj8f9x": {
+      "ok": true,
+      "minutes": 38,
+      "transfers": 0,
+      "walkMinutes": 19,
+      "modes": [
+        "TRAM:3411"
+      ],
+      "depart": "2026-09-16T01:05:00Z",
+      "arrive": "2026-09-16T01:43:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "示例·演唱会场地（待替换为真实场馆）",
+      "toName": "COEX K-POP广场",
+      "mode": "transit"
+    },
+    "demo-concert-001|vs-CNP002220": {
+      "ok": true,
+      "minutes": 54,
+      "transfers": 3,
+      "walkMinutes": 27,
+      "modes": [
+        "TRAM:3411",
+        "SUBWAY:서울2호선",
+        "SUBWAY:서울3호선",
+        "TRAM:3012"
+      ],
+      "depart": "2026-09-16T01:15:00Z",
+      "arrive": "2026-09-16T02:09:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "示例·演唱会场地（待替换为真实场馆）",
+      "toName": "盘浦大桥月光彩虹喷泉",
+      "mode": "transit"
+    },
+    "demo-concert-001|vs-CNP012993": {
+      "ok": true,
+      "minutes": 58,
+      "transfers": 3,
+      "walkMinutes": 20,
+      "modes": [
+        "TRAM:30-5",
+        "TRAM:3414",
+        "SUBWAY:서울9호선",
+        "SUBWAY:서울5호선"
+      ],
+      "depart": "2026-09-16T01:06:00Z",
+      "arrive": "2026-09-16T02:04:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "示例·演唱会场地（待替换为真实场馆）",
+      "toName": "汝矣岛汉江公园",
+      "mode": "transit"
+    },
+    "demo-concert-001|vs-CNP000036": {
+      "ok": true,
+      "minutes": 62,
+      "transfers": 2,
+      "walkMinutes": 27,
+      "modes": [
+        "TRAM:30-3",
+        "SUBWAY:서울2호선",
+        "TRAM:04"
+      ],
+      "depart": "2026-09-16T01:17:00Z",
+      "arrive": "2026-09-16T02:19:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "示例·演唱会场地（待替换为真实场馆）",
+      "toName": "南山首尔塔",
+      "mode": "transit"
+    },
+    "demo-concert-001|vs-CNP037008": {
+      "ok": true,
+      "minutes": 57,
+      "transfers": 2,
+      "walkMinutes": 24,
+      "modes": [
+        "TRAM:30-5",
+        "SUBWAY:서울2호선",
+        "SUBWAY:서울3호선"
+      ],
+      "depart": "2026-09-16T01:01:00Z",
+      "arrive": "2026-09-16T01:58:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "示例·演唱会场地（待替换为真实场馆）",
+      "toName": "益善洞韩屋街道",
+      "mode": "transit"
+    },
+    "cortis-001|vs-CNP002077": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 25,
+      "transfers": 1,
+      "walkMinutes": 16,
+      "modes": [
+        "TRAM:100",
+        "SUBWAY:서울6호선"
+      ],
+      "depart": "2026-09-16T01:02:00Z",
+      "arrive": "2026-09-16T01:27:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "二村汉江公园",
+      "toName": "梨泰院街道"
+    },
+    "cortis-001|vs-CNP012993": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 30,
+      "transfers": 2,
+      "walkMinutes": 21,
+      "modes": [
+        "TRAM:6211",
+        "SUBWAY:서울9호선",
+        "SUBWAY:서울5호선"
+      ],
+      "depart": "2026-09-16T01:09:00Z",
+      "arrive": "2026-09-16T01:39:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "二村汉江公园",
+      "toName": "汝矣岛汉江公园"
+    },
+    "cortis-002|cortis-006": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 27,
+      "transfers": 2,
+      "walkMinutes": 17,
+      "modes": [
+        "TRAM:3400",
+        "SUBWAY:서울6호선",
+        "TRAM:150"
+      ],
+      "depart": "2026-09-16T01:14:00Z",
+      "arrive": "2026-09-16T01:41:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "oakberry巴西莓碗",
+      "toName": "HYBE大楼"
+    },
+    "cortis-002|vs-CNP000067": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 23,
+      "transfers": 1,
+      "walkMinutes": 14,
+      "modes": [
+        "TRAM:7737",
+        "SUBWAY:서울2호선"
+      ],
+      "depart": "2026-09-16T01:07:00Z",
+      "arrive": "2026-09-16T01:30:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "oakberry巴西莓碗",
+      "toName": "明洞"
+    },
+    "cortis-003|vs-CNPnj8f9x": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 22,
+      "transfers": 1,
+      "walkMinutes": 11,
+      "modes": [
+        "SUBWAY:서울7호선",
+        "TRAM:301"
+      ],
+      "depart": "2026-09-16T01:03:00Z",
+      "arrive": "2026-09-16T01:25:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "首尔儿童公园",
+      "toName": "COEX K-POP广场"
+    },
+    "cortis-003|vs-CNP016328": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 30,
+      "transfers": 1,
+      "walkMinutes": 19,
+      "modes": [
+        "SUBWAY:서울7호선",
+        "SUBWAY:서울2호선"
+      ],
+      "depart": "2026-09-16T01:03:00Z",
+      "arrive": "2026-09-16T01:33:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "首尔儿童公园",
+      "toName": "石村湖夜景"
+    },
+    "cortis-004|cortis-005": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 21,
+      "transfers": 1,
+      "walkMinutes": 4,
+      "modes": [
+        "SUBWAY:서울9호선",
+        "SUBWAY:서울3호선"
+      ],
+      "depart": "2026-09-16T01:05:00Z",
+      "arrive": "2026-09-16T01:26:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "奉恩寺",
+      "toName": "新沙站（5号出口）"
+    },
+    "cortis-005|vs-CNPnj8f9x": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 21,
+      "transfers": 1,
+      "walkMinutes": 8,
+      "modes": [
+        "TRAM:4212",
+        "TRAM:4318"
+      ],
+      "depart": "2026-09-16T01:02:00Z",
+      "arrive": "2026-09-16T01:23:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "新沙站（5号出口）",
+      "toName": "COEX K-POP广场"
+    },
+    "cortis-006|vs-CNP002077": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 14,
+      "transfers": 1,
+      "walkMinutes": 8,
+      "modes": [
+        "TRAM:150",
+        "SUBWAY:서울6호선"
+      ],
+      "depart": "2026-09-16T01:13:00Z",
+      "arrive": "2026-09-16T01:27:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "HYBE大楼",
+      "toName": "梨泰院街道"
+    },
+    "cortis-007|vs-CNPnj8f9x": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 21,
+      "transfers": 1,
+      "walkMinutes": 11,
+      "modes": [
+        "TRAM:2016",
+        "TRAM:3217"
+      ],
+      "depart": "2026-09-16T01:00:00Z",
+      "arrive": "2026-09-16T01:21:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "Torriden 圣水快闪（Factory Seongsu）",
+      "toName": "COEX K-POP广场"
+    },
+    "cortis-007|cortis-009": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 27,
+      "transfers": 1,
+      "walkMinutes": 16,
+      "modes": [
+        "SUBWAY:서울2호선",
+        "SUBWAY:경의중앙선"
+      ],
+      "depart": "2026-09-16T01:28:00Z",
+      "arrive": "2026-09-16T01:55:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "Torriden 圣水快闪（Factory Seongsu）",
+      "toName": "汉南站（1号出口）"
+    },
+    "cortis-009|vs-CNP000036": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 30,
+      "transfers": 2,
+      "walkMinutes": 19,
+      "modes": [
+        "TRAM:6211",
+        "TRAM:420",
+        "TRAM:02"
+      ],
+      "depart": "2026-09-16T01:11:00Z",
+      "arrive": "2026-09-16T01:41:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "汉南站（1号出口）",
+      "toName": "南山首尔塔"
+    },
+    "cortis-009|vs-CNP002220": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 21,
+      "transfers": 1,
+      "walkMinutes": 12,
+      "modes": [
+        "SUBWAY:경의중앙선",
+        "TRAM:502"
+      ],
+      "depart": "2026-09-16T01:05:00Z",
+      "arrive": "2026-09-16T01:26:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "汉南站（1号出口）",
+      "toName": "盘浦大桥月光彩虹喷泉"
+    },
+    "cortis-006|cortis-010": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 43,
+      "transfers": 2,
+      "walkMinutes": 12,
+      "modes": [
+        "TRAM:150",
+        "SUBWAY:서울6호선",
+        "TRAM:1004"
+      ],
+      "depart": "2026-09-16T01:13:00Z",
+      "arrive": "2026-09-16T01:56:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "HYBE大楼",
+      "toName": "乙支路煤炭烧烤 Gochon店"
+    },
+    "cortis-008|cortis-010": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 42,
+      "transfers": 2,
+      "walkMinutes": 12,
+      "modes": [
+        "TRAM:150",
+        "SUBWAY:서울6호선",
+        "TRAM:1004"
+      ],
+      "depart": "2026-09-16T01:14:00Z",
+      "arrive": "2026-09-16T01:56:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "直火匠人 龙山店",
+      "toName": "乙支路煤炭烧烤 Gochon店"
+    },
+    "vs-CNP000067|vs-CNP000286": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 14,
+      "transfers": 0,
+      "walkMinutes": 11,
+      "modes": [
+        "TRAM:140"
+      ],
+      "depart": "2026-09-16T01:00:00Z",
+      "arrive": "2026-09-16T01:14:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "明洞",
+      "toName": "广藏市场"
+    },
+    "vs-CNP000061|vs-CNP000067": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 13,
+      "transfers": 1,
+      "walkMinutes": 10,
+      "modes": [
+        "TRAM:2233",
+        "SUBWAY:서울4호선"
+      ],
+      "depart": "2026-09-16T01:14:00Z",
+      "arrive": "2026-09-16T01:27:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "东大门购物城",
+      "toName": "明洞"
+    },
+    "vs-CNP000061|vs-CNP015338": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 15,
+      "transfers": 0,
+      "walkMinutes": 11,
+      "modes": [
+        "TRAM:261"
+      ],
+      "depart": "2026-09-16T01:00:00Z",
+      "arrive": "2026-09-16T01:15:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "东大门购物城",
+      "toName": "明洞圣堂1898广场"
+    },
+    "vs-CNP015338|vs-CNP024679": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 15,
+      "transfers": 0,
+      "walkMinutes": 12,
+      "modes": [
+        "TRAM:152"
+      ],
+      "depart": "2026-09-16T01:01:00Z",
+      "arrive": "2026-09-16T01:16:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "明洞圣堂1898广场",
+      "toName": "东大门设计广场(DDP)"
+    },
+    "vs-CNP000067|vs-CNP024679": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 14,
+      "transfers": 0,
+      "walkMinutes": 11,
+      "modes": [
+        "SUBWAY:서울4호선"
+      ],
+      "depart": "2026-09-16T01:03:00Z",
+      "arrive": "2026-09-16T01:17:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "明洞",
+      "toName": "东大门设计广场(DDP)"
+    },
+    "cortis-006|vs-CNP2ts0gq": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 26,
+      "transfers": 1,
+      "walkMinutes": 14,
+      "modes": [
+        "TRAM:150",
+        "SUBWAY:서울6호선"
+      ],
+      "depart": "2026-09-16T01:06:00Z",
+      "arrive": "2026-09-16T01:32:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "HYBE大楼",
+      "toName": "弘大壁画街"
+    },
+    "cortis-001|vs-CNP2ts0gq": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 38,
+      "transfers": 1,
+      "walkMinutes": 22,
+      "modes": [
+        "TRAM:100",
+        "SUBWAY:서울6호선"
+      ],
+      "depart": "2026-09-16T01:02:00Z",
+      "arrive": "2026-09-16T01:40:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "二村汉江公园",
+      "toName": "弘大壁画街"
+    },
+    "vs-CNP002077|vs-CNP002220": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 25,
+      "transfers": 2,
+      "walkMinutes": 15,
+      "modes": [
+        "SUBWAY:서울6호선",
+        "SUBWAY:서울4호선",
+        "TRAM:502"
+      ],
+      "depart": "2026-09-16T01:11:00Z",
+      "arrive": "2026-09-16T01:36:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "梨泰院街道",
+      "toName": "盘浦大桥月光彩虹喷泉"
+    },
+    "cortis-005|vs-CNP002220": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 18,
+      "transfers": 1,
+      "walkMinutes": 9,
+      "modes": [
+        "SUBWAY:서울3호선",
+        "TRAM:3012"
+      ],
+      "depart": "2026-09-16T01:23:00Z",
+      "arrive": "2026-09-16T01:41:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "新沙站（5号出口）",
+      "toName": "盘浦大桥月光彩虹喷泉"
+    },
+    "cortis-007|vs-CNP016328": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 33,
+      "transfers": 1,
+      "walkMinutes": 18,
+      "modes": [
+        "TRAM:2016",
+        "SUBWAY:서울2호선"
+      ],
+      "depart": "2026-09-16T01:00:00Z",
+      "arrive": "2026-09-16T01:33:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "Torriden 圣水快闪（Factory Seongsu）",
+      "toName": "石村湖夜景"
+    },
+    "vs-CNP000036|vs-CNP000286": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 26,
+      "transfers": 1,
+      "walkMinutes": 12,
+      "modes": [
+        "TRAM:02",
+        "TRAM:104"
+      ],
+      "depart": "2026-09-16T01:23:00Z",
+      "arrive": "2026-09-16T01:49:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "南山首尔塔",
+      "toName": "广藏市场"
+    },
+    "vs-CNP000036|vs-CNP037008": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 23,
+      "transfers": 1,
+      "walkMinutes": 12,
+      "modes": [
+        "TRAM:02",
+        "SUBWAY:서울3호선"
+      ],
+      "depart": "2026-09-16T01:35:00Z",
+      "arrive": "2026-09-16T01:58:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "南山首尔塔",
+      "toName": "益善洞韩屋街道"
+    },
+    "cortis-001|cortis-009": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 27,
+      "transfers": 1,
+      "walkMinutes": 16,
+      "modes": [
+        "TRAM:100",
+        "SUBWAY:경의중앙선"
+      ],
+      "depart": "2026-09-16T01:07:00Z",
+      "arrive": "2026-09-16T01:34:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "二村汉江公园",
+      "toName": "汉南站（1号出口）"
+    },
+    "vs-CNP002220|vs-CNP012993": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 36,
+      "transfers": 2,
+      "walkMinutes": 11,
+      "modes": [
+        "TRAM:502",
+        "SUBWAY:서울6호선",
+        "SUBWAY:서울5호선"
+      ],
+      "depart": "2026-09-16T01:08:00Z",
+      "arrive": "2026-09-16T01:44:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "盘浦大桥月光彩虹喷泉",
+      "toName": "汝矣岛汉江公园"
+    },
+    "vs-CNP016328|vs-CNP024679": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 38,
+      "transfers": 0,
+      "walkMinutes": 17,
+      "modes": [
+        "SUBWAY:서울2호선"
+      ],
+      "depart": "2026-09-16T01:03:00Z",
+      "arrive": "2026-09-16T01:41:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "石村湖夜景",
+      "toName": "东大门设计广场(DDP)"
+    },
+    "vs-CNP000036|vs-CNP016328": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 56,
+      "transfers": 3,
+      "walkMinutes": 23,
+      "modes": [
+        "TRAM:04",
+        "TRAM:02",
+        "SUBWAY:서울4호선",
+        "SUBWAY:서울2호선"
+      ],
+      "depart": "2026-09-16T01:00:00Z",
+      "arrive": "2026-09-16T01:56:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "南山首尔塔",
+      "toName": "石村湖夜景"
+    },
+    "cortis-010|vs-CNP000036": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 67,
+      "transfers": 3,
+      "walkMinutes": 17,
+      "modes": [
+        "SUBWAY:김포도시철도",
+        "SUBWAY:공항철도",
+        "SUBWAY:서울4호선",
+        "TRAM:02"
+      ],
+      "depart": "2026-09-16T01:02:00Z",
+      "arrive": "2026-09-16T02:09:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "乙支路煤炭烧烤 Gochon店",
+      "toName": "南山首尔塔"
+    },
+    "vs-CNP000036|vs-CNP024679": {
+      "ok": true,
+      "mode": "transit",
+      "minutes": 25,
+      "transfers": 1,
+      "walkMinutes": 13,
+      "modes": [
+        "TRAM:02",
+        "SUBWAY:서울4호선"
+      ],
+      "depart": "2026-09-16T01:23:00Z",
+      "arrive": "2026-09-16T01:48:00Z",
+      "queryTime": "2026-09-16T10:00:00+09:00",
+      "fromName": "南山首尔塔",
+      "toName": "东大门设计广场(DDP)"
+    }
+  },
+  "generatedAt": "2026-09-14T05:04:37.417Z",
+  "source": "Transitous (MOTIS) — data: KTDB, Korail",
+  "sourceUrl": "https://transitous.org/sources/",
+  "queryTime": "2026-09-16T10:00:00+09:00",
+  "timeLabel": "weekday-10am",
+  "note": "耗时来自 Transitous 免费公益接口；韩国数据源 KTDB 最后更新于 2025-05，个别线路时刻可能有偏差。",
+  "stats": {
+    "places": 25,
+    "pairs": 75,
+    "computed": 6,
+    "cached": 69,
+    "failed": 0
+  }
+}

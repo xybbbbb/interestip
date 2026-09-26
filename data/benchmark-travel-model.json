@@ -1,0 +1,694 @@
+{
+  "generatedAt": "2026-09-19T06:25:12.002Z",
+  "source": "web-preview/index.html 的 RouteAlgo ← 直接抽取原型的排程引擎，不重写算法",
+  "matrixPairs": 102,
+  "note": "A = 估算耗时 + 直线排序；B = 真实耗时 + 直线排序（= 现在的原型）；C = 真实耗时 + 真实耗时排序（对照实验，未进原型）。三份行程都按真实耗时折算总通勤（同一把尺子）；估算误差只在矩阵覆盖的地点组合上统计，因为未覆盖的组合没有真值。演唱会日安全 = 按真实耗时会晚于 18:30 才到达的点数。",
+  "scenarios": [
+    {
+      "scenario": "3 天 · 适中 · 默认（中午到）",
+      "config": {
+        "name": "3 天 · 适中 · 默认（中午到）",
+        "days": 3,
+        "concertDay": 1,
+        "pace": "normal",
+        "arrival": "中午",
+        "stayMode": "nearby",
+        "selectAllSight": true
+      },
+      "sameItinerary": true,
+      "estimate": {
+        "totalTrueMinutes": 429,
+        "totalBelievedMinutes": 616,
+        "scheduledPoints": 12,
+        "overflowPoints": 13,
+        "unsafeConcertPoints": [],
+        "hotelIds": [
+          "s1",
+          "s1",
+          "s3"
+        ]
+      },
+      "matrix": {
+        "totalTrueMinutes": 429,
+        "totalBelievedMinutes": 429,
+        "scheduledPoints": 12,
+        "overflowPoints": 13,
+        "unsafeConcertPoints": [],
+        "hotelIds": [
+          "s1",
+          "s1",
+          "s3"
+        ]
+      },
+      "matrixOrder": {
+        "totalTrueMinutes": 429,
+        "totalBelievedMinutes": 429,
+        "scheduledPoints": 12,
+        "overflowPoints": 13,
+        "unsafeConcertPoints": [],
+        "hotelIds": [
+          "s1",
+          "s1",
+          "s3"
+        ]
+      },
+      "delta": {
+        "totalMinutesDelta": 0,
+        "totalMinutesDeltaPct": "0%",
+        "matrixVsMatrixOrderDelta": 0,
+        "matrixVsMatrixOrderDeltaPct": "0%",
+        "estimateVsMatrixOrderDeltaPct": "0%"
+      },
+      "itineraries": {
+        "estimate": [
+          [
+            "cortis-009",
+            "cortis-001",
+            "cortis-006",
+            "cortis-008"
+          ],
+          [
+            "cortis-004",
+            "cortis-007",
+            "cortis-003"
+          ],
+          [
+            "vs-CNP002220",
+            "vs-CNP012993",
+            "vs-CNP2ts0gq",
+            "cortis-010"
+          ]
+        ],
+        "matrix": [
+          [
+            "cortis-009",
+            "cortis-001",
+            "cortis-006",
+            "cortis-008"
+          ],
+          [
+            "cortis-004",
+            "cortis-007",
+            "cortis-003"
+          ],
+          [
+            "vs-CNP002220",
+            "vs-CNP012993",
+            "vs-CNP2ts0gq",
+            "cortis-010"
+          ]
+        ],
+        "matrixOrder": [
+          [
+            "cortis-009",
+            "cortis-001",
+            "cortis-006",
+            "cortis-008"
+          ],
+          [
+            "cortis-004",
+            "cortis-003",
+            "cortis-007"
+          ],
+          [
+            "vs-CNP002220",
+            "vs-CNP012993",
+            "vs-CNP2ts0gq",
+            "cortis-010"
+          ]
+        ]
+      },
+      "worstEstimateErrors": [
+        {
+          "from": "vs-CNP2ts0gq",
+          "to": "cortis-010",
+          "believed": 162,
+          "real": 46,
+          "diff": 116
+        },
+        {
+          "from": "cortis-003",
+          "to": "demo-concert-001",
+          "believed": 56,
+          "real": 37,
+          "diff": 19
+        },
+        {
+          "from": "vs-CNP002220",
+          "to": "vs-CNP012993",
+          "believed": 53,
+          "real": 36,
+          "diff": 17
+        }
+      ],
+      "error": {
+        "legsMeasured": 9,
+        "legsTotal": 12,
+        "coveragePct": 75,
+        "uncoveredLegs": [
+          {
+            "day": 0,
+            "fromId": "s1",
+            "toId": "cortis-009",
+            "from": "奥林匹克公园附近（示例酒店）",
+            "to": "汉南站（1号出口）"
+          },
+          {
+            "day": 1,
+            "fromId": "s1",
+            "toId": "cortis-004",
+            "from": "奥林匹克公园附近（示例酒店）",
+            "to": "奉恩寺"
+          },
+          {
+            "day": 2,
+            "fromId": "s3",
+            "toId": "vs-CNP002220",
+            "from": "梨泰院附近（示例酒店）",
+            "to": "盘浦大桥月光彩虹喷泉"
+          }
+        ],
+        "visibleLegs": 9,
+        "visibleCoveredLegs": 9,
+        "visibleCoveragePct": 100,
+        "uncoveredVisibleLegs": [],
+        "avgAbsErrorMinutes": 23.4,
+        "maxAbsErrorMinutes": 116,
+        "meanSignedErrorMinutes": 20.8
+      }
+    },
+    {
+      "scenario": "5 天 · 适中（中午到）",
+      "config": {
+        "name": "5 天 · 适中（中午到）",
+        "days": 5,
+        "concertDay": 1,
+        "pace": "normal",
+        "arrival": "中午",
+        "stayMode": "nearby",
+        "selectAllSight": true
+      },
+      "sameItinerary": true,
+      "estimate": {
+        "totalTrueMinutes": 519,
+        "totalBelievedMinutes": 872,
+        "scheduledPoints": 20,
+        "overflowPoints": 5,
+        "unsafeConcertPoints": [],
+        "hotelIds": [
+          "s1",
+          "s1",
+          "s8",
+          "s2",
+          "s8"
+        ]
+      },
+      "matrix": {
+        "totalTrueMinutes": 519,
+        "totalBelievedMinutes": 519,
+        "scheduledPoints": 20,
+        "overflowPoints": 5,
+        "unsafeConcertPoints": [],
+        "hotelIds": [
+          "s1",
+          "s1",
+          "s8",
+          "s2",
+          "s8"
+        ]
+      },
+      "matrixOrder": {
+        "totalTrueMinutes": 515,
+        "totalBelievedMinutes": 515,
+        "scheduledPoints": 20,
+        "overflowPoints": 5,
+        "unsafeConcertPoints": [],
+        "hotelIds": [
+          "s1",
+          "s1",
+          "s8",
+          "s2",
+          "s8"
+        ]
+      },
+      "delta": {
+        "totalMinutesDelta": 0,
+        "totalMinutesDeltaPct": "0%",
+        "matrixVsMatrixOrderDelta": -4,
+        "matrixVsMatrixOrderDeltaPct": "-1%",
+        "estimateVsMatrixOrderDeltaPct": "-1%"
+      },
+      "itineraries": {
+        "estimate": [
+          [
+            "cortis-007",
+            "vs-CNPouf85a",
+            "cortis-009",
+            "cortis-005"
+          ],
+          [
+            "vs-CNPnj8f9x",
+            "cortis-004",
+            "cortis-003"
+          ],
+          [
+            "vs-CNP000286",
+            "vs-CNP037008",
+            "vs-CNP015338",
+            "vs-CNP000067"
+          ],
+          [
+            "cortis-002",
+            "cortis-008",
+            "cortis-006",
+            "cortis-001"
+          ],
+          [
+            "vs-CNP024679",
+            "vs-CNP016328",
+            "vs-CNP000036",
+            "cortis-010"
+          ]
+        ],
+        "matrix": [
+          [
+            "cortis-007",
+            "vs-CNPouf85a",
+            "cortis-009",
+            "cortis-005"
+          ],
+          [
+            "vs-CNPnj8f9x",
+            "cortis-004",
+            "cortis-003"
+          ],
+          [
+            "vs-CNP000286",
+            "vs-CNP037008",
+            "vs-CNP015338",
+            "vs-CNP000067"
+          ],
+          [
+            "cortis-002",
+            "cortis-008",
+            "cortis-006",
+            "cortis-001"
+          ],
+          [
+            "vs-CNP024679",
+            "vs-CNP016328",
+            "vs-CNP000036",
+            "cortis-010"
+          ]
+        ],
+        "matrixOrder": [
+          [
+            "cortis-007",
+            "vs-CNPouf85a",
+            "cortis-005",
+            "cortis-009"
+          ],
+          [
+            "vs-CNPnj8f9x",
+            "cortis-004",
+            "cortis-003"
+          ],
+          [
+            "vs-CNP000286",
+            "vs-CNP015338",
+            "vs-CNP000067",
+            "vs-CNP037008"
+          ],
+          [
+            "cortis-002",
+            "cortis-008",
+            "cortis-006",
+            "cortis-001"
+          ],
+          [
+            "vs-CNP024679",
+            "vs-CNP016328",
+            "vs-CNP000036",
+            "cortis-010"
+          ]
+        ]
+      },
+      "worstEstimateErrors": [
+        {
+          "from": "vs-CNP000036",
+          "to": "cortis-010",
+          "believed": 220,
+          "real": 67,
+          "diff": 153
+        },
+        {
+          "from": "vs-CNP024679",
+          "to": "vs-CNP016328",
+          "believed": 111,
+          "real": 38,
+          "diff": 73
+        },
+        {
+          "from": "vs-CNP016328",
+          "to": "vs-CNP000036",
+          "believed": 118,
+          "real": 56,
+          "diff": 62
+        }
+      ],
+      "error": {
+        "legsMeasured": 15,
+        "legsTotal": 20,
+        "coveragePct": 75,
+        "uncoveredLegs": [
+          {
+            "day": 0,
+            "fromId": "s1",
+            "toId": "cortis-007",
+            "from": "奥林匹克公园附近（示例酒店）",
+            "to": "Torriden 圣水快闪（Factory Seongsu）"
+          },
+          {
+            "day": 1,
+            "fromId": "s1",
+            "toId": "vs-CNPnj8f9x",
+            "from": "奥林匹克公园附近（示例酒店）",
+            "to": "COEX K-POP广场"
+          },
+          {
+            "day": 2,
+            "fromId": "s8",
+            "toId": "vs-CNP000286",
+            "from": "东大门/乙支路附近（示例酒店）",
+            "to": "广藏市场"
+          },
+          {
+            "day": 3,
+            "fromId": "s2",
+            "toId": "cortis-002",
+            "from": "弘大入口附近（示例酒店）",
+            "to": "oakberry巴西莓碗"
+          },
+          {
+            "day": 4,
+            "fromId": "s8",
+            "toId": "vs-CNP024679",
+            "from": "东大门/乙支路附近（示例酒店）",
+            "to": "东大门设计广场(DDP)"
+          }
+        ],
+        "visibleLegs": 15,
+        "visibleCoveredLegs": 15,
+        "visibleCoveragePct": 100,
+        "uncoveredVisibleLegs": [],
+        "avgAbsErrorMinutes": 26.3,
+        "maxAbsErrorMinutes": 153,
+        "meanSignedErrorMinutes": 23.5
+      }
+    },
+    {
+      "scenario": "7 天 · 宽松（上午到）",
+      "config": {
+        "name": "7 天 · 宽松（上午到）",
+        "days": 7,
+        "concertDay": 2,
+        "pace": "relaxed",
+        "arrival": "上午",
+        "stayMode": "nearby",
+        "selectAllSight": true
+      },
+      "sameItinerary": true,
+      "estimate": {
+        "totalTrueMinutes": 450,
+        "totalBelievedMinutes": 645,
+        "scheduledPoints": 21,
+        "overflowPoints": 4,
+        "unsafeConcertPoints": [],
+        "hotelIds": [
+          "s6",
+          "s1",
+          "s1",
+          "s3",
+          "s7",
+          "s7",
+          "s8"
+        ]
+      },
+      "matrix": {
+        "totalTrueMinutes": 450,
+        "totalBelievedMinutes": 450,
+        "scheduledPoints": 21,
+        "overflowPoints": 4,
+        "unsafeConcertPoints": [],
+        "hotelIds": [
+          "s6",
+          "s1",
+          "s1",
+          "s3",
+          "s7",
+          "s7",
+          "s8"
+        ]
+      },
+      "matrixOrder": {
+        "totalTrueMinutes": 448,
+        "totalBelievedMinutes": 448,
+        "scheduledPoints": 21,
+        "overflowPoints": 4,
+        "unsafeConcertPoints": [],
+        "hotelIds": [
+          "s6",
+          "s1",
+          "s1",
+          "s3",
+          "s7",
+          "s7",
+          "s8"
+        ]
+      },
+      "delta": {
+        "totalMinutesDelta": 0,
+        "totalMinutesDeltaPct": "0%",
+        "matrixVsMatrixOrderDelta": -2,
+        "matrixVsMatrixOrderDeltaPct": "-0%",
+        "estimateVsMatrixOrderDeltaPct": "-0%"
+      },
+      "itineraries": {
+        "estimate": [
+          [
+            "vs-CNP015338",
+            "vs-CNP000067",
+            "vs-CNP037008"
+          ],
+          [
+            "cortis-003",
+            "cortis-007",
+            "vs-CNPouf85a"
+          ],
+          [
+            "cortis-004",
+            "vs-CNPnj8f9x"
+          ],
+          [
+            "vs-CNP002077",
+            "cortis-009",
+            "cortis-005"
+          ],
+          [
+            "cortis-008",
+            "cortis-006",
+            "cortis-001"
+          ],
+          [
+            "vs-CNP012993",
+            "vs-CNP2ts0gq",
+            "cortis-002"
+          ],
+          [
+            "vs-CNP024679",
+            "vs-CNP000036",
+            "cortis-010"
+          ]
+        ],
+        "matrix": [
+          [
+            "vs-CNP015338",
+            "vs-CNP000067",
+            "vs-CNP037008"
+          ],
+          [
+            "cortis-003",
+            "cortis-007",
+            "vs-CNPouf85a"
+          ],
+          [
+            "cortis-004",
+            "vs-CNPnj8f9x"
+          ],
+          [
+            "vs-CNP002077",
+            "cortis-009",
+            "cortis-005"
+          ],
+          [
+            "cortis-008",
+            "cortis-006",
+            "cortis-001"
+          ],
+          [
+            "vs-CNP012993",
+            "vs-CNP2ts0gq",
+            "cortis-002"
+          ],
+          [
+            "vs-CNP024679",
+            "vs-CNP000036",
+            "cortis-010"
+          ]
+        ],
+        "matrixOrder": [
+          [
+            "vs-CNP000067",
+            "vs-CNP015338",
+            "vs-CNP037008"
+          ],
+          [
+            "cortis-003",
+            "cortis-007",
+            "vs-CNPouf85a"
+          ],
+          [
+            "cortis-004",
+            "vs-CNPnj8f9x"
+          ],
+          [
+            "vs-CNP002077",
+            "cortis-009",
+            "cortis-005"
+          ],
+          [
+            "cortis-006",
+            "cortis-008",
+            "cortis-001"
+          ],
+          [
+            "vs-CNP012993",
+            "vs-CNP2ts0gq",
+            "cortis-002"
+          ],
+          [
+            "vs-CNP024679",
+            "vs-CNP000036",
+            "cortis-010"
+          ]
+        ]
+      },
+      "worstEstimateErrors": [
+        {
+          "from": "vs-CNP000036",
+          "to": "cortis-010",
+          "believed": 220,
+          "real": 67,
+          "diff": 153
+        },
+        {
+          "from": "vs-CNPnj8f9x",
+          "to": "demo-concert-001",
+          "believed": 61,
+          "real": 38,
+          "diff": 23
+        },
+        {
+          "from": "vs-CNP012993",
+          "to": "vs-CNP2ts0gq",
+          "believed": 31,
+          "real": 17,
+          "diff": 14
+        }
+      ],
+      "error": {
+        "legsMeasured": 14,
+        "legsTotal": 21,
+        "coveragePct": 67,
+        "uncoveredLegs": [
+          {
+            "day": 0,
+            "fromId": "s6",
+            "toId": "vs-CNP015338",
+            "from": "明洞附近（示例酒店）",
+            "to": "明洞圣堂1898广场"
+          },
+          {
+            "day": 1,
+            "fromId": "s1",
+            "toId": "cortis-003",
+            "from": "奥林匹克公园附近（示例酒店）",
+            "to": "首尔儿童公园"
+          },
+          {
+            "day": 2,
+            "fromId": "s1",
+            "toId": "cortis-004",
+            "from": "奥林匹克公园附近（示例酒店）",
+            "to": "奉恩寺"
+          },
+          {
+            "day": 3,
+            "fromId": "s3",
+            "toId": "vs-CNP002077",
+            "from": "梨泰院附近（示例酒店）",
+            "to": "梨泰院街道"
+          },
+          {
+            "day": 4,
+            "fromId": "s7",
+            "toId": "cortis-008",
+            "from": "汝矣岛附近（示例酒店）",
+            "to": "直火匠人 龙山店"
+          },
+          {
+            "day": 5,
+            "fromId": "s7",
+            "toId": "vs-CNP012993",
+            "from": "汝矣岛附近（示例酒店）",
+            "to": "汝矣岛汉江公园"
+          },
+          {
+            "day": 6,
+            "fromId": "s8",
+            "toId": "vs-CNP024679",
+            "from": "东大门/乙支路附近（示例酒店）",
+            "to": "东大门设计广场(DDP)"
+          }
+        ],
+        "visibleLegs": 14,
+        "visibleCoveredLegs": 14,
+        "visibleCoveragePct": 100,
+        "uncoveredVisibleLegs": [],
+        "avgAbsErrorMinutes": 16.4,
+        "maxAbsErrorMinutes": 153,
+        "meanSignedErrorMinutes": 13.9
+      }
+    }
+  ],
+  "cases": [
+    {
+      "id": "W1",
+      "name": "演唱会日 19:00 必须锁定在场馆",
+      "passed": true,
+      "detail": "3 天 · 适中 · 默认（中午到）:✅ · 5 天 · 适中（中午到）:✅ · 7 天 · 宽松（上午到）:✅"
+    },
+    {
+      "id": "W2",
+      "name": "演出日 18:30 之后不再排景点（按真实耗时复核）",
+      "passed": true,
+      "detail": "3 天 · 适中 · 默认（中午到）:✅ · 5 天 · 适中（中午到）:✅ · 7 天 · 宽松（上午到）:✅"
+    },
+    {
+      "id": "W3",
+      "name": "装不下的地点进「待定清单」，不能丢点",
+      "passed": true,
+      "detail": "3 天 · 适中 · 默认（中午到）:✅（共 25 个点） · 5 天 · 适中（中午到）:✅（共 25 个点） · 7 天 · 宽松（上午到）:✅（共 25 个点）"
+    }
+  ]
+}

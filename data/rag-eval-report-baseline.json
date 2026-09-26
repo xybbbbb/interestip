@@ -1,0 +1,414 @@
+{
+  "generatedAt": "2026-09-13T08:02:53.574Z",
+  "k": 5,
+  "corpus": {
+    "docs": 25,
+    "fan": 11,
+    "sight": 14
+  },
+  "summary": {
+    "questions": 10,
+    "answerable": 7,
+    "negative": 3,
+    "retrievalHitRate": 1,
+    "top1Accuracy": 1,
+    "citationPrecision": 0.6429,
+    "citationPrecisionAnswerable": 0.8182,
+    "citationPrecisionMacro": 0.8167,
+    "citationsAreRetrieved": true,
+    "refusalAccuracy": 0.9,
+    "negativeRefused": 2,
+    "positiveAnswered": 7,
+    "falseRefusals": [],
+    "missedRefusals": [
+      "q08"
+    ],
+    "hedgedCitations": 2
+  },
+  "results": [
+    {
+      "id": "q01",
+      "query": "想买 CORTIS 成员同款的手串，应该去哪里？",
+      "pool": null,
+      "expect": "answer",
+      "expected": [
+        "cortis-004"
+      ],
+      "retrieved": [
+        "cortis-004",
+        "cortis-007"
+      ],
+      "topScore": 10.31,
+      "dropped": 9,
+      "hit": true,
+      "answered": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "cortis-004",
+          "confidence": "high",
+          "correct": true
+        },
+        {
+          "n": 2,
+          "id": "cortis-007",
+          "confidence": "medium",
+          "correct": false
+        }
+      ],
+      "citationCount": 2,
+      "correctCitationCount": 1,
+      "answerText": "问题：想买 CORTIS 成员同款的手串，应该去哪里？\n根据资料：\n- 奉恩寺（江南区）：成员严成玹同款手串购买地 [来源1]\n- Torriden 圣水快闪（Factory Seongsu）（城东区）（有粉丝提到，尚未人工核验，行程紧可跳过）：CORTIS 成员 Martin 到访的 Torriden DEEP DIVE NEWS 快闪店；活动已结束，后续是否再举办需确认 [来源2]\n\n来源：\n[来源1] 奉恩寺 · 置信度 high — https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5315lw=&xsec_source=pc_share\n[来源2] Torriden 圣水快闪（Factory Seongsu） · 置信度 medium — https://www.xiaohongshu.com/discovery/item/6a541dfd0000000021015ccb?source=webshare&xhsshare=pc_web&xsec_token=ABRmwKsb93wbSOszmTZYD9J7t5XcjWesb7cMkhBo7aDEs=&xsec_source=pc_share"
+    },
+    {
+      "id": "q02",
+      "query": "成员过生日那天去的餐厅是哪家？",
+      "pool": null,
+      "expect": "answer",
+      "expected": [
+        "cortis-008"
+      ],
+      "retrieved": [
+        "cortis-008"
+      ],
+      "topScore": 10.53,
+      "dropped": 3,
+      "hit": true,
+      "answered": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "cortis-008",
+          "confidence": "high",
+          "correct": true
+        }
+      ],
+      "citationCount": 1,
+      "correctCitationCount": 1,
+      "answerText": "问题：成员过生日那天去的餐厅是哪家？\n根据资料：\n- 直火匠人 龙山店（龙山区）：用户提供的地址：龙山区 汉江大路 58-1；OSM 无该店精确 POI，坐标为地址级 [来源1]\n\n来源：\n[来源1] 直火匠人 龙山店 · 置信度 high — https://www.xiaohongshu.com/discovery/item/69ec9a3b0000000036032fc8?source=webshare&xhsshare=pc_web&xsec_token=AB9LKvZJTjWxpwtrEB4TyhVkK6aylTAYd7Lp8mRjjtdXc=&xsec_source=pc_share"
+    },
+    {
+      "id": "q03",
+      "query": "MV 拍摄地的地铁站怎么打卡？",
+      "pool": null,
+      "expect": "answer",
+      "expected": [
+        "cortis-005",
+        "cortis-009"
+      ],
+      "retrieved": [
+        "cortis-005",
+        "cortis-009",
+        "cortis-003",
+        "cortis-006"
+      ],
+      "topScore": 10.91,
+      "dropped": 7,
+      "hit": true,
+      "answered": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "cortis-005",
+          "confidence": "high",
+          "correct": true
+        },
+        {
+          "n": 2,
+          "id": "cortis-009",
+          "confidence": "high",
+          "correct": true
+        },
+        {
+          "n": 3,
+          "id": "cortis-003",
+          "confidence": "high",
+          "correct": false
+        }
+      ],
+      "citationCount": 3,
+      "correctCitationCount": 2,
+      "answerText": "问题：MV 拍摄地的地铁站怎么打卡？\n根据资料：\n- 新沙站（5号出口）（江南区）：用户确认：以新沙站为打卡点（5 号出口） [来源1]\n- 汉南站（1号出口）（龙山区）：用户确认：以汉南站为“凌晨外出”拍摄地打卡点 [来源2]\n- 首尔儿童公园（广津区）：团综两天一夜拍摄地 [来源3]\n\n来源：\n[来源1] 新沙站（5号出口） · 置信度 high — https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5316lw=&xsec_source=pc_share\n[来源2] 汉南站（1号出口） · 置信度 high — https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5312lw=&xsec_source=pc_share\n[来源3] 首尔儿童公园 · 置信度 high — https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5314lw=&xsec_source=pc_share"
+    },
+    {
+      "id": "q04",
+      "query": "可以直接和店员说要 CORTIS 同款冰沙的店",
+      "pool": null,
+      "expect": "answer",
+      "expected": [
+        "cortis-002"
+      ],
+      "retrieved": [
+        "cortis-002"
+      ],
+      "topScore": 43.24,
+      "dropped": 10,
+      "hit": true,
+      "answered": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "cortis-002",
+          "confidence": "medium",
+          "correct": true
+        }
+      ],
+      "citationCount": 1,
+      "correctCitationCount": 1,
+      "answerText": "问题：可以直接和店员说要 CORTIS 同款冰沙的店\n根据资料：\n- oakberry巴西莓碗（西大门区）（有粉丝提到，尚未人工核验，行程紧可跳过）：可以直接和店员说要cortis同款 冰沙+花生酱+燕麦+草莓+香蕉 [来源1]\n\n来源：\n[来源1] oakberry巴西莓碗 · 置信度 medium — https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5313lw=&xsec_source=pc_share"
+    },
+    {
+      "id": "q05",
+      "query": "团综两天一夜的拍摄地是哪里？",
+      "pool": null,
+      "expect": "answer",
+      "expected": [
+        "cortis-003"
+      ],
+      "retrieved": [
+        "cortis-003"
+      ],
+      "topScore": 27.52,
+      "dropped": 2,
+      "hit": true,
+      "answered": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "cortis-003",
+          "confidence": "high",
+          "correct": true
+        }
+      ],
+      "citationCount": 1,
+      "correctCitationCount": 1,
+      "answerText": "问题：团综两天一夜的拍摄地是哪里？\n根据资料：\n- 首尔儿童公园（广津区）：团综两天一夜拍摄地 [来源1]\n\n来源：\n[来源1] 首尔儿童公园 · 置信度 high — https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5314lw=&xsec_source=pc_share"
+    },
+    {
+      "id": "q06",
+      "query": "晚上想看汉江夜景和喷泉，去哪里？",
+      "pool": null,
+      "expect": "answer",
+      "expected": [
+        "vs-CNP002220",
+        "vs-CNP012993"
+      ],
+      "retrieved": [
+        "vs-CNP002220",
+        "vs-CNP012993"
+      ],
+      "topScore": 10.4,
+      "dropped": 6,
+      "hit": true,
+      "answered": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "vs-CNP002220",
+          "confidence": "plain",
+          "correct": true
+        },
+        {
+          "n": 2,
+          "id": "vs-CNP012993",
+          "confidence": "plain",
+          "correct": true
+        }
+      ],
+      "citationCount": 2,
+      "correctCitationCount": 2,
+      "answerText": "问题：晚上想看汉江夜景和喷泉，去哪里？\n根据资料：\n- 盘浦大桥月光彩虹喷泉（瑞草区）：汉江夜景代表，月光彩虹喷泉是热门打卡点 [来源1]\n- 汝矣岛汉江公园（永登浦区）：汉江野餐与夜景圣地，年轻人露营、骑车常去 [来源2]\n\n来源：\n[来源1] 盘浦大桥月光彩虹喷泉 · 置信度 plain — （无链接）\n[来源2] 汝矣岛汉江公园 · 置信度 plain — （无链接）"
+    },
+    {
+      "id": "q07",
+      "query": "想逛街买美妆，去哪里？",
+      "pool": null,
+      "expect": "answer",
+      "expected": [
+        "vs-CNP000067",
+        "vs-CNP000061"
+      ],
+      "retrieved": [
+        "vs-CNP000067"
+      ],
+      "topScore": 6.44,
+      "dropped": 0,
+      "hit": true,
+      "answered": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "vs-CNP000067",
+          "confidence": "plain",
+          "correct": true
+        }
+      ],
+      "citationCount": 1,
+      "correctCitationCount": 1,
+      "answerText": "问题：想逛街买美妆，去哪里？\n根据资料：\n- 明洞（中区）：首尔最热闹的购物与美妆街区，年轻人逛街首选 [来源1]\n\n来源：\n[来源1] 明洞 · 置信度 plain — （无链接）"
+    },
+    {
+      "id": "q08",
+      "query": "米其林三星餐厅求婚直升机怎么安排？",
+      "pool": null,
+      "expect": "refuse",
+      "expected": [],
+      "retrieved": [
+        "cortis-010",
+        "vs-CNP002077",
+        "cortis-008",
+        "cortis-007"
+      ],
+      "topScore": 3.21,
+      "dropped": 0,
+      "hit": false,
+      "answered": true,
+      "correctBehaviour": false,
+      "citations": [
+        {
+          "n": 1,
+          "id": "cortis-010",
+          "confidence": "high",
+          "correct": false
+        },
+        {
+          "n": 2,
+          "id": "vs-CNP002077",
+          "confidence": "plain",
+          "correct": false
+        },
+        {
+          "n": 3,
+          "id": "cortis-008",
+          "confidence": "high",
+          "correct": false
+        }
+      ],
+      "citationCount": 3,
+      "correctCitationCount": 0,
+      "answerText": "问题：米其林三星餐厅求婚直升机怎么安排？\n根据资料：\n- 乙支路煤炭烧烤 Gochon店（金浦市）：用户确认：就是金浦高村店，不在首尔市区；行程需要单独安排往返 [来源1]\n- 梨泰院街道（龙山区）：梨泰院街区，异国餐厅、酒吧与潮店聚集 [来源2]\n- 直火匠人 龙山店（龙山区）：用户提供的地址：龙山区 汉江大路 58-1；OSM 无该店精确 POI，坐标为地址级 [来源3]\n\n来源：\n[来源1] 乙支路煤炭烧烤 Gochon店 · 置信度 high — https://www.xiaohongshu.com/discovery/item/6a008d130000000036031377?source=webshare&xhsshare=pc_web&xsec_token=ABXbeyWbuHIo-I3SqM1N8bmbCmlRSbMop0YW4OgJClPJs=&xsec_source=pc_share\n[来源2] 梨泰院街道 · 置信度 plain — （无链接）\n[来源3] 直火匠人 龙山店 · 置信度 high — https://www.xiaohongshu.com/discovery/item/69ec9a3b0000000036032fc8?source=webshare&xhsshare=pc_web&xsec_token=AB9LKvZJTjWxpwtrEB4TyhVkK6aylTAYd7Lp8mRjjtdXc=&xsec_source=pc_share"
+    },
+    {
+      "id": "q09",
+      "query": "济州岛租车自驾方便吗？",
+      "pool": null,
+      "expect": "refuse",
+      "expected": [],
+      "retrieved": [],
+      "topScore": 0,
+      "dropped": 0,
+      "hit": false,
+      "answered": false,
+      "correctBehaviour": true,
+      "citations": [],
+      "citationCount": 0,
+      "correctCitationCount": 0,
+      "answerText": "资料里没有能回答这个问题的内容。"
+    },
+    {
+      "id": "q10",
+      "query": "怎么从首尔坐火车去釜山？",
+      "pool": null,
+      "expect": "refuse",
+      "expected": [],
+      "retrieved": [],
+      "topScore": 0.85,
+      "dropped": 16,
+      "hit": false,
+      "answered": false,
+      "correctBehaviour": true,
+      "citations": [],
+      "citationCount": 0,
+      "correctCitationCount": 0,
+      "answerText": "资料里没有能回答这个问题的内容。"
+    }
+  ],
+  "probes": [
+    {
+      "id": "p01",
+      "query": "想找个地方吃东西",
+      "pool": null,
+      "expect": "answer",
+      "expected": [
+        "cortis-002",
+        "cortis-008",
+        "cortis-010"
+      ],
+      "retrieved": [],
+      "topScore": 0,
+      "dropped": 0,
+      "hit": false,
+      "answered": false,
+      "correctBehaviour": false,
+      "citations": [],
+      "citationCount": 0,
+      "correctCitationCount": 0,
+      "answerText": "资料里没有能回答这个问题的内容。"
+    },
+    {
+      "id": "p02",
+      "query": "同款餐厅",
+      "pool": "fan",
+      "expect": "answer",
+      "expected": [
+        "cortis-008",
+        "cortis-010",
+        "cortis-002"
+      ],
+      "retrieved": [
+        "cortis-008"
+      ],
+      "topScore": 2.24,
+      "dropped": 10,
+      "hit": true,
+      "answered": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "cortis-008",
+          "confidence": "high",
+          "correct": true
+        }
+      ],
+      "citationCount": 1,
+      "correctCitationCount": 1,
+      "answerText": "问题：同款餐厅\n根据资料：\n- 直火匠人 龙山店（龙山区）：用户提供的地址：龙山区 汉江大路 58-1；OSM 无该店精确 POI，坐标为地址级 [来源1]\n\n来源：\n[来源1] 直火匠人 龙山店 · 置信度 high — https://www.xiaohongshu.com/discovery/item/69ec9a3b0000000036032fc8?source=webshare&xhsshare=pc_web&xsec_token=AB9LKvZJTjWxpwtrEB4TyhVkK6aylTAYd7Lp8mRjjtdXc=&xsec_source=pc_share"
+    },
+    {
+      "id": "p03",
+      "query": "乙支路煤炭烧烤在哪？",
+      "pool": "fan",
+      "expect": "answer",
+      "expected": [
+        "cortis-010"
+      ],
+      "retrieved": [
+        "cortis-010"
+      ],
+      "topScore": 19.76,
+      "dropped": 0,
+      "hit": true,
+      "answered": true,
+      "correctBehaviour": true,
+      "citations": [
+        {
+          "n": 1,
+          "id": "cortis-010",
+          "confidence": "high",
+          "correct": true
+        }
+      ],
+      "citationCount": 1,
+      "correctCitationCount": 1,
+      "answerText": "问题：乙支路煤炭烧烤在哪？\n根据资料：\n- 乙支路煤炭烧烤 Gochon店（金浦市）：用户确认：就是金浦高村店，不在首尔市区；行程需要单独安排往返 [来源1]\n\n来源：\n[来源1] 乙支路煤炭烧烤 Gochon店 · 置信度 high — https://www.xiaohongshu.com/discovery/item/6a008d130000000036031377?source=webshare&xhsshare=pc_web&xsec_token=ABXbeyWbuHIo-I3SqM1N8bmbCmlRSbMop0YW4OgJClPJs=&xsec_source=pc_share"
+    }
+  ]
+}

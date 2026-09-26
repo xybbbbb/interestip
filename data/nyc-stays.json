@@ -1,0 +1,122 @@
+{
+  "source": "OpenStreetMap contributors (ODbL 1.0) via Photon",
+  "note": "价格为演示缺省，页面显示「以官网为准」；坐标为 OSM 候选值。",
+  "stays": [
+    {
+      "id": "s1",
+      "name": "标准酒店（高线店）",
+      "district": "切尔西",
+      "lat": 40.74085,
+      "lng": -74.00808,
+      "station": "8 Av / 14 St",
+      "lines": [
+        "A",
+        "C",
+        "E",
+        "L"
+      ]
+    },
+    {
+      "id": "s2",
+      "name": "Pod 51 酒店",
+      "district": "中城东",
+      "lat": 40.75571,
+      "lng": -73.96909,
+      "station": "51 St",
+      "lines": [
+        "6"
+      ]
+    },
+    {
+      "id": "s3",
+      "name": "YOTEL 纽约",
+      "district": "中城西",
+      "lat": 40.75909,
+      "lng": -73.99544,
+      "station": "34 St-Hudson Yards",
+      "lines": [
+        "7"
+      ]
+    },
+    {
+      "id": "s4",
+      "name": "HI 纽约国际青年旅舍",
+      "district": "上西区",
+      "lat": 40.79871,
+      "lng": -73.96663,
+      "station": "103 St",
+      "lines": [
+        "1"
+      ]
+    },
+    {
+      "id": "s5",
+      "name": "包厘酒店",
+      "district": "下东区",
+      "lat": 40.72604,
+      "lng": -73.99144,
+      "station": "2 Av",
+      "lines": [
+        "F"
+      ]
+    },
+    {
+      "id": "s6",
+      "name": "霍克斯顿酒店（威廉斯堡）",
+      "district": "布鲁克林",
+      "lat": 40.72162,
+      "lng": -73.95883,
+      "station": "Bedford Av",
+      "lines": [
+        "L"
+      ]
+    }
+  ],
+  "en": {
+    "s1": {
+      "name": "The Standard, High Line",
+      "station": "8 Av / 14 St",
+      "lines": [
+        "A",
+        "C",
+        "E",
+        "L"
+      ]
+    },
+    "s2": {
+      "name": "Pod 51",
+      "station": "51 St",
+      "lines": [
+        "6"
+      ]
+    },
+    "s3": {
+      "name": "YOTEL New York",
+      "station": "34 St-Hudson Yards",
+      "lines": [
+        "7"
+      ]
+    },
+    "s4": {
+      "name": "HI New York City Hostel",
+      "station": "103 St",
+      "lines": [
+        "1"
+      ]
+    },
+    "s5": {
+      "name": "The Bowery Hotel",
+      "station": "2 Av",
+      "lines": [
+        "F"
+      ]
+    },
+    "s6": {
+      "name": "The Hoxton, Williamsburg",
+      "station": "Bedford Av",
+      "lines": [
+        "L"
+      ]
+    }
+  }
+}

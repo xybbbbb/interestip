@@ -1,0 +1,229 @@
+{
+  "generatedAt": "2026-09-19T07:35:41.886Z",
+  "model": "deepseek-chat",
+  "note": "构建期用 RAG 管线预生成的推荐语（中英各一份）；页面是静态的，读这里的文本展示。",
+  "answers": {
+    "demo-concert-001": {
+      "zh": "这是你已确认的 CORTIS 演唱会场地，演出日 19:00 开唱，粉丝关联的同款打卡地，行程已经锁定。场馆具体信息还在等确认，出发前记得把地址补上。",
+      "en": "This is a placeholder concert venue in Songpa District, tied to CORTIS, and it's already locked in as a confirmed stop on your itinerary. Showtime is 19:00 on the performance day, though the exact venue details are still waiting to be filled in.",
+      "confidence": "high",
+      "sources": [
+        "https://example.com/"
+      ],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:34:39.615Z"
+    },
+    "cortis-001": {
+      "zh": "想打卡 CORTIS 同款的话，二村汉江公园本身就是粉丝认证的打卡地，不用再绕去 CU 便利店了。",
+      "en": "Ichon Hangang Park in Yongsan District is a fan-linked spot tied to CORTIS, and it's confirmed as a check-in point in its own right. Head here if you want to visit the same Hangang Park location fans have been posting about.",
+      "confidence": "high",
+      "sources": [
+        "https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5312lw=&xsec_source=pc_share"
+      ],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:34:42.242Z"
+    },
+    "cortis-002": {
+      "zh": "在西大门区的oakberry，有粉丝提到（尚未核验）可以直接跟店员点CORTIS同款巴西莓碗，配料是冰沙+花生酱+燕麦+草莓+香蕉。想打卡同款的话可以照着这个组合点一份。",
+      "en": "A fan reported (not yet verified) that Oakberry in Seodaemun-gu is a spot linked to CORTIS, where you can ask the staff directly for the \"CORTIS same\" order: smoothie with peanut butter, oats, strawberry, and banana.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5313lw=&xsec_source=pc_share"
+      ],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:34:44.935Z"
+    },
+    "cortis-003": {
+      "zh": "首尔儿童公园是CORTIS同款打卡地，也是团综两天一夜的拍摄地，粉丝可以来这里get同款路线。",
+      "en": "Seoul Children's Grand Park in Gwangjin District is a fan-linked spot known as a CORTIS location, and it served as a filming site for the group's two-day, one-night variety show. If you're following in those footsteps, this is an easy pick to add to your Seoul itinerary.",
+      "confidence": "high",
+      "sources": [
+        "https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5314lw=&xsec_source=pc_share"
+      ],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:34:47.474Z"
+    },
+    "cortis-004": {
+      "zh": "在江南区想打卡 CORTIS 同款，可以来奉恩寺，这里正是成员严成玹同款手串的购买地。",
+      "en": "Bongeunsa Temple in Gangnam is a must-visit spot for fans, as it's tied to CORTIS. It's also where member Yan Chengxuan was reported to have bought the same bracelet.",
+      "confidence": "high",
+      "sources": [
+        "https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5315lw=&xsec_source=pc_share"
+      ],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:34:49.915Z"
+    },
+    "cortis-005": {
+      "zh": "新沙站5号出口是CORTIS同款打卡点，也是MV拍摄地，粉丝已经确认过这个位置。想走一遍偶像走过的路，来这儿准没错。",
+      "en": "If you're a CORTIS fan, Sinsa Station's Exit 5 in Gangnam is a confirmed fan spot tied to the group, and it's also known as an MV filming location. It's an easy, worthwhile stop to add to your Seoul itinerary.",
+      "confidence": "high",
+      "sources": [
+        "https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5316lw=&xsec_source=pc_share"
+      ],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:34:52.774Z"
+    },
+    "cortis-006": {
+      "zh": "想打卡 CORTIS 同款的话，龙山区这栋 HYBE 大楼值得走一趟。坐地铁4号线到新龙山站从2号出口出来，步行约5-10分钟就到；从龙山站1号出口过来也就10-11分钟。",
+      "en": "If you're a fan of CORTIS, the HYBE Headquarters building in Yongsan is a must-visit spot tied to them. Getting there is easy: take subway Line 4 to Sinyongsan Station and walk about 5–10 minutes from Exit 2, or take Line 1 or the Gyeongui-Jungang Line to Yongsan Station and walk roughly 10–11 minutes from Exit 1.",
+      "confidence": "high",
+      "sources": [
+        "https://www.xiaohongshu.com/discovery/item/6a881d45000000003502368a?source=webshare&xhsshare=pc_web&xsec_token=ABkEzyn-xPxexyXIi58tvjcvJInKq6mY3oKVEi3XMsACg=&xsec_source=pc_share"
+      ],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:34:55.297Z"
+    },
+    "cortis-007": {
+      "zh": "有粉丝提到（尚未核验）这里是 CORTIS 成员 Martin 到访过的 Torriden DEEP DIVE NEWS 快闪店，位于圣水洞，属于粉丝同款打卡地。不过活动已于 2026-08-25 结束，想去的话得先确认后续是否还会再办。",
+      "en": "A fan reported (not yet verified) that CORTIS member Martin visited the Torriden DEEP DIVE NEWS pop-up at Factory Seongsu in Seongdong District. Note that the pop-up ran from August 14 to August 25, 2026 and has already ended, so you'd need to check whether it will be held again before planning a visit.",
+      "confidence": "medium",
+      "sources": [
+        "https://www.xiaohongshu.com/discovery/item/6a541dfd0000000021015ccb?source=webshare&xhsshare=pc_web&xsec_token=ABRmwKsb93wbSOszmTZYD9J7t5XcjWesb7cMkhBo7aDEs=&xsec_source=pc_share"
+      ],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:34:58.258Z"
+    },
+    "cortis-008": {
+      "zh": "严成玹生日时去的餐厅，CORTIS 同款打卡地，就在龙山区汉江大路 58-1。想跟着偶像的足迹吃一顿，这家可以安排上。",
+      "en": "Jikhwajangin (Yongsan Branch) is a fan-linked spot in Yongsan District, noted as the restaurant where Eom Seong-hyeon celebrated his birthday. It's a same-as-their-pick kind of place for fans who want to eat where their favorite did.",
+      "confidence": "high",
+      "sources": [
+        "https://www.xiaohongshu.com/discovery/item/69ec9a3b0000000036032fc8?source=webshare&xhsshare=pc_web&xsec_token=AB9LKvZJTjWxpwtrEB4TyhVkK6aylTAYd7Lp8mRjjtdXc=&xsec_source=pc_share"
+      ],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:35:01.043Z"
+    },
+    "cortis-009": {
+      "zh": "汉南站1号出口是CORTIS同款“凌晨外出”拍摄地的打卡点，想走一遍同款路线的粉丝可以来这里感受一下。",
+      "en": "Hannam Station (Exit 1) in Yongsan is a confirmed fan spot tied to CORTIS, known as a filming location for the \"early morning outing\" scene. Fans have marked it as a must-visit check-in point, so it's worth a stop if you're following in their footsteps.",
+      "confidence": "high",
+      "sources": [
+        "https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5312lw=&xsec_source=pc_share"
+      ],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:35:04.370Z"
+    },
+    "cortis-010": {
+      "zh": "这家乙支路煤炭烧烤 Gochon 店是 CORTIS 同款打卡地，粉丝已经确认就是金浦高村店。不过它在金浦市、不在首尔市区，想来的话记得单独安排往返行程。",
+      "en": "If you're a CORTIS fan, this Euljiro Seoktan-gui branch in Gimpo is a spot tied to them, so it's worth the trip. Just note it's outside central Seoul, so you'll need to plan a separate round trip to get there.",
+      "confidence": "high",
+      "sources": [
+        "https://www.xiaohongshu.com/discovery/item/6a008d130000000036031377?source=webshare&xhsshare=pc_web&xsec_token=ABXbeyWbuHIo-I3SqM1N8bmbCmlRSbMop0YW4OgJClPJs=&xsec_source=pc_share"
+      ],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:35:07.010Z"
+    },
+    "vs-CNP000067": {
+      "zh": "明洞是首尔最热闹的购物与美妆街区，也是年轻人逛街的首选。想感受首尔中区的活力，来这里逛一圈就对了。",
+      "en": "Myeongdong is Seoul's liveliest shopping and beauty district, and it's the top choice for young people looking to hit the streets. You'll find it in Jung-gu, Seoul, at 27 Myeongdong 8-gil, with each store keeping its own hours.",
+      "confidence": "plain",
+      "sources": [],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:35:09.625Z"
+    },
+    "vs-CNP015338": {
+      "zh": "明洞圣堂1898广场是明洞的地标，红砖圣堂配上复合文化空间，值得专程去看看。开放时间09:00-22:00，安排行程很方便。",
+      "en": "A landmark in Myeongdong, this site pairs a red-brick cathedral with a multi-purpose cultural space. It's an official Seoul tourist spot in Jung-gu, open from 09:00 to 22:00 at 74 Myeongdong-gil.",
+      "confidence": "plain",
+      "sources": [],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:35:11.968Z"
+    },
+    "vs-CNP000061": {
+      "zh": "东大门购物城是首尔的购物地标，商场与夜市集中，很适合傍晚之后去逛。各商场营业时间不同，不少都通宵开放，想逛到多晚都行。",
+      "en": "Dongdaemun Market is a Seoul shopping landmark where malls and night markets cluster together, making it a great spot to head to after dusk. Hours vary by mall, with many staying open all night.",
+      "confidence": "plain",
+      "sources": [],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:35:14.454Z"
+    },
+    "vs-CNP024679": {
+      "zh": "东大门设计广场是首尔官方观光点，也是东大门一带的设计地标，展览、夜景与活动都集中在这里。开放时间10:00-20:00（各馆不同），去之前可以留意一下想看的馆。",
+      "en": "Dongdaemun Design Plaza (DDP) is a Seoul landmark in Jung-gu where exhibitions, night views, and events all come together. It's open 10:00–20:00, though hours vary by hall, so plan your visit around that.",
+      "confidence": "plain",
+      "sources": [],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:35:17.306Z"
+    },
+    "vs-CNP002077": {
+      "zh": "梨泰院街道是首尔官方观光点，异国餐厅、酒吧与潮店聚集，全天开放（店铺各异），适合随时来逛。",
+      "en": "Itaewon is a must-visit spot in Yongsan-gu, Seoul, where you'll find a lively cluster of international restaurants, bars, and trendy shops. It's open all day, though individual shops keep their own hours.",
+      "confidence": "plain",
+      "sources": [],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:35:19.963Z"
+    },
+    "vs-CNP2ts0gq": {
+      "zh": "弘大壁画街是首尔官方认证的观光点，街头文化与壁画打卡地，年轻氛围很浓。全天开放，随时都能去逛。",
+      "en": "Hongdae Mural Street is an official Seoul sightseeing spot in Mapo-gu, known for its street culture and mural photo spots with a lively young vibe. It's open all day, so you can wander the murals whenever the mood strikes.",
+      "confidence": "plain",
+      "sources": [],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:35:22.005Z"
+    },
+    "vs-CNP000286": {
+      "zh": "想感受首尔最有名的传统市场之一，广藏市场的小吃和夜市氛围很值得一逛。市场约09:00-18:00开放，美食街更是营业到23:00，晚上去也不怕没得吃。",
+      "en": "Gwangjang Market is one of Seoul's most famous traditional markets, with a strong street-food and night-market atmosphere. It's in Jongno-gu, open roughly 09:00–18:00, with the food street running until 23:00.",
+      "confidence": "plain",
+      "sources": [],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:35:24.511Z"
+    },
+    "vs-CNPouf85a": {
+      "zh": "圣水云桥是圣水洞潮流街区的地标装置，还能看到汉江景观，全天开放，随时都能去走走。",
+      "en": "Seongsu Pedestrian Overpass is a landmark installation in the trendy Seongsu-dong neighborhood, and it also offers views of the Han River. It's an official Seoul sightseeing spot in Seongdong-gu, open all day at 257 Gangbyeonbuk-ro.",
+      "confidence": "plain",
+      "sources": [],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:35:27.032Z"
+    },
+    "vs-CNPnj8f9x": {
+      "zh": "想感受江南的K-POP氛围，来COEX K-POP广场就对了，这里还是首尔官方认证的观光点。逛完还能顺路去COEX商圈和星空图书馆，一举两得。",
+      "en": "COEX K-POP Square is an official Seoul tourist spot in Gangnam and a K-POP photo destination near the COEX shopping area and Starfield Library. Check the official website for opening hours before you go.",
+      "confidence": "plain",
+      "sources": [],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:35:29.695Z"
+    },
+    "vs-CNP002220": {
+      "zh": "首尔官方观光点盘浦大桥月光彩虹喷泉，是汉江夜景的代表，也是热门打卡地。晚间有多场表演，想看汉江夜色的话值得安排一趟。",
+      "en": "The Banpodaegyo Bridge Moonlight Rainbow Fountain is a Seoul official tourist spot and a signature part of the Han River night view, making it a popular photo stop. It sits in Banpo-dong, Seocho District, Seoul, and runs multiple shows in the evening (see the official website for details).",
+      "confidence": "plain",
+      "sources": [],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:35:32.190Z"
+    },
+    "vs-CNP012993": {
+      "zh": "汝矣岛汉江公园是首尔官方认证的观光点，24小时开放，汉江野餐和夜景都很有名，年轻人常来这里露营、骑车。想找个地方边吃边看江景，这里很合适。",
+      "en": "Yeouido Hangang Park in Yeongdeungpo-gu is a Seoul official sightseeing spot and a favorite for Han River picnics and night views, popular with young people for camping and cycling. It's open 24 hours at 330 Yeouido-ro, Seoul.",
+      "confidence": "plain",
+      "sources": [],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:35:34.475Z"
+    },
+    "vs-CNP016328": {
+      "zh": "石村湖夜景就在乐天世界旁边，湖景配夜景，散步和拍照都很合适。24小时开放，首尔官方观光点，随时去都行。",
+      "en": "Seokchon Lake at Night is an official Seoul sightseeing spot in Songpa District, offering lakeside night views beside Lotte World that are great for both strolling and photos. It's open 24 hours at 136 Samhaksa-ro, Songpa District, Seoul (Jamsil-dong).",
+      "confidence": "plain",
+      "sources": [],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:35:36.961Z"
+    },
+    "vs-CNP000036": {
+      "zh": "南山首尔塔是首尔的代表夜景地标，情侣和游客都爱去。开放时间10:00-22:30，周末延长到23:00，在龙山区南山公园路105号。",
+      "en": "Namsan Seoul Tower is Seoul's signature night-view landmark and a must-visit for couples and travelers alike. It's open 10:00–22:30, with weekend hours extending to 23:00.",
+      "confidence": "plain",
+      "sources": [],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:35:39.406Z"
+    },
+    "vs-CNP037008": {
+      "zh": "益善洞韩屋街道是首尔官方观光点，韩屋改造的咖啡馆与小店聚集，是钟路年轻人爱逛的地方。全天开放，店铺时间各异，适合慢慢逛。",
+      "en": "Ikseon-dong Hanok Village is a Seoul official tourist spot in Jongno-gu where hanok houses have been converted into cafes and small shops. It's a favorite hangout for young people in Jongno, and it's open all day, though individual shops keep their own hours.",
+      "confidence": "plain",
+      "sources": [],
+      "model": "deepseek-chat",
+      "generatedAt": "2026-09-19T07:35:41.886Z"
+    }
+  }
+}

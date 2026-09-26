@@ -1,0 +1,161 @@
+{
+  "demo": true,
+  "generatedAt": "2026-09-06",
+  "note": "本文件是演示用数据集，用于打通「兴趣地点 + 证据 → 行程规划」的技术链路，不代表任何真实调研结论。所有地点与证据均为占位示例：来源 URL 使用 example.com，坐标与营业时间仅供展示。正式产品上线前必须用真实渠道逐条核验。",
+  "places": [
+    {
+      "id": "demo-seoul-001",
+      "name": "示例·CORTIS 演出场馆（Demo）",
+      "nameLocal": "서울 올림픽공원（예시）",
+      "type": "venue",
+      "category": "concert_venue",
+      "interestRelated": true,
+      "address": "首尔松坡区（示例坐标）",
+      "district": "松坡区",
+      "latitude": 37.5206,
+      "longitude": 127.1211,
+      "openingHours": "示例：演出日 17:00 起开放",
+      "description": "示例演唱会场地：用于演示「官方演出公告 → 高置信度地点」的证据结构。",
+      "imageUrl": null,
+      "tags": ["CORTIS", "演唱会", "场馆"],
+      "evidence": [
+        {
+          "id": "ev-demo-001-a",
+          "claim": "CORTIS 将在此场馆举办演出（示例）",
+          "source": "演出公告（示例）",
+          "sourceType": "official",
+          "url": "https://example.com/official/announcement",
+          "publishedAt": "2026-08-01",
+          "summary": "官方渠道发布的活动信息（演示字段）",
+          "confidence": "high"
+        }
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "demo-seoul-002",
+      "name": "示例·粉丝常去咖啡馆（Demo）",
+      "nameLocal": "카페（예시）",
+      "type": "cafe",
+      "category": "cafe",
+      "interestRelated": true,
+      "address": "首尔麻浦区（示例坐标）",
+      "district": "麻浦区",
+      "latitude": 37.5569,
+      "longitude": 126.9239,
+      "openingHours": "示例：10:00-22:00",
+      "description": "示例粉丝向餐饮地点：用于演示「多条社区讨论互相印证 → 中等置信度」的证据结构。",
+      "imageUrl": null,
+      "tags": ["CORTIS", "咖啡", "粉丝打卡"],
+      "evidence": [
+        {
+          "id": "ev-demo-002-a",
+          "claim": "多名粉丝曾在此偶遇/打卡（示例）",
+          "source": "粉丝社区帖子（示例）",
+          "sourceType": "community",
+          "url": "https://example.com/fan/thread-a",
+          "publishedAt": "2026-07-15",
+          "summary": "社区讨论与照片记录（演示字段）",
+          "confidence": "medium"
+        },
+        {
+          "id": "ev-demo-002-b",
+          "claim": "另一独立粉丝小组也提及该地点（示例）",
+          "source": "粉丝小组（示例）",
+          "sourceType": "community",
+          "url": "https://example.com/fan/thread-b",
+          "publishedAt": "2026-07-20",
+          "summary": "至少两个独立社区信源互相印证（演示字段）",
+          "confidence": "medium"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "demo-seoul-003",
+      "name": "示例·MV 取景地（Demo）",
+      "nameLocal": "뮤직비디오 촬영지（예시）",
+      "type": "filming_location",
+      "category": "filming_location",
+      "interestRelated": true,
+      "address": "首尔龙山区（示例坐标）",
+      "district": "龙山区",
+      "latitude": 37.5326,
+      "longitude": 126.9907,
+      "openingHours": "示例：公共区域全天开放",
+      "description": "示例影视/音乐录影带取景地：用于演示「多个独立粉丝报告 → 中等置信度」的证据结构。",
+      "imageUrl": null,
+      "tags": ["CORTIS", "MV", "取景地"],
+      "evidence": [
+        {
+          "id": "ev-demo-003-a",
+          "claim": "该地点出现在某支 MV 画面中（示例）",
+          "source": "MV 画面比对帖（示例）",
+          "sourceType": "community",
+          "url": "https://example.com/fan/thread-c",
+          "publishedAt": "2026-06-30",
+          "summary": "粉丝逐帧比对截图（演示字段）",
+          "confidence": "medium"
+        },
+        {
+          "id": "ev-demo-003-b",
+          "claim": "多平台用户发布过现场打卡照（示例）",
+          "source": "社交媒体合集（示例）",
+          "sourceType": "community",
+          "url": "https://example.com/social/collection",
+          "publishedAt": "2026-07-08",
+          "summary": "多个独立用户内容交叉印证（演示字段）",
+          "confidence": "medium"
+        }
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "demo-seoul-004",
+      "name": "示例·粉丝拍照点（Demo）",
+      "nameLocal": "포토스팟（예시）",
+      "type": "photo_spot",
+      "category": "photo_spot",
+      "interestRelated": true,
+      "address": "首尔江南区（示例坐标）",
+      "district": "江南区",
+      "latitude": 37.5013,
+      "longitude": 127.0397,
+      "openingHours": "示例：全天开放",
+      "description": "示例同款打卡点：用于演示「单一社区来源、尚未交叉验证 → 低置信度」的证据结构，行程中应降权或标注。",
+      "imageUrl": null,
+      "tags": ["CORTIS", "打卡", "照片"],
+      "evidence": [
+        {
+          "id": "ev-demo-004-a",
+          "claim": "粉丝认为某成员曾在此拍照（示例）",
+          "source": "单个社区帖子（示例）",
+          "sourceType": "community",
+          "url": "https://example.com/fan/thread-d",
+          "publishedAt": "2026-08-10",
+          "summary": "单一来源、尚未交叉验证（演示字段）",
+          "confidence": "low"
+        }
+      ],
+      "confidence": "low"
+    },
+    {
+      "id": "demo-seoul-101",
+      "name": "示例·汉江公园普通观光（Demo）",
+      "nameLocal": "한강공원（예시）",
+      "type": "sightseeing",
+      "category": "normal_sightseeing",
+      "interestRelated": false,
+      "address": "首尔永登浦区（示例坐标）",
+      "district": "永登浦区",
+      "latitude": 37.5284,
+      "longitude": 126.9333,
+      "openingHours": "示例：全天开放",
+      "description": "普通观光示例点：不关联任何艺人，用于演示「粉丝地点与普通观光混合排程」时的对照数据。",
+      "imageUrl": null,
+      "tags": ["观光", "户外"],
+      "evidence": [],
+      "confidence": null
+    }
+  ]
+}
