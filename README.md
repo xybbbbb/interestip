@@ -72,7 +72,7 @@ User names an interest and a destination (e.g. CORTIS + Seoul)
     New York · Art & Culture (different city, different interest, different data source)
 ```
 
-**Live prototype:** <https://interestip.pages.dev>
+**Live prototype:** <https://interestip.xianyubing6.workers.dev>
 
 > ⚠️ **Where the data actually stands.** Every travel time on the page comes from a real public-transit query (Transitous / MOTIS); pairs the router could not cover are marked as estimates. The **New York** vertical uses real OpenStreetMap places with a map source link on every card, real hotel names and coordinates (no prices), and marks opening hours it could not verify from a primary source as "check the official site". The **CORTIS × Seoul** vertical mixes curated fan places (each with its source and a confidence level) with official VisitSeoul sightseeing data; some fan coordinates are area/station level and still pending manual verification, and its hotels remain sample data.
 
@@ -287,7 +287,7 @@ filtering, not more tuning.
 
 **Verticals live:** CORTIS × Seoul (fandom travel) · New York · Art & Culture
 
-**Live prototype:** <https://interestip.pages.dev>
+**Live prototype:** <https://interestip.xianyubing6.workers.dev>
 
 **Edge–cloud:** on-device BGE-M3 vector retrieval + cloud (DeepSeek) generation; corpus stays local.
 
