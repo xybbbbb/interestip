@@ -1,0 +1,29 @@
+{
+  "name": "interest-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Interest Place + Evidence MCP prototype (CORTIS x Seoul demo data)",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node smoke-test.mjs",
+    "fetch:visitseoul": "node scripts/visitseoul-fetch.mjs",
+    "rag:corpus": "node scripts/build-rag-corpus.mjs",
+    "rag:search": "node scripts/rag-search.mjs",
+    "rag:play": "node scripts/rag-play.mjs",
+    "rag:eval": "node scripts/rag-eval.mjs",
+    "rag:iterations": "node scripts/rag-iterations.mjs",
+    "rag:embed": "node scripts/build-embeddings-local.mjs",
+    "rag:search:vector": "node scripts/rag-search-vector.mjs",
+    "rag:generate": "node scripts/rag-generate.mjs",
+    "rag:eval:vector": "node scripts/rag-eval-vector.mjs",
+    "photos:fetch": "node scripts/fetch-place-photos.mjs",
+    "photos:check": "node scripts/check-images.mjs",
+    "photos:apply": "node scripts/apply-local-images.mjs",
+    "agent:cases": "node scripts/agent-case-check.mjs",
+    "bench:travel": "node scripts/benchmark-travel-model.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

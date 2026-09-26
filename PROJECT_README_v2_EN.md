@@ -1,7 +1,4 @@
-# Interestip
-
-> An interest-driven travel assistant.
-
+# Interest-Driven Travel Assistant
 
 > **Turn what you love into where you go.**
 
@@ -11,7 +8,7 @@ The project started with a very personal question:
 
 > “If I'm traveling to Seoul for a CORTIS concert, why can't my itinerary also include the places they've been, the cafés they've visited, and the spots where their music videos were filmed?”
 
-The first vertical is **fandom travel**: CORTIS × Seoul. A second vertical — **New York · Art & Culture** — then swaps the city, the interest *and* the data source on purpose, to check whether the framework really generalises or only worked once. Beyond that, the same framework could apply to film locations, café trails, food journeys, sports trips, hiking routes, and more.
+The first vertical is **fandom travel**: CORTIS × Seoul. Underneath it, the project explores a broader framework of interest-driven travel that could also apply to film locations, café trails, food journeys, sports trips, hiking routes, and more.
 
 ---
 
@@ -30,7 +27,7 @@ Typical:    Destination → Places → Itinerary
 Ours:       Interest → Associated Places → Destination → Constraints & Preferences → Personalized Journey
 ```
 
-Fandom travel is just the first vertical; New York · Art & Culture is the second. The point of a second one is to test the framework when the city, the interest and the data source all change.
+Fandom travel is just the first vertical — a way to test whether this framework works.
 
 ---
 
@@ -62,15 +59,12 @@ User states their motivation (CORTIS + concert + Seoul trip)
   → Concert day automatically leaves time free after 7 PM
   → Recommends the best place to stay per day (adjustable day by day)
   → Low-confidence places can be hidden with one click and show a ⚠ warning in the plan
-  → Basic manual adjustments: drag an item to another day
-  → On-site mode: a big local-language place card plus essential phrases for a driver or shop staff
-  → The same engine and the same flow then run a second vertical:
-    New York · Art & Culture (different city, different interest, different data source)
+  → Basic manual adjustments: move an item to another day
 ```
 
 **Live prototype:** <https://xybbbbb.github.io/interest_trip/>
 
-> ⚠️ **Where the data actually stands.** Every travel time on the page comes from a real public-transit query (Transitous / MOTIS); pairs the router could not cover are marked as estimates. The **New York** vertical uses real OpenStreetMap places with a map source link on every card, real hotel names and coordinates (no prices), and marks opening hours it could not verify from a primary source as "check the official site". The **CORTIS × Seoul** vertical mixes curated fan places (each with its source and a confidence level) with official VisitSeoul sightseeing data; some fan coordinates are area/station level and still pending manual verification, and its hotels remain sample data.
+> ⚠️ Every place, piece of evidence, hotel suggestion, and route in the prototype is placeholder demo data. It exists to validate the product pipeline, not to represent verified research findings.
 
 ---
 
@@ -133,14 +127,13 @@ The project deliberately does **not** use an LLM for everything:
 - Evidence and source metadata
 - User preferences
 
-### Deterministic Systems (built — this is what actually schedules the trip)
+### Deterministic Systems (planned, not yet built)
 
-- Geographic clustering by day, so places close together land on the same day
-- Nearest-neighbour ordering + 2-opt optimisation within each day
-- Real travel times from a pre-generated transit matrix (102 Seoul pairs / 105 New York pairs, queried from Transitous/MOTIS); uncovered pairs fall back to an estimate and say so on the page
-- A **booked anchor** as a hard constraint — the concert starts at 19:00, so the day has to wind down before it; a timed museum entry at 10:30 makes the day start from that point instead
-- Opening hours, a daily pace cap, arrival/departure windows, and an overflow list for what didn't fit
-- Lodging scoring per day: total travel time, number of subway lines, and taxi distance when switching hotels
+- Distance calculation
+- Travel time
+- Route feasibility
+- Opening-hours and schedule conflict checks
+- Geographic clustering
 
 Core design principle:
 
@@ -157,14 +150,10 @@ Core design principle:
 ### Done
 
 - ✅ Standalone **interest-mcp** module (Node.js, zero third-party dependencies, MCP Streamable HTTP protocol): interest-place + evidence service. Protocol smoke tests: 7/7 passed.
-- ✅ **Two live verticals in one self-contained prototype** (a single HTML file, no build step, no dependencies): CORTIS × Seoul and New York · Art & Culture, switchable from the home page.
-- ✅ **Real transit times**: 102 Seoul + 105 New York place-to-place pairs queried from Transitous (MOTIS), 0 failures; every leg on the page is labelled real route / walk / estimate.
-- ✅ **Deterministic scheduling engine**: clustering → nearest-neighbour → 2-opt → time assignment, with anchors, pace caps and opening hours.
-- ✅ **Evidence layer**: each place carries a source link and a confidence level; low-confidence places can be hidden with one click.
-- ✅ **Build-time LLM layer**: 25 places × 2 languages of recommendation text pre-generated with DeepSeek, with confidence handling and source attribution.
-- ✅ **RAG pipeline**: 25-document corpus → BM25 behind two gates → LLM answers that must cite `[source n]` or refuse; 18-case evaluation set, 17/18 pass, citation accuracy 85% → 100% after prompt work.
-- ✅ **VisitSeoul sightseeing data imported** (14 real places with official English names); field-mapping document and fetch scripts are in `docs/` and `scripts/`.
-- ✅ Published on GitHub Pages via Actions, with the deployed file verified byte-identical to the local one.
+- ✅ CORTIS × Seoul demo dataset (places with evidence chains and high/medium/low/no confidence, all clearly marked as Demo).
+- ✅ Interactive product prototype (map-based itinerary overview, per-day toggle, lodging recommendations, evidence flags), published on GitHub Pages.
+- ✅ Prototype UX finalized; skipping Figma and large-scale UI testing to move straight to real data.
+- ✅ VisitSeoul integration plan: field-mapping document + fetch script skeleton ready, waiting for the API key.
 
 ### Architecture
 
@@ -199,17 +188,14 @@ Core design principle:
 ✅ Standalone implementation (no external app base)
 ✅ Interest place + evidence service prototype (MCP, 7/7 tests passed)
 ✅ Product UI prototype published on GitHub Pages
-✅ VisitSeoul data imported (14 real places, official English names)
-✅ Deterministic scheduling engine with real transit times (102 Seoul / 105 New York pairs)
-✅ RAG pipeline with an 18-case evaluation set (17/18)
-✅ Second vertical: New York · Art & Culture (OpenStreetMap + Transitous)
-⬜ Real-user validation — the biggest gap right now: 3–5 people running the same task
-⬜ Replace the placeholder concert venue in the CORTIS vertical with the real one
-⬜ Work through the verification queue (opening hours, fan coordinates, Korean place names)
-⬜ Vector retrieval alongside BM25 (to rescue the one failing evaluation case)
-⬜ End-to-end smoke tests in CI (the workflow currently only deploys)
+✅ VisitSeoul integration plan (field mapping + fetch script)
+⬜ Import real VisitSeoul sightseeing data (waiting for API key)
+⬜ CORTIS fan-place collection & evidence verification pipeline (first real data)
 ⬜ YouTube Data API search for official content (metadata layer)
 ⬜ Image-recognition-assisted verification (visual matching, evidence only)
+⬜ Deterministic scheduling engine (distance / travel time / opening hours / conflicts)
+⬜ Confidence-driven itinerary weighting
+⬜ Real-user validation and iteration
 ⬜ Expand to more interest verticals
 ```
 
@@ -217,15 +203,15 @@ Core design principle:
 
 ## 7. Project Status
 
-**Phase:** MVP prototype on real data → validation
+**Phase:** Product discovery → MVP prototype → real data integration
 
 **Concept:** Interest-Driven Travel Assistant
 
-**Verticals live:** CORTIS × Seoul (fandom travel) · New York · Art & Culture
+**First use case:** CORTIS × Seoul (fandom travel)
 
 **Live prototype:** <https://xybbbbb.github.io/interest_trip/>
 
-**Next steps:** run the first real-user test (3–5 people, the same task) → replace the placeholder concert venue → close the verification queue → add vector retrieval next to BM25
+**Next steps:** receive the VisitSeoul API key → import real sightseeing data → build the first verified CORTIS place → validate with real users
 
 ---
 
@@ -248,4 +234,4 @@ The project values **learning and validation over premature commercialization**.
 
 This project's own code is released under the **MIT License** — see [LICENSE](LICENSE).
 
-This is an independent learning/prototype project with no affiliation to any artist, group, or commercial product. Place data, travel times and photos are attributed to their sources; anything still pending manual verification is labelled as such on the page itself.
+This is an independent learning/prototype project with no affiliation to any artist, group, or commercial product. All places and evidence in the demo data are placeholders.
