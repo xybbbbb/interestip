@@ -54,7 +54,9 @@ A good itinerary mixes fandom-related experiences with normal sightseeing, food,
 ### Current Prototype Flow
 
 ```text
-User states their motivation (CORTIS + concert + Seoul trip)
+User names an interest and a destination (e.g. CORTIS + Seoul)
+  → Known combinations open the matching Interest Hub; unknown ones open an honest
+    "this hub is still growing" state that invents nothing and offers the contribution loop
   → System shows priorities: P0 concert → P1 related places → P2 sightseeing
   → User marks fan places “must-go / nice-to-have” and multi-selects sights (continuous selection)
   → Answers days, concert date, pace, budget, arrival/departure, lodging strategy
@@ -64,11 +66,13 @@ User states their motivation (CORTIS + concert + Seoul trip)
   → Low-confidence places can be hidden with one click and show a ⚠ warning in the plan
   → Basic manual adjustments: drag an item to another day
   → On-site mode: a big local-language place card plus essential phrases for a driver or shop staff
+  → Contributions close the loop: submit a place → pending verification → approved →
+    it enters the circle's pool with its evidence and can be scheduled into someone else's trip
   → The same engine and the same flow then run a second vertical:
     New York · Art & Culture (different city, different interest, different data source)
 ```
 
-**Live prototype:** <https://xybbbbb.github.io/interest_trip/>
+**Live prototype:** <https://interestip.pages.dev>
 
 > ⚠️ **Where the data actually stands.** Every travel time on the page comes from a real public-transit query (Transitous / MOTIS); pairs the router could not cover are marked as estimates. The **New York** vertical uses real OpenStreetMap places with a map source link on every card, real hotel names and coordinates (no prices), and marks opening hours it could not verify from a primary source as "check the official site". The **CORTIS × Seoul** vertical mixes curated fan places (each with its source and a confidence level) with official VisitSeoul sightseeing data; some fan coordinates are area/station level and still pending manual verification, and its hotels remain sample data.
 
@@ -122,8 +126,12 @@ The project deliberately does **not** use an LLM for everything:
 
 ### AI / LLM
 
-- Natural-language preference understanding
-- Information extraction and entity identification
+- **On the edge (local AI PC, Ollama + BGE-M3):** embedding the corpus, embedding the query,
+  cosine Top-K retrieval, RRF fusion with BM25, and the "is there any evidence at all?" decision.
+  The whole corpus stays on the machine and this half costs no tokens — see §5.1.
+- **In the cloud (DeepSeek):** turning the retrieved Top-K evidence into prose with `[source n]`
+  citations, and refusing when the evidence does not support an answer.
+- Natural-language preference understanding and information extraction
 - Recommendation reasoning and itinerary explanations
 - Conversational itinerary adaptation
 
@@ -164,7 +172,14 @@ Core design principle:
 - ✅ **Build-time LLM layer**: 25 places × 2 languages of recommendation text pre-generated with DeepSeek, with confidence handling and source attribution.
 - ✅ **RAG pipeline**: 25-document corpus → BM25 behind two gates → LLM answers that must cite `[source n]` or refuse; 18-case evaluation set, 17/18 pass, citation accuracy 85% → 100% after prompt work.
 - ✅ **VisitSeoul sightseeing data imported** (14 real places with official English names); field-mapping document and fetch scripts are in `docs/` and `scripts/`.
-- ✅ Published on GitHub Pages via Actions, with the deployed file verified byte-identical to the local one.
+- ✅ **Interest circle**: the place pool is presented as a circle, with every number (places / with a source / high confidence / below high confidence / source mix) **computed live from the data** — nothing hard-coded.
+- ✅ **Community submission loop** — the flywheel step that is hardest to copy: a user submits a place → it enters a **pending-verification queue** (never straight into the pool) → a reviewer approves or rejects it → only then does it become a `pool:"fan"` place, carrying its source, evidence chain and confidence into everyone else's itinerary.
+- ✅ **New-interest explorer**: two inputs (Interest + Destination). Known combinations route straight into the matching hub; unknown ones open an honest "this hub is still growing" state that **invents no places** and hands the user to the submission loop instead.
+- ✅ **Edge–cloud co-processing** (see §5.1): on-device vector retrieval (Ollama + BGE-M3, 1024-dim, corpus never leaves the machine) + cloud generation (DeepSeek), evaluated on the same 18-case set.
+- ✅ **Genuinely zero external dependencies**: Leaflet 1.9.4 is inlined into the single HTML file (images as data URIs), so the prototype makes **no requests to any CDN** — built for a mainland-China demo where `unpkg.com` is unreliable.
+- ✅ **Bilingual to the last detail**: place names, districts, opening hours, notes and the evidence UI all switch ZH/EN with no Chinese left in the English UI (asserted in the test suite).
+- ✅ **Photo pipeline with automatic attribution**: landmark photos are fetched from Wikipedia / Wikimedia Commons (the API returns the author and licence), cropped, compressed ~14× and wired into the cards; CC BY / CC BY-SA credits are written to `web-preview/assets/credits.json` and shown under each image.
+- ✅ Renamed to **Interestip** (new logo, favicon and subtitle), and the local project folder now matches the product name.
 
 ### Architecture
 
@@ -188,6 +203,48 @@ Core design principle:
 └────────────────────┘     └──────────────────────┘
 ```
 
+### 5.1 Edge–cloud co-processing (why the local PC does half the job)
+
+The retrieval half runs **on the user's own machine**; only the generation half goes to the cloud.
+Full corpus → local embeddings → local retrieval → Top-K evidence → cloud LLM. The corpus never
+leaves the machine, and when the edge finds no evidence the cloud is **never called at all**.
+
+| | Edge (local AI PC) | Cloud |
+|---|---|---|
+| Runs where | Ollama on `127.0.0.1:11434` | DeepSeek (OpenAI-compatible API) |
+| Model | BGE-M3, 1024-dim embeddings | `deepseek-chat` |
+| Responsibility | Embed corpus, embed query, cosine Top-K, RRF-fuse with BM25, decide *"is there evidence at all?"* | Turn the Top-K evidence into prose with `[source n]` citations |
+| Why here | Corpus stays local; zero token cost; works offline; millisecond latency | Generation quality and scale |
+| Data boundary | Whole corpus (25 docs) | Only the Top-K evidence (default 5) |
+
+Measured on the same 18-case evaluation set (`node scripts/rag-eval-vector.mjs`):
+
+| Mode | Retrieval hit | Top-1 | Citation precision | Refusal accuracy | Case pass |
+|---|---|---|---|---|---|
+| `bm25` keyword | 100% | 100% | 85% | **100%** | 93% |
+| `vector` (edge) | 100% | 100% | 69% | 92% | 93% |
+| `hybrid` (RRF) | 100% | 100% | 61% | 92% | 93% |
+
+**What the edge actually buys us.** Keyword search has a structural blind spot: the evaluation set's
+single failing case is the colloquial *"想找个地方吃东西"* ("just want to find somewhere to eat"),
+which BM25 answers with **zero hits**. BGE-M3 retrieves the right place immediately — and recall
+improves on three other queries too (2→4, 1→3 and 1→5 relevant documents).
+
+**What it costs, stated honestly.** Naive vector retrieval **breaks the refusal behaviour**:
+refusal accuracy fell 100% → 75%, because a dense model will always hand back *something* that
+looks similar. The threshold was therefore calibrated against the evaluation set rather than guessed:
+
+| `vectorMinScore` | Retrieval hit | Refusal accuracy | Case pass |
+|---|---|---|---|
+| 0.30 (first guess) | 100% | **75%** | 80% |
+| **0.50 (adopted)** | **100%** | **92%** | **93%** |
+| 0.55 | 89% ↓ | 83% | 87% |
+
+**A known limit we did not paper over:** the hard negative *"how do I take the train from Seoul to
+Busan?"* is still answered instead of refused at 0.50 — and pushing the threshold higher starts
+costing recall. Pure thresholding has a ceiling here; the honest next step is topic/intent
+filtering, not more tuning.
+
 ---
 
 ## 6. Roadmap
@@ -198,15 +255,22 @@ Core design principle:
 ✅ First use case: CORTIS × Seoul
 ✅ Standalone implementation (no external app base)
 ✅ Interest place + evidence service prototype (MCP, 7/7 tests passed)
-✅ Product UI prototype published on GitHub Pages
+✅ Product UI prototype published
 ✅ VisitSeoul data imported (14 real places, official English names)
 ✅ Deterministic scheduling engine with real transit times (102 Seoul / 105 New York pairs)
 ✅ RAG pipeline with an 18-case evaluation set (17/18)
 ✅ Second vertical: New York · Art & Culture (OpenStreetMap + Transitous)
+✅ Interest circle — all statistics computed live from the data
+✅ Community submission loop — submit → pending verification → approved → place pool
+✅ New-interest explorer — Interest + Destination, with an honest "not curated yet" state
+✅ Edge–cloud co-processing — on-device BGE-M3 retrieval + cloud generation, threshold calibrated on the eval set
+✅ Zero external dependencies (Leaflet inlined; the page requests no CDN)
+✅ Rebranded to Interestip (logo, favicon, bilingual copy)
+✅ Landmark photo pipeline with automatic CC attribution
 ⬜ Real-user validation — the biggest gap right now: 3–5 people running the same task
 ⬜ Replace the placeholder concert venue in the CORTIS vertical with the real one
 ⬜ Work through the verification queue (opening hours, fan coordinates, Korean place names)
-⬜ Vector retrieval alongside BM25 (to rescue the one failing evaluation case)
+⬜ Intent/topic filtering in front of vector retrieval (the remaining hard-negative case)
 ⬜ End-to-end smoke tests in CI (the workflow currently only deploys)
 ⬜ YouTube Data API search for official content (metadata layer)
 ⬜ Image-recognition-assisted verification (visual matching, evidence only)
@@ -217,15 +281,17 @@ Core design principle:
 
 ## 7. Project Status
 
-**Phase:** MVP prototype on real data → validation
+**Phase:** Working MVP on real data → validation
 
 **Concept:** Interest-Driven Travel Assistant
 
 **Verticals live:** CORTIS × Seoul (fandom travel) · New York · Art & Culture
 
-**Live prototype:** <https://xybbbbb.github.io/interest_trip/>
+**Live prototype:** <https://interestip.pages.dev>
 
-**Next steps:** run the first real-user test (3–5 people, the same task) → replace the placeholder concert venue → close the verification queue → add vector retrieval next to BM25
+**Edge–cloud:** on-device BGE-M3 vector retrieval + cloud (DeepSeek) generation; corpus stays local.
+
+**Next steps:** run the first real-user test (3–5 people, the same task) → replace the placeholder concert venue → close the verification queue → add intent filtering ahead of vector retrieval
 
 ---
 
