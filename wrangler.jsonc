@@ -1,0 +1,13 @@
+// Cloudflare Workers 部署配置
+//
+// 这个文件告诉 Cloudflare：这是一个**纯静态站点**，网站根目录是 web-preview
+// （里面是 index.html 和 assets/），不需要构建步骤、不需要 Worker 脚本。
+//
+// 部署后地址：https://interestip.<你的 workers.dev 子域名>.workers.dev
+{
+  "name": "interestip",
+  "compatibility_date": "2026-09-27",
+  "assets": {
+    "directory": "./web-preview"
+  }
+}
