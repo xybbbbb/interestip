@@ -1235,7 +1235,7 @@ footer#site-footer{max-width:var(--maxw);margin:0 auto;padding:34px 20px 46px;fo
       <span class="eyebrow" data-i18n="heroEyebrow">✦ AI travel assistant</span>
       <h1><span data-i18n="exploreTitle">What are you into, and where are you going?</span></h1>
       <p class="explore-sub" data-i18n="exploreSub">Turn what you love into where you go.</p>
-      <p class="hero-sub" data-i18n="heroSub">An AI travel assistant that plans meaningful trips around your interests — an artist, a film, a café, an outdoor route — and still leaves room for an ordinary holiday.</p>
+      <p class="hero-sub" data-i18n="heroSub">An AI travel guide built around your interests — and every recommendation links back to its source.</p>
       <div class="explore-box">
         <input id="explore-interest" type="text" autocomplete="off" data-i18n-ph="exploreInterestPh" placeholder="What are you into?" />
         <input id="explore-destination" type="text" autocomplete="off" data-i18n-ph="exploreDestinationPh" placeholder="Where are you going?" />
@@ -1265,7 +1265,7 @@ footer#site-footer{max-width:var(--maxw);margin:0 auto;padding:34px 20px 46px;fo
         <button class="cat" data-cat="hike">⛰ <span data-i18n="catHike">徒步 / 户外</span></button>
         <button class="cat" data-cat="more">＋ <span data-i18n="catMore">更多</span></button>
       </div>
-      <p class="note" id="cat-note" data-i18n="catNote">演示数据目前只有 CORTIS × Seoul 这条垂直线；其他兴趣会走同一套流程（发现 → 选点 → 生成）。</p>
+      <p class="note" id="cat-note" data-i18n="catNote">CORTIS × Seoul 是第一个整理好的兴趣圈子——每个地点都带来源和置信度。</p>
       <div id="restore-bar" style="display:none;margin-top:10px"></div>
       <div class="btn-row"><button class="ghost-btn" id="reset-btn" data-i18n="reset">重新开始</button></div>
       <div class="bubbles" id="bubbles"></div>
@@ -2106,12 +2106,12 @@ const I18N={
   ,
   navHome:"首页",navExplore:"灵感",navCreate:"创建行程",navAbout:"关于",navSearch:"搜索",navSaved:"收藏",
   heroEyebrow:"✦ AI 旅行助手",heroTitleA:"Turn what you love",heroTitleB:"into where you go.",
-  heroSub:"围绕你的兴趣来规划一趟有意义的旅行——可能是一个艺人、一部影视、一家咖啡馆，或一条户外路线；同时也给你留出普通旅行的时间。",
+    heroSub:"围绕你的兴趣来规划旅程——每条推荐都能点回它的来源。",
   intentPlaceholder:"你想为什么去旅行？",
   searchHint:"可以写一整句话，比如“我想去看演唱会，也想去他们去过的地方”",
   catFandom:"粉丝 / 演出",catFilm:"影视取景",catFood:"美食",catCafe:"咖啡馆",catHike:"徒步 / 户外",catMore:"更多",
   catFandomShort:"粉丝",catFilmShort:"影视",catHikeShort:"徒步",
-  catNote:"演示数据目前有两条垂直线：CORTIS × Seoul 与 纽约 · 艺术与文化；其他兴趣会走同一套流程（发现 → 选点 → 生成）。",
+    catNote:"CORTIS × Seoul 是第一个整理好的兴趣圈子——每个地点都带来源和置信度。",
   verticalSoon:"这条线还是方向示例，暂时不能体验。",
   heroBadgeTitle:"CORTIS × Seoul · 首个垂直线",heroBadgeText:"演唱会 + 同款地点 + 普通首尔观光，排进同一份可行行程",
   featuredTitle:"Featured Trips",featuredSub:"同一个引擎可以做很多种“为兴趣而旅行”——下面是第一个完成品和两个方向示例。",
@@ -2227,12 +2227,12 @@ const I18N={
   ,
   navHome:"Home",navExplore:"Explore",navCreate:"Create trip",navAbout:"About",navSearch:"Search",navSaved:"Saved places",
   heroEyebrow:"✦ AI travel assistant",heroTitleA:"Turn what you love",heroTitleB:"into where you go.",
-  heroSub:"An AI travel assistant that plans meaningful trips around your interests — an artist, a film, a café, an outdoor route — and still leaves room for an ordinary holiday.",
+    heroSub:"An AI travel guide built around your interests — and every recommendation links back to its source.",
   intentPlaceholder:"What are you interested in?",
   searchHint:"A full sentence works — e.g. “I'm going to a concert and want to visit the places they've been to”",
   catFandom:"Fandom & gigs",catFilm:"Film & TV",catFood:"Food",catCafe:"Café",catHike:"Hiking",catMore:"More",
   catFandomShort:"Fandom",catFilmShort:"Film & TV",catHikeShort:"Hiking",
-  catNote:"The demo covers two verticals — CORTIS × Seoul and New York · Art & Culture. Other interests run through the same flow: discover → choose → generate.",
+    catNote:"CORTIS × Seoul is the first curated interest circle — every place comes with a source and a confidence level.",
   verticalSoon:"This one is still a direction example — not playable yet.",
   heroBadgeTitle:"CORTIS × Seoul · first vertical",heroBadgeText:"Concert + member spots + ordinary Seoul sightseeing, in one feasible itinerary",
   featuredTitle:"Featured Trips",featuredSub:"The same engine works for many kinds of interest-driven travel — one live demo and two directions.",
