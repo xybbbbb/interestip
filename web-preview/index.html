@@ -1391,6 +1391,36 @@ footer#site-footer{max-width:var(--maxw);margin:0 auto;padding:34px 20px 46px;fo
       <p class="pool-sub" data-i18n="poolSightSub">来自 VisitSeoul 官方 API 的真实地点；此处精选 14 处（明洞 / 东大门 / 梨泰院 / 弘大 / 汉江夜景等），完整数据已存入项目文件。</p>
       <div class="cards" id="sight-cards"></div>
     </div>
+    <!-- >>> QA_HTML -->
+<style id="qa-css">
+.qa{margin-top:22px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px}
+.qa-head{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.qa-head h3{margin:0;font-size:16px}
+.qa-sub{flex-basis:100%;color:var(--muted);font-size:12.5px;line-height:1.55}
+.qa-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.qa-chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 13px;cursor:pointer;font-size:13px;color:var(--ink)}
+.qa-chip:hover{background:var(--brand-soft);color:var(--brand-ink)}
+.qa-chip.on{background:var(--brand-soft);border-color:rgba(107,91,246,.32);color:var(--brand-ink);font-weight:600}
+.qa-answer{margin-top:14px;border-top:1px dashed var(--line);padding-top:12px}
+.qa-question{font-size:14px;font-weight:700;color:var(--ink);margin:0 0 8px}
+.qa-text{font-size:14px;line-height:1.7;color:var(--ink);margin:0 0 8px}
+.qa-cite{color:var(--brand-ink);font-weight:700;font-size:11px;background:var(--brand-soft);border-radius:6px;padding:0 5px;margin:0 1px;white-space:nowrap}
+.qa-sources{margin-top:10px;display:grid;gap:6px}
+.qa-src{font-size:12.5px;color:var(--muted);line-height:1.55}
+.qa-src b{color:var(--ink)}
+.qa-src a{color:var(--brand-ink);word-break:break-all}
+.qa-refuse{color:var(--muted);font-size:13px}
+</style>
+<section class="qa" id="qa">
+  <div class="qa-head">
+    <span class="step-label green" data-qa-label>问一句</span>
+    <h3 data-qa-title>常见问题 · 带来源的推荐</h3>
+    <span class="qa-sub" data-qa-sub></span>
+  </div>
+  <div class="qa-chips" id="qa-chips"></div>
+  <div class="qa-answer" id="qa-answer" hidden></div>
+</section>
+<!-- <<< QA_HTML -->
     <div class="circle-cta">
       <button class="primary-btn" id="circle-cta"></button>
     </div>
@@ -3335,5 +3365,126 @@ installImageFallback();
 applyStatic();
 offerRestore();
 </script>
+<!-- >>> QA_JS -->
+<script>
+const QA = {"generatedAt":"2026-09-27T04:36:06.853Z","mode":"hybrid","model":"deepseek-chat","items":[{"id":"qa-food","q":{"zh":"想找个地方吃东西","en":"Where can I grab something to eat?"},"a":{"zh":"可以吃东西的地方有：有粉丝提到（尚未核验）oakberry巴西莓碗，西大门区，可直接和店员说要cortis同款（冰沙+花生酱+燕麦+草莓+香蕉）[来源1]；乙支路煤炭烧烤 Gochon店，位于金浦市、首尔市外，需单独安排往返[来源4]；直火匠人 龙山店，龙山区汉江大路58-1[来源5]。另外益善洞韩屋街道有韩屋改造的咖啡馆与小店聚集[来源3]。","en":"You could eat at 直火匠人 龙山店, a CORTIS-related restaurant in Yongsan-gu [来源5], or at 乙支路煤炭烧烤 Gochon店 in Gimpo, which requires separate round-trip travel outside Seoul [来源4]. For a lighter option, a fan mentioned (not yet verified) oakberry巴西莓碗 in Seodaemun-gu, where you can ask for the CORTIS-style smoothie with peanut butter, oats, strawberry and banana [来源1]."},"refused":{"zh":false,"en":false},"sources":[{"n":1,"name":"oakberry巴西莓碗","district":"西大门区","confidence":"medium","pool":"fan","label":"小红书","url":"https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5313lw=&xsec_source=pc_share"},{"n":2,"name":"二村汉江公园","district":"龙山区","confidence":"high","pool":"fan","label":"小红书","url":"https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5312lw=&xsec_source=pc_share"},{"n":3,"name":"益善洞韩屋街道","district":"钟路区","confidence":"plain","pool":"sight","label":"VisitSeoul official","url":""},{"n":4,"name":"乙支路煤炭烧烤 Gochon店","district":"金浦市","confidence":"high","pool":"fan","label":"小红书","url":"https://www.xiaohongshu.com/discovery/item/6a008d130000000036031377?source=webshare&xhsshare=pc_web&xsec_token=ABXbeyWbuHIo-I3SqM1N8bmbCmlRSbMop0YW4OgJClPJs=&xsec_source=pc_share"},{"n":5,"name":"直火匠人 龙山店","district":"龙山区","confidence":"high","pool":"fan","label":"小红书","url":"https://www.xiaohongshu.com/discovery/item/69ec9a3b0000000036032fc8?source=webshare&xhsshare=pc_web&xsec_token=AB9LKvZJTjWxpwtrEB4TyhVkK6aylTAYd7Lp8mRjjtdXc=&xsec_source=pc_share"}]},{"id":"qa-night","q":{"zh":"晚上想看汉江夜景和喷泉，去哪里？","en":"Where can I see the Han River and its fountain at night?"},"a":{"zh":"晚上看汉江夜景和喷泉，可以去盘浦大桥月光彩虹喷泉，资料称其为汉江夜景代表、热门打卡点，晚间有多场（详见官网）[来源1]。此外汝矣岛汉江公园也是汉江夜景圣地，24小时开放[来源2]。","en":"For the Han River and its fountain at night, the sources point to 盘浦大桥月光彩虹喷泉 (Banpo Bridge Moonlight Rainbow Fountain) in Seocho District, described as a representative Han River night view and popular photo spot, with multiple evening shows (see official website) [来源1]. You can also see the Han River at night at 汝矣岛汉江公园 (Yeouido Hangang Park) in Yeongdeungpo District, a Han River picnic and night-view spot open 24 hours [来源2], and at 二村汉江公园 (Ichon Hangang Park) in Yongsan District, a fan-mentioned (not yet verified) check-in spot [来源4]."},"refused":{"zh":false,"en":false},"sources":[{"n":1,"name":"盘浦大桥月光彩虹喷泉","district":"瑞草区","confidence":"plain","pool":"sight","label":"VisitSeoul official","url":""},{"n":2,"name":"汝矣岛汉江公园","district":"永登浦区","confidence":"plain","pool":"sight","label":"VisitSeoul official","url":""},{"n":3,"name":"石村湖夜景","district":"松坡区","confidence":"plain","pool":"sight","label":"VisitSeoul official","url":""},{"n":4,"name":"二村汉江公园","district":"龙山区","confidence":"high","pool":"fan","label":"小红书","url":"https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5312lw=&xsec_source=pc_share"}]},{"id":"qa-walk","q":{"zh":"想找个能拍照、散步、看夜景的地方","en":"A place to walk, take photos and see the night view"},"a":{"zh":"想拍照、散步、看夜景，可以优先考虑石村湖夜景，资料写明是乐天世界旁的湖景夜景，散步与拍照都合适，且24小时开放 [来源1]。南山首尔塔也是首尔代表夜景地标，适合看夜景 [来源5]。另外梨泰院街道适合散步逛街，但资料未特别提到夜景 [来源4]。","en":"For walking, photos and night views, the sources mention 石村湖夜景 (Seokchon Lake night view), a lakeside night scene by Lotte World good for strolling and photos, open 24 hours [来源1]. 南山首尔塔 (Namsan Seoul Tower) is described as Seoul's iconic night-view landmark, open 10:00-22:30 (weekends to 23:00) [来源5]. 梨泰院街道 (Itaewon Street) is also listed as a sightseeing spot, open all day though shops vary [来源4]."},"refused":{"zh":false,"en":false},"sources":[{"n":1,"name":"石村湖夜景","district":"松坡区","confidence":"plain","pool":"sight","label":"VisitSeoul official","url":""},{"n":2,"name":"汉南站（1号出口）","district":"龙山区","confidence":"high","pool":"fan","label":"小红书","url":"https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5312lw=&xsec_source=pc_share"},{"n":3,"name":"二村汉江公园","district":"龙山区","confidence":"high","pool":"fan","label":"小红书","url":"https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5312lw=&xsec_source=pc_share"},{"n":4,"name":"梨泰院街道","district":"龙山区","confidence":"plain","pool":"sight","label":"VisitSeoul official","url":""},{"n":5,"name":"南山首尔塔","district":"龙山区","confidence":"plain","pool":"sight","label":"VisitSeoul official","url":""}]},{"id":"qa-beauty","q":{"zh":"想逛街买美妆，去哪里？","en":"Where should I go shopping for beauty products?"},"a":{"zh":"想逛街买美妆，可以去明洞，资料里写明它是首尔最热闹的购物与美妆街区，年轻人逛街首选 [来源1]。益善洞韩屋街道和梨泰院街道虽有店铺，但资料未提到美妆 [来源2][来源3]。","en":"Myeongdong is the place to go for beauty shopping, described as Seoul's busiest shopping and beauty district and a top choice for young shoppers [来源1]. Ikseon-dong Hanok Street has small shops in renovated hanok buildings [来源2], and Itaewon Street has trendy shops along with international restaurants and bars [来源3]."},"refused":{"zh":false,"en":false},"sources":[{"n":1,"name":"明洞","district":"中区","confidence":"plain","pool":"sight","label":"VisitSeoul official","url":""},{"n":2,"name":"益善洞韩屋街道","district":"钟路区","confidence":"plain","pool":"sight","label":"VisitSeoul official","url":""},{"n":3,"name":"梨泰院街道","district":"龙山区","confidence":"plain","pool":"sight","label":"VisitSeoul official","url":""}]},{"id":"qa-bracelet","q":{"zh":"想买 CORTIS 成员同款的手串","en":"Where can I buy a CORTIS member-style bracelet?"},"a":{"zh":"想买 CORTIS 成员同款手串，可以去奉恩寺，资料写明它是成员严成玹同款手串的购买地 [来源1]。","en":"You can buy a CORTIS member-style bracelet at Bongeunsa Temple in Gangnam District, which is listed as the purchase spot for member Eom Seong-hyeon's matching bracelet [来源1]. A fan mentioned (not yet verified) the Torriden Seongsu pop-up (Factory Seongsu) in Seongdong District as a CORTIS-related spot visited by member Martin, but that event ended on 2026-08-25 [来源2]."},"refused":{"zh":false,"en":false},"sources":[{"n":1,"name":"奉恩寺","district":"江南区","confidence":"high","pool":"fan","label":"小红书","url":"https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5315lw=&xsec_source=pc_share"},{"n":2,"name":"Torriden 圣水快闪（Factory Seongsu）","district":"城东区","confidence":"medium","pool":"fan","label":"小红书","url":"https://www.xiaohongshu.com/discovery/item/6a541dfd0000000021015ccb?source=webshare&xhsshare=pc_web&xsec_token=ABRmwKsb93wbSOszmTZYD9J7t5XcjWesb7cMkhBo7aDEs=&xsec_source=pc_share"}]},{"id":"qa-birthday","q":{"zh":"成员过生日那天去的餐厅是哪家？","en":"Which restaurant did a member go to on their birthday?"},"a":{"zh":"严成玹过生日时去的餐厅是直火匠人 龙山店（직화장인 용산점），资料标注为「同款店铺」，粉丝关联地点为 CORTIS 同款 [来源1]。资料中给出的地址是龙山区 汉江大路 58-1 [来源1]。","en":"A member went to 直火匠人 龙山店 (직화장인 용산점) for their birthday, according to a fan-associated post [来源1]. The source lists it as a CORTIS same-place location in 龙山区, with the user-provided address 龙山区 汉江大路 58-1 [来源1]."},"refused":{"zh":false,"en":false},"sources":[{"n":1,"name":"直火匠人 龙山店","district":"龙山区","confidence":"high","pool":"fan","label":"小红书","url":"https://www.xiaohongshu.com/discovery/item/69ec9a3b0000000036032fc8?source=webshare&xhsshare=pc_web&xsec_token=AB9LKvZJTjWxpwtrEB4TyhVkK6aylTAYd7Lp8mRjjtdXc=&xsec_source=pc_share"}]},{"id":"qa-mv","q":{"zh":"MV 拍摄地的地铁站怎么打卡？","en":"How do I visit the subway station from the MV?"},"a":{"zh":"资料里提到的 MV 拍摄地打卡点包括新沙站（5号出口）[来源1]和汉南站（1号出口）[来源2]，均标注为拍摄地、粉丝关联地点 CORTIS 同款，其中汉南站被用户确认为“凌晨外出”拍摄地打卡点[来源2]。资料未提供具体打卡方式、营业时间或交通路线，时间以来源帖子为准[来源1][来源2]。","en":"The sources mention two subway stations as MV filming spots: 新沙站 (5号出口) in 江南区 [来源1] and 汉南站 (1号出口) in 龙山区 [来源2]. However, the sources don't specify which station the MV was filmed at or provide directions from the MV location."},"refused":{"zh":false,"en":false},"sources":[{"n":1,"name":"新沙站（5号出口）","district":"江南区","confidence":"high","pool":"fan","label":"小红书","url":"https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5316lw=&xsec_source=pc_share"},{"n":2,"name":"汉南站（1号出口）","district":"龙山区","confidence":"high","pool":"fan","label":"小红书","url":"https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5312lw=&xsec_source=pc_share"},{"n":3,"name":"首尔儿童公园","district":"广津区","confidence":"high","pool":"fan","label":"小红书","url":"https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5314lw=&xsec_source=pc_share"}]},{"id":"qa-smoothie","q":{"zh":"可以直接和店员说要 CORTIS 同款冰沙的店","en":"Where can I order a CORTIS-style smoothie?"},"a":{"zh":"有粉丝提到（尚未核验）oakberry巴西莓碗（西大门区）可以直接和店员说要CORTIS同款，即冰沙+花生酱+燕麦+草莓+香蕉 [来源1]。","en":"You can order a CORTIS-style smoothie at oakberry (acai bowl) in Seodaemun District, a fan-mentioned (not yet verified) CORTIS-related spot [来源1]. Just tell the staff you want the \"CORTIS-style\" smoothie: smoothie + peanut butter + oats + strawberry + banana [来源1]."},"refused":{"zh":false,"en":false},"sources":[{"n":1,"name":"oakberry巴西莓碗","district":"西大门区","confidence":"medium","pool":"fan","label":"小红书","url":"https://www.xiaohongshu.com/discovery/item/6a015ad60000000006031889?source=webshare&xhsshare=pc_web&xsec_token=ABohEuAW8YZZXhmHRlSj925FE0cP7PY7Il0zDgx5313lw=&xsec_source=pc_share"}]},{"id":"qa-gimpo","q":{"zh":"金浦那家烧烤店值得专门跑一趟吗？","en":"Is the BBQ restaurant in Gimpo worth a special trip?"},"a":{"zh":"资料里提到的金浦烧烤店是乙支路煤炭烧烤 Gochon店，属于 CORTIS 同款，位于金浦市、首尔市外，行程需要单独安排往返 [来源1]。资料没有写它是否值得专门跑一趟，也没有营业时间、价格等信息 [来源1]。","en":"The sources mention 乙支路煤炭烧烤 Gochon店, a BBQ place in Gimpo tied to CORTIS, and note it is outside Seoul so the trip needs to be arranged separately [来源1]. However, the sources don't say whether it's worth a special trip."},"refused":{"zh":false,"en":false},"sources":[{"n":1,"name":"乙支路煤炭烧烤 Gochon店","district":"金浦市","confidence":"high","pool":"fan","label":"小红书","url":"https://www.xiaohongshu.com/discovery/item/6a008d130000000036031377?source=webshare&xhsshare=pc_web&xsec_token=ABXbeyWbuHIo-I3SqM1N8bmbCmlRSbMop0YW4OgJClPJs=&xsec_source=pc_share"}]},{"id":"qa-hongdae","q":{"zh":"想去弘大附近逛逛","en":"What's worth a look around Hongdae?"},"a":{"zh":"可以去弘大壁画街，资料里写它是首尔的观光点，位于麻浦区，是弘大街头文化与壁画打卡地，年轻氛围浓，地址为首尔市麻浦区上水洞72-36，全天开放 [来源1]。","en":"Around Hongdae, the Hongdae Mural Street is worth a look: it's an official Seoul tourist spot in Mapo-gu known for street culture and mural photo spots with a lively young vibe [来源1]. It's open all day, at 72-36 Sangsu-dong, Mapo-gu, Seoul [来源1]."},"refused":{"zh":false,"en":false},"sources":[{"n":1,"name":"弘大壁画街","district":"麻浦区","confidence":"plain","pool":"sight","label":"VisitSeoul official","url":""}]}]};
+(function(){
+  if(typeof QA==="undefined"||!QA.items||!QA.items.length) return;
+  Object.assign(I18N.zh, {
+    qaLabel:"问一句",
+    qaTitle:"常见问题 · 带来源的推荐",
+    qaSub:"构建期用端侧向量 + BM25 混合检索、云端生成；答案里的 [来源n] 都对应到下面的来源。"
+  });
+  Object.assign(I18N.en, {
+    qaLabel:"Ask",
+    qaTitle:"Common questions · sourced recommendations",
+    qaSub:"Pre-generated: on-device vector + BM25 hybrid retrieval, cloud generation. Every [来源n] maps to a source below."
+  });
+
+  var activeQaId = null;
+
+  function qaConf(c){
+    if(c==="high") return LANG==="en" ? "high confidence" : "高置信度";
+    if(c==="medium") return LANG==="en" ? "medium · not yet verified" : "中置信度 · 未核验";
+    if(c==="low") return LANG==="en" ? "low · not yet verified" : "低置信度 · 未核验";
+    return LANG==="en" ? "official sight" : "官方观光点";
+  }
+
+  function qaSourceLabel(s){
+    if(s.label) return s.label;
+    if(s.pool==="sight") return LANG==="en" ? "VisitSeoul official" : "VisitSeoul 官方";
+    return "";
+  }
+
+  function renderQaAnswer(){
+    var box=document.getElementById("qa-answer");
+    if(!box) return;
+    if(!activeQaId){ box.hidden=true; box.innerHTML=""; return; }
+    var it=null;
+    for(var i=0;i<QA.items.length;i++){ if(QA.items[i].id===activeQaId){ it=QA.items[i]; break; } }
+    if(!it){ box.hidden=true; box.innerHTML=""; return; }
+    var refused = LANG==="en" ? it.refused.en : it.refused.zh;
+    var text = LANG==="en" ? it.a.en : it.a.zh;
+    var question = LANG==="en" ? it.q.en : it.q.zh;
+
+    if(refused){
+      box.innerHTML = '<p class="qa-question">'+esc(question)+'</p><div class="qa-refuse">'+esc(text)+'</div>';
+    } else {
+      var lines = String(text).split(/\r?\n/).filter(function(x){ return x.trim() !== ""; });
+      var paras = lines.map(function(line){
+        var html = esc(line).replace(/\[来源\s*(\d+)\]/g, '<span class="qa-cite">[来源$1]</span>');
+        return '<p class="qa-text">'+html+'</p>';
+      }).join("");
+      var order=[]; var seen={};
+      var re=/\[来源\s*(\d+)\]/g; var m;
+      while((m=re.exec(String(text)))!==null){
+        var n=Number(m[1]);
+        if(!seen[n]){ seen[n]=1; order.push(n); }
+      }
+      var srcLines = order.map(function(n){
+        var s=null;
+        for(var j=0;j<it.sources.length;j++){ if(it.sources[j].n===n){ s=it.sources[j]; break; } }
+        if(!s) return "";
+        var meta=[s.district, qaConf(s.confidence)].filter(Boolean).join(" · ");
+        var link="";
+        if(s.url){
+          var linkText = qaSourceLabel(s) || (LANG==="en" ? "source link" : "来源链接");
+          link = ' <a href="'+esc(s.url)+'" target="_blank" rel="noreferrer">'+esc(linkText)+'</a>';
+        } else if(qaSourceLabel(s)){
+          link = ' <span style="color:var(--muted)">'+esc(qaSourceLabel(s))+'</span>';
+        }
+        return '<div class="qa-src"><b>[来源'+n+']</b> '+esc(s.name)+' · '+esc(meta)+link+'</div>';
+      }).filter(Boolean).join("");
+      box.innerHTML = '<p class="qa-question">'+esc(question)+'</p>'+paras+'<div class="qa-sources">'+srcLines+'</div>';
+    }
+    box.hidden=false;
+  }
+
+  function renderQA(){
+    var box=document.getElementById("qa");
+    if(!box) return;
+    var show = state.vertical==="cortis";
+    box.style.display = show ? "" : "none";
+    if(!show) return;
+
+    var label=box.querySelector("[data-qa-label]");
+    var title=box.querySelector("[data-qa-title]");
+    var sub=box.querySelector("[data-qa-sub]");
+    if(label) label.textContent=t("qaLabel");
+    if(title) title.textContent=t("qaTitle");
+    if(sub) sub.textContent=t("qaSub");
+
+    var chips=document.getElementById("qa-chips");
+    if(!chips) return;
+    chips.innerHTML = QA.items.map(function(it){
+      var q = LANG==="en" ? it.q.en : it.q.zh;
+      var on = it.id===activeQaId ? " on" : "";
+      return '<button type="button" class="qa-chip'+on+'" data-qa="'+esc(it.id)+'">'+esc(q)+'</button>';
+    }).join("");
+
+    var nodes=chips.querySelectorAll("[data-qa]");
+    for(var i=0;i<nodes.length;i++){
+      (function(btn){
+        btn.addEventListener("click", function(){
+          var id=btn.getAttribute("data-qa");
+          activeQaId = (activeQaId===id) ? null : id;
+          renderQA();
+        });
+      })(nodes[i]);
+    }
+    renderQaAnswer();
+  }
+
+  window.renderQA = renderQA;
+
+  var _setLang = setLang;
+  setLang = function(l){ _setLang(l); renderQA(); };
+  var _setVertical = setVertical;
+  setVertical = function(id){ _setVertical(id); renderQA(); };
+
+  renderQA();
+})();
+</script>
+<!-- <<< QA_JS -->
 </body>
 </html>
