@@ -1,0 +1,272 @@
+{
+  "generatedAt": "2026-10-13T05:43:26.754Z",
+  "city": "上海",
+  "interest": "F1",
+  "note": "来源：用户提供的 Shanghai+F1 SPOTS collecting.xlsx（其中两条小红书帖子）。坐标待高德地理编码 + 人工核验。",
+  "anchor": {
+    "id": "sh-circuit",
+    "name": "上海国际赛车场",
+    "nameEn": "Shanghai International Circuit",
+    "area": "嘉定区",
+    "clue": "上海市嘉定区伊宁路2000号",
+    "date": "3/15",
+    "time": "15:00",
+    "timeNote": "正赛发车时间以官方赛程为准",
+    "lat": 31.337985,
+    "lng": 121.225004,
+    "geocode": {
+      "name": "上海国际赛车场",
+      "type": "风景名胜;风景名胜相关;旅游景点",
+      "district": "嘉定区",
+      "address": "伊宁路2199号",
+      "pt": {
+        "lng": 121.225004,
+        "lat": 31.337985
+      }
+    }
+  },
+  "spots": [
+    {
+      "no": 1,
+      "id": "sh-01",
+      "name": "汉密尔顿主题快闪",
+      "area": "",
+      "clue": "中信泰富广场",
+      "type": "快闪店",
+      "sourceLabel": "小红书",
+      "conf": "high",
+      "note": "有很多老汉周边！消费满99送一杯咖啡 可以diy各种",
+      "url": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r6YI=&xsec_source=pc_share",
+      "lat": 31.228285,
+      "lng": 121.455673,
+      "geocode": {
+        "name": "中信泰富广场",
+        "type": "购物服务;商场;购物中心",
+        "district": "静安区",
+        "address": "南京西路1168号",
+        "pt": {
+          "lng": 121.455673,
+          "lat": 31.228285
+        }
+      }
+    },
+    {
+      "no": 2,
+      "id": "sh-02",
+      "name": "奥迪原车展台",
+      "area": "",
+      "clue": "南京西路LV路易号马路对面，星巴克对面",
+      "type": "展览",
+      "sourceLabel": "小红书",
+      "conf": "high",
+      "note": "",
+      "url": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r7YI=&xsec_source=pc_share",
+      "lat": 31.231675,
+      "lng": 121.470875,
+      "geocode": {
+        "name": "星巴克(人民公园店)",
+        "type": "餐饮服务;咖啡厅;星巴克咖啡",
+        "district": "黄浦区",
+        "address": "南京西路189号(近人民广场9号出口)",
+        "pt": {
+          "lng": 121.470875,
+          "lat": 31.231675
+        }
+      }
+    },
+    {
+      "no": 3,
+      "id": "sh-03",
+      "name": "puma / 红牛快闪",
+      "area": "",
+      "clue": "南京东路",
+      "type": "快闪店",
+      "sourceLabel": "小红书",
+      "conf": "high",
+      "note": "隔壁红牛快闪，体验模拟器，换轮胎游戏。玩完送一瓶红牛",
+      "url": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r8YI=&xsec_source=pc_share",
+      "lat": 31.238742,
+      "lng": 121.488756,
+      "geocode": {
+        "name": "南京东路",
+        "type": "地名地址信息;交通地名;道路名",
+        "district": "黄浦区",
+        "address": "黄浦区",
+        "pt": {
+          "lng": 121.488756,
+          "lat": 31.238742
+        }
+      }
+    },
+    {
+      "no": 4,
+      "id": "sh-04",
+      "name": "Adidas梅奔+拉塞尔大屏",
+      "area": "",
+      "clue": "南京东路第一百货",
+      "type": "店铺",
+      "sourceLabel": "小红书",
+      "conf": "high",
+      "note": "",
+      "url": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r9YI=&xsec_source=pc_share",
+      "lat": 31.235795,
+      "lng": 121.479465,
+      "geocode": {
+        "name": "第一百货(南京东路店)",
+        "type": "购物服务;便民商店/便利店;便民商店/便利店",
+        "district": "黄浦区",
+        "address": "南京东路558号阳光商厦F2层",
+        "pt": {
+          "lng": 121.479465,
+          "lat": 31.235795
+        }
+      }
+    },
+    {
+      "no": 5,
+      "id": "sh-05",
+      "name": "F1周边店",
+      "area": "",
+      "clue": "西岸梦中心",
+      "type": "F1官方商店",
+      "sourceLabel": "小红书",
+      "conf": "high",
+      "note": "",
+      "url": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r10YI=&xsec_source=pc_share",
+      "lat": 31.160297,
+      "lng": 121.46552,
+      "geocode": {
+        "name": "西岸梦中心·梦工场",
+        "type": "体育休闲服务;娱乐场所;娱乐场所",
+        "district": "徐汇区",
+        "address": "龙腾大道2266号Gate M西岸梦中心3F层",
+        "pt": {
+          "lng": 121.46552,
+          "lat": 31.160297
+        }
+      }
+    },
+    {
+      "no": 6,
+      "id": "sh-06",
+      "name": "比美高快闪店",
+      "area": "静安区",
+      "clue": "CP静安L1中庭",
+      "type": "快闪店",
+      "sourceLabel": "小红书",
+      "conf": "high",
+      "note": "",
+      "url": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W3w=&xsec_source=pc_share",
+      "lat": 31.225586,
+      "lng": 121.446407,
+      "geocode": {
+        "name": "CP静安",
+        "type": "购物服务;商场;购物中心",
+        "district": "静安区",
+        "address": "愚园路68号(静安寺地铁站3号口附近)",
+        "pt": {
+          "lng": 121.446407,
+          "lat": 31.225586
+        }
+      }
+    },
+    {
+      "no": 7,
+      "id": "sh-07",
+      "name": "HAUS NOWHERE (含Gentle Monster)",
+      "area": "黄浦区",
+      "clue": "黄浦区淮海中路798-802号",
+      "type": "快闪店",
+      "sourceLabel": "小红书",
+      "conf": "high",
+      "note": "",
+      "url": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W4w=&xsec_source=pc_share",
+      "lat": 31.218487,
+      "lng": 121.462657,
+      "geocode": {
+        "name": "HAUS NOWHERE(上海店)",
+        "type": "购物服务;购物相关场所;购物相关场所|餐饮服务;餐饮相关场所;餐饮相关",
+        "district": "黄浦区",
+        "address": "淮海中路798-812号1-4层",
+        "pt": {
+          "lng": 121.462657,
+          "lat": 31.218487
+        }
+      }
+    },
+    {
+      "no": 8,
+      "id": "sh-08",
+      "name": "ESCALIER",
+      "area": "静安区",
+      "clue": "静安区长乐路685号-1临",
+      "type": "快闪店",
+      "sourceLabel": "小红书",
+      "conf": "high",
+      "note": "",
+      "url": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W5w=&xsec_source=pc_share",
+      "lat": 31.21623,
+      "lng": 121.449134,
+      "geocode": {
+        "name": "ESCALIER",
+        "type": "购物服务;购物相关场所;购物相关场所",
+        "district": "徐汇区",
+        "address": "长乐路685号-1(常熟路地铁站8号口步行350米)",
+        "pt": {
+          "lng": 121.449134,
+          "lat": 31.21623
+        }
+      }
+    },
+    {
+      "no": 9,
+      "id": "sh-09",
+      "name": "TROPHY MARKET",
+      "area": "静安区",
+      "clue": "静安区长乐路774号",
+      "type": "海报",
+      "sourceLabel": "小红书",
+      "conf": "high",
+      "note": "",
+      "url": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W6w=&xsec_source=pc_share",
+      "lat": 31.21675,
+      "lng": 121.450038,
+      "geocode": {
+        "name": "Trophy Market(南华新邨店)",
+        "type": "购物服务;购物相关场所;购物相关场所",
+        "district": "静安区",
+        "address": "长乐路774弄1-22号南华新邨",
+        "pt": {
+          "lng": 121.450038,
+          "lat": 31.21675
+        }
+      }
+    },
+    {
+      "no": 10,
+      "id": "sh-10",
+      "name": "COSMOS RETRO FLOWER SHOP",
+      "area": "静安区",
+      "clue": "静安区富民路247号",
+      "type": "海报",
+      "sourceLabel": "小红书",
+      "conf": "high",
+      "note": "",
+      "url": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W7w=&xsec_source=pc_share",
+      "lat": 31.218348,
+      "lng": 121.452058,
+      "geocode": {
+        "name": "Cosmos Retro Flower & Vintage",
+        "type": "购物服务;花鸟鱼虫市场;花卉市场",
+        "district": "静安区",
+        "address": "富民路247号",
+        "pt": {
+          "lng": 121.452058,
+          "lat": 31.218348
+        }
+      }
+    }
+  ],
+  "geocodedAt": "2026-10-13T05:44:53.801Z",
+  "geocodeProvider": "高德 Web 服务 API（候选坐标，需人工核验）"
+}

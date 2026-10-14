@@ -1,0 +1,3051 @@
+{
+  "id": "shanghai",
+  "label": {
+    "zh": "F1 × Shanghai",
+    "en": "F1 × Shanghai"
+  },
+  "heroEmoji": "🏎",
+  "places": [
+    {
+      "id": "sh-01",
+      "name": "汉密尔顿主题快闪",
+      "nameLocal": "",
+      "type": "ad_spot",
+      "pool": "fan",
+      "district": "静安区",
+      "lat": 31.228285,
+      "lng": 121.455673,
+      "hours": "限时快闪（已结束）",
+      "conf": "high",
+      "why": "有很多老汉周边！消费满99送一杯咖啡 可以diy各种",
+      "address": "南京西路1168号",
+      "officialUrl": "",
+      "source": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r6YI=&xsec_source=pc_share",
+      "note": "限时快闪 / 展台（2026 年 3 月赛事期间），现已结束——本条仅作示例。",
+      "evidence": [
+        {
+          "srcType": "community",
+          "src": "小红书",
+          "claim": "有很多老汉周边！消费满99送一杯咖啡 可以diy各种",
+          "date": "",
+          "url": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r6YI=&xsec_source=pc_share",
+          "summary": "有很多老汉周边！消费满99送一杯咖啡 可以diy各种",
+          "conf": "high"
+        }
+      ]
+    },
+    {
+      "id": "sh-02",
+      "name": "奥迪原车展台",
+      "nameLocal": "",
+      "type": "ad_spot",
+      "pool": "fan",
+      "district": "黄浦区",
+      "lat": 31.231675,
+      "lng": 121.470875,
+      "hours": "限时快闪（已结束）",
+      "conf": "high",
+      "why": "F1 上海站期间的活动地点（来源：小红书）。",
+      "address": "南京西路189号(近人民广场9号出口)",
+      "officialUrl": "",
+      "source": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r7YI=&xsec_source=pc_share",
+      "note": "限时快闪 / 展台（2026 年 3 月赛事期间），现已结束——本条仅作示例。",
+      "evidence": [
+        {
+          "srcType": "community",
+          "src": "小红书",
+          "claim": "用户整理的 F1 上海打卡地点：奥迪原车展台",
+          "date": "",
+          "url": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r7YI=&xsec_source=pc_share",
+          "summary": "",
+          "conf": "high"
+        }
+      ]
+    },
+    {
+      "id": "sh-03",
+      "name": "puma / 红牛快闪",
+      "nameLocal": "",
+      "type": "ad_spot",
+      "pool": "fan",
+      "district": "黄浦区",
+      "lat": 31.238742,
+      "lng": 121.488756,
+      "hours": "限时快闪（已结束）",
+      "conf": "high",
+      "why": "隔壁红牛快闪，体验模拟器，换轮胎游戏。玩完送一瓶红牛",
+      "address": "黄浦区",
+      "officialUrl": "",
+      "source": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r8YI=&xsec_source=pc_share",
+      "note": "限时快闪 / 展台（2026 年 3 月赛事期间），现已结束——本条仅作示例。",
+      "evidence": [
+        {
+          "srcType": "community",
+          "src": "小红书",
+          "claim": "隔壁红牛快闪，体验模拟器，换轮胎游戏。玩完送一瓶红牛",
+          "date": "",
+          "url": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r8YI=&xsec_source=pc_share",
+          "summary": "隔壁红牛快闪，体验模拟器，换轮胎游戏。玩完送一瓶红牛",
+          "conf": "high"
+        }
+      ]
+    },
+    {
+      "id": "sh-04",
+      "name": "Adidas梅奔+拉塞尔大屏",
+      "nameLocal": "",
+      "type": "shop",
+      "pool": "fan",
+      "district": "黄浦区",
+      "lat": 31.235795,
+      "lng": 121.479465,
+      "hours": "限时快闪（已结束）",
+      "conf": "high",
+      "why": "F1 上海站期间的活动地点（来源：小红书）。",
+      "address": "南京东路558号阳光商厦F2层",
+      "officialUrl": "",
+      "source": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r9YI=&xsec_source=pc_share",
+      "note": "限时快闪 / 展台（2026 年 3 月赛事期间），现已结束——本条仅作示例。",
+      "evidence": [
+        {
+          "srcType": "community",
+          "src": "小红书",
+          "claim": "用户整理的 F1 上海打卡地点：Adidas梅奔+拉塞尔大屏",
+          "date": "",
+          "url": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r9YI=&xsec_source=pc_share",
+          "summary": "",
+          "conf": "high"
+        }
+      ]
+    },
+    {
+      "id": "sh-05",
+      "name": "F1周边店",
+      "nameLocal": "",
+      "type": "shop",
+      "pool": "fan",
+      "district": "徐汇区",
+      "lat": 31.160297,
+      "lng": 121.46552,
+      "hours": "限时快闪（已结束）",
+      "conf": "high",
+      "why": "F1 上海站期间的活动地点（来源：小红书）。",
+      "address": "龙腾大道2266号Gate M西岸梦中心3F层",
+      "officialUrl": "",
+      "source": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r10YI=&xsec_source=pc_share",
+      "note": "限时快闪 / 展台（2026 年 3 月赛事期间），现已结束——本条仅作示例。",
+      "evidence": [
+        {
+          "srcType": "community",
+          "src": "小红书",
+          "claim": "用户整理的 F1 上海打卡地点：F1周边店",
+          "date": "",
+          "url": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r10YI=&xsec_source=pc_share",
+          "summary": "",
+          "conf": "high"
+        }
+      ]
+    },
+    {
+      "id": "sh-06",
+      "name": "比美高快闪店",
+      "nameLocal": "",
+      "type": "ad_spot",
+      "pool": "fan",
+      "district": "静安区",
+      "lat": 31.225586,
+      "lng": 121.446407,
+      "hours": "限时快闪（已结束）",
+      "conf": "high",
+      "why": "F1 上海站期间的活动地点（来源：小红书）。",
+      "address": "愚园路68号(静安寺地铁站3号口附近)",
+      "officialUrl": "",
+      "source": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W3w=&xsec_source=pc_share",
+      "note": "限时快闪 / 展台（2026 年 3 月赛事期间），现已结束——本条仅作示例。",
+      "evidence": [
+        {
+          "srcType": "community",
+          "src": "小红书",
+          "claim": "用户整理的 F1 上海打卡地点：比美高快闪店",
+          "date": "",
+          "url": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W3w=&xsec_source=pc_share",
+          "summary": "",
+          "conf": "high"
+        }
+      ]
+    },
+    {
+      "id": "sh-07",
+      "name": "HAUS NOWHERE (含Gentle Monster)",
+      "nameLocal": "",
+      "type": "ad_spot",
+      "pool": "fan",
+      "district": "黄浦区",
+      "lat": 31.218487,
+      "lng": 121.462657,
+      "hours": "限时快闪（已结束）",
+      "conf": "high",
+      "why": "F1 上海站期间的活动地点（来源：小红书）。",
+      "address": "淮海中路798-812号1-4层",
+      "officialUrl": "",
+      "source": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W4w=&xsec_source=pc_share",
+      "note": "限时快闪 / 展台（2026 年 3 月赛事期间），现已结束——本条仅作示例。",
+      "evidence": [
+        {
+          "srcType": "community",
+          "src": "小红书",
+          "claim": "用户整理的 F1 上海打卡地点：HAUS NOWHERE (含Gentle Monster)",
+          "date": "",
+          "url": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W4w=&xsec_source=pc_share",
+          "summary": "",
+          "conf": "high"
+        }
+      ]
+    },
+    {
+      "id": "sh-08",
+      "name": "ESCALIER",
+      "nameLocal": "",
+      "type": "ad_spot",
+      "pool": "fan",
+      "district": "徐汇区",
+      "lat": 31.21623,
+      "lng": 121.449134,
+      "hours": "限时快闪（已结束）",
+      "conf": "high",
+      "why": "F1 上海站期间的活动地点（来源：小红书）。",
+      "address": "长乐路685号-1(常熟路地铁站8号口步行350米)",
+      "officialUrl": "",
+      "source": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W5w=&xsec_source=pc_share",
+      "note": "限时快闪 / 展台（2026 年 3 月赛事期间），现已结束——本条仅作示例。",
+      "evidence": [
+        {
+          "srcType": "community",
+          "src": "小红书",
+          "claim": "用户整理的 F1 上海打卡地点：ESCALIER",
+          "date": "",
+          "url": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W5w=&xsec_source=pc_share",
+          "summary": "",
+          "conf": "high"
+        }
+      ]
+    },
+    {
+      "id": "sh-09",
+      "name": "TROPHY MARKET",
+      "nameLocal": "",
+      "type": "photo_spot",
+      "pool": "fan",
+      "district": "静安区",
+      "lat": 31.21675,
+      "lng": 121.450038,
+      "hours": "限时快闪（已结束）",
+      "conf": "high",
+      "why": "F1 上海站期间的活动地点（来源：小红书）。",
+      "address": "长乐路774弄1-22号南华新邨",
+      "officialUrl": "",
+      "source": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W6w=&xsec_source=pc_share",
+      "note": "限时快闪 / 展台（2026 年 3 月赛事期间），现已结束——本条仅作示例。",
+      "evidence": [
+        {
+          "srcType": "community",
+          "src": "小红书",
+          "claim": "用户整理的 F1 上海打卡地点：TROPHY MARKET",
+          "date": "",
+          "url": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W6w=&xsec_source=pc_share",
+          "summary": "",
+          "conf": "high"
+        }
+      ]
+    },
+    {
+      "id": "sh-10",
+      "name": "COSMOS RETRO FLOWER SHOP",
+      "nameLocal": "",
+      "type": "photo_spot",
+      "pool": "fan",
+      "district": "静安区",
+      "lat": 31.218348,
+      "lng": 121.452058,
+      "hours": "限时快闪（已结束）",
+      "conf": "high",
+      "why": "F1 上海站期间的活动地点（来源：小红书）。",
+      "address": "富民路247号",
+      "officialUrl": "",
+      "source": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W7w=&xsec_source=pc_share",
+      "note": "限时快闪 / 展台（2026 年 3 月赛事期间），现已结束——本条仅作示例。",
+      "evidence": [
+        {
+          "srcType": "community",
+          "src": "小红书",
+          "claim": "用户整理的 F1 上海打卡地点：COSMOS RETRO FLOWER SHOP",
+          "date": "",
+          "url": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W7w=&xsec_source=pc_share",
+          "summary": "",
+          "conf": "high"
+        }
+      ]
+    },
+    {
+      "id": "sh-circuit",
+      "name": "上海国际赛车场",
+      "nameLocal": "Shanghai International Circuit",
+      "type": "venue",
+      "pool": "fan",
+      "district": "嘉定区",
+      "lat": 31.337985,
+      "lng": 121.225004,
+      "hours": "比赛日按赛程开放（示例）",
+      "conf": "high",
+      "why": "F1 中国大奖赛举办地；3/15 正赛观赛（P0 锚点，当天围着它排）。",
+      "address": "上海市嘉定区伊宁路2000号",
+      "officialUrl": "https://www.shanghai-international-circuit.com/",
+      "source": "高德地图（上海国际赛车场）",
+      "note": "2026 年 3 月赛事已结束；本条仅作示例。",
+      "evidence": []
+    },
+    {
+      "id": "sh-bund",
+      "name": "外滩",
+      "nameLocal": "The Bund",
+      "type": "sightseeing",
+      "pool": "sight",
+      "district": "黄浦区",
+      "lat": 31.233516,
+      "lng": 121.492127,
+      "hours": "全天开放",
+      "conf": null,
+      "why": "上海最经典的城市天际线步道：一边是外滩万国建筑群，一边是陆家嘴（来源：高德地图）。",
+      "address": "中山东一路",
+      "officialUrl": "",
+      "source": "https://lbs.amap.com/",
+      "note": "",
+      "evidence": [
+        {
+          "srcType": "map",
+          "src": "Amap (Gaode) POI",
+          "claim": "Name, coordinates and address come from Amap POI search",
+          "date": "",
+          "url": "https://lbs.amap.com/",
+          "summary": "Candidate place data from an open map service; verify before relying on it.",
+          "conf": null
+        }
+      ]
+    },
+    {
+      "id": "sh-yuyuan",
+      "name": "豫园",
+      "nameLocal": "Yu Garden",
+      "type": "sightseeing",
+      "pool": "sight",
+      "district": "黄浦区",
+      "lat": 31.227714,
+      "lng": 121.492497,
+      "hours": "开放时间以官方为准",
+      "conf": null,
+      "why": "明代古典园林与老城隍庙商圈，上海最典型的“老城”一景（来源：高德地图）。",
+      "address": "福佑路168号",
+      "officialUrl": "",
+      "source": "https://lbs.amap.com/",
+      "note": "",
+      "evidence": [
+        {
+          "srcType": "map",
+          "src": "Amap (Gaode) POI",
+          "claim": "Name, coordinates and address come from Amap POI search",
+          "date": "",
+          "url": "https://lbs.amap.com/",
+          "summary": "Candidate place data from an open map service; verify before relying on it.",
+          "conf": null
+        }
+      ]
+    },
+    {
+      "id": "sh-pearl",
+      "name": "东方明珠",
+      "nameLocal": "Oriental Pearl Tower",
+      "type": "sightseeing",
+      "pool": "sight",
+      "district": "浦东新区",
+      "lat": 31.239703,
+      "lng": 121.499718,
+      "hours": "开放时间以官方为准",
+      "conf": null,
+      "why": "陆家嘴地标电视塔，有玻璃观光廊，是看浦江两岸最直接的位置（来源：高德地图）。",
+      "address": "世纪大道1号(陆家嘴地铁站1号入口步行220米)",
+      "officialUrl": "",
+      "source": "https://lbs.amap.com/",
+      "note": "",
+      "evidence": [
+        {
+          "srcType": "map",
+          "src": "Amap (Gaode) POI",
+          "claim": "Name, coordinates and address come from Amap POI search",
+          "date": "",
+          "url": "https://lbs.amap.com/",
+          "summary": "Candidate place data from an open map service; verify before relying on it.",
+          "conf": null
+        }
+      ]
+    },
+    {
+      "id": "sh-museum",
+      "name": "上海博物馆",
+      "nameLocal": "Shanghai Museum",
+      "type": "sightseeing",
+      "pool": "sight",
+      "district": "黄浦区",
+      "lat": 31.228231,
+      "lng": 121.47548,
+      "hours": "开放时间以官方为准",
+      "conf": null,
+      "why": "人民广场上的中国古代艺术博物馆，青铜与书画馆藏最有名（来源：高德地图）。",
+      "address": "人民大道201号",
+      "officialUrl": "",
+      "source": "https://lbs.amap.com/",
+      "note": "",
+      "evidence": [
+        {
+          "srcType": "map",
+          "src": "Amap (Gaode) POI",
+          "claim": "Name, coordinates and address come from Amap POI search",
+          "date": "",
+          "url": "https://lbs.amap.com/",
+          "summary": "Candidate place data from an open map service; verify before relying on it.",
+          "conf": null
+        }
+      ]
+    },
+    {
+      "id": "sh-xintiandi",
+      "name": "新天地",
+      "nameLocal": "Xintiandi",
+      "type": "sightseeing",
+      "pool": "sight",
+      "district": "黄浦区",
+      "lat": 31.220484,
+      "lng": 121.474465,
+      "hours": "街区全天开放",
+      "conf": null,
+      "why": "石库门里弄改造的餐饮与街区，逛街和吃饭顺路（来源：高德地图）。",
+      "address": "太仓路181弄6-15号",
+      "officialUrl": "",
+      "source": "https://lbs.amap.com/",
+      "note": "",
+      "evidence": [
+        {
+          "srcType": "map",
+          "src": "Amap (Gaode) POI",
+          "claim": "Name, coordinates and address come from Amap POI search",
+          "date": "",
+          "url": "https://lbs.amap.com/",
+          "summary": "Candidate place data from an open map service; verify before relying on it.",
+          "conf": null
+        }
+      ]
+    },
+    {
+      "id": "sh-wukang",
+      "name": "武康大楼",
+      "nameLocal": "Wukang Mansion",
+      "type": "sightseeing",
+      "pool": "sight",
+      "district": "徐汇区",
+      "lat": 31.20443,
+      "lng": 121.438278,
+      "hours": "外观全天可看",
+      "conf": null,
+      "why": "1924 年的船型公寓，武康路口最出片的一角，法租界散步线的起点（来源：高德地图）。",
+      "address": "淮海中路1850号",
+      "officialUrl": "",
+      "source": "https://lbs.amap.com/",
+      "note": "",
+      "evidence": [
+        {
+          "srcType": "map",
+          "src": "Amap (Gaode) POI",
+          "claim": "Name, coordinates and address come from Amap POI search",
+          "date": "",
+          "url": "https://lbs.amap.com/",
+          "summary": "Candidate place data from an open map service; verify before relying on it.",
+          "conf": null
+        }
+      ]
+    },
+    {
+      "id": "sh-nanjingrd",
+      "name": "南京路步行街",
+      "nameLocal": "Nanjing Road Pedestrian Street",
+      "type": "sightseeing",
+      "pool": "sight",
+      "district": "黄浦区",
+      "lat": 31.235983,
+      "lng": 121.479494,
+      "hours": "街区全天开放",
+      "conf": null,
+      "why": "人民广场到外滩之间的老牌商业步行街，逛街吃饭都顺路（来源：高德地图）。",
+      "address": "南京东路558号",
+      "officialUrl": "",
+      "source": "https://lbs.amap.com/",
+      "note": "",
+      "evidence": [
+        {
+          "srcType": "map",
+          "src": "Amap (Gaode) POI",
+          "claim": "Name, coordinates and address come from Amap POI search",
+          "date": "",
+          "url": "https://lbs.amap.com/",
+          "summary": "Candidate place data from an open map service; verify before relying on it.",
+          "conf": null
+        }
+      ]
+    },
+    {
+      "id": "sh-jingantemple",
+      "name": "静安寺",
+      "nameLocal": "Jing'an Temple",
+      "type": "sightseeing",
+      "pool": "sight",
+      "district": "静安区",
+      "lat": 31.223505,
+      "lng": 121.44532,
+      "hours": "开放时间以官方为准",
+      "conf": null,
+      "why": "金顶佛寺夹在静安商圈高楼之间，闹中取静的一站（来源：高德地图）。",
+      "address": "南京西路1686号",
+      "officialUrl": "",
+      "source": "https://lbs.amap.com/",
+      "note": "",
+      "evidence": [
+        {
+          "srcType": "map",
+          "src": "Amap (Gaode) POI",
+          "claim": "Name, coordinates and address come from Amap POI search",
+          "date": "",
+          "url": "https://lbs.amap.com/",
+          "summary": "Candidate place data from an open map service; verify before relying on it.",
+          "conf": null
+        }
+      ]
+    },
+    {
+      "id": "sh-tower",
+      "name": "上海中心大厦",
+      "nameLocal": "Shanghai Tower",
+      "type": "sightseeing",
+      "pool": "sight",
+      "district": "浦东新区",
+      "lat": 31.23351,
+      "lng": 121.505366,
+      "hours": "开放时间以官方为准",
+      "conf": null,
+      "why": "中国最高楼，118 层观光厅可以俯瞰整个陆家嘴与浦江（来源：高德地图）。",
+      "address": "银城中路501号",
+      "officialUrl": "",
+      "source": "https://lbs.amap.com/",
+      "note": "",
+      "evidence": [
+        {
+          "srcType": "map",
+          "src": "Amap (Gaode) POI",
+          "claim": "Name, coordinates and address come from Amap POI search",
+          "date": "",
+          "url": "https://lbs.amap.com/",
+          "summary": "Candidate place data from an open map service; verify before relying on it.",
+          "conf": null
+        }
+      ]
+    },
+    {
+      "id": "sh-tianzifang",
+      "name": "田子坊",
+      "nameLocal": "Tianzifang",
+      "type": "sightseeing",
+      "pool": "sight",
+      "district": "黄浦区",
+      "lat": 31.208197,
+      "lng": 121.468662,
+      "hours": "街区全天开放",
+      "conf": null,
+      "why": "石库门里弄里的小店、工作室与咖啡馆，适合傍晚慢慢逛（来源：高德地图）。",
+      "address": "泰康路210号(打浦桥地铁站1号口旁)",
+      "officialUrl": "",
+      "source": "https://lbs.amap.com/",
+      "note": "",
+      "evidence": [
+        {
+          "srcType": "map",
+          "src": "Amap (Gaode) POI",
+          "claim": "Name, coordinates and address come from Amap POI search",
+          "date": "",
+          "url": "https://lbs.amap.com/",
+          "summary": "Candidate place data from an open map service; verify before relying on it.",
+          "conf": null
+        }
+      ]
+    }
+  ],
+  "stays": [],
+  "enPlaces": {
+    "sh-01": "Hamilton-themed pop-up",
+    "sh-02": "Audi show-car display",
+    "sh-03": "PUMA / Red Bull pop-up",
+    "sh-04": "Adidas Mercedes-AMG and Russell screen",
+    "sh-05": "F1 official merchandise store",
+    "sh-06": "Bburago pop-up store",
+    "sh-07": "HAUS NOWHERE (incl. Gentle Monster)",
+    "sh-08": "ESCALIER",
+    "sh-09": "TROPHY MARKET",
+    "sh-10": "COSMOS RETRO FLOWER SHOP",
+    "sh-circuit": "Shanghai International Circuit",
+    "sh-bund": "The Bund",
+    "sh-yuyuan": "Yu Garden",
+    "sh-pearl": "Oriental Pearl Tower",
+    "sh-museum": "Shanghai Museum",
+    "sh-xintiandi": "Xintiandi",
+    "sh-wukang": "Wukang Mansion",
+    "sh-nanjingrd": "Nanjing Road Pedestrian Street",
+    "sh-jingantemple": "Jing'an Temple",
+    "sh-tower": "Shanghai Tower",
+    "sh-tianzifang": "Tianzifang"
+  },
+  "enDetails": {
+    "sh-01": {
+      "why": "A Lewis Hamilton-themed pop-up with a wide range of merchandise: spend ¥99 to receive a complimentary coffee, and there are do-it-yourself activities.",
+      "hours": "Limited-time pop-up (now over)",
+      "address": "CITIC Square, 1168 Nanjing West Road, Jing'an District"
+    },
+    "sh-02": {
+      "why": "An Audi show-car display on Nanjing West Road, opposite the Louis Vuitton “Louis” store and facing the Starbucks.",
+      "hours": "Limited-time display (now over)",
+      "address": "Nanjing West Road (opposite the Louis Vuitton “Louis” store), Huangpu District"
+    },
+    "sh-03": {
+      "why": "A PUMA pop-up next to the Red Bull one on Nanjing East Road, with racing simulators and a tyre-change game; finish the game and receive a free Red Bull.",
+      "hours": "Limited-time pop-up (now over)",
+      "address": "Nanjing East Road, Huangpu District"
+    },
+    "sh-04": {
+      "why": "An Adidas Mercedes-AMG activation with a large George Russell screen at the No.1 Department Store on Nanjing East Road.",
+      "hours": "Limited-time activation (now over)",
+      "address": "No.1 Department Store, Nanjing East Road, Huangpu District"
+    },
+    "sh-05": {
+      "why": "The official Formula 1 merchandise store at West Bund Dream Center.",
+      "hours": "Event-period store (now over)",
+      "address": "West Bund Dream Center, Xuhui District"
+    },
+    "sh-06": {
+      "why": "A Bburago die-cast model pop-up in the L1 atrium of CP Jing'an, Jing'an District.",
+      "hours": "Limited-time pop-up (now over)",
+      "address": "CP Jing'an L1 atrium, Jing'an District"
+    },
+    "sh-07": {
+      "why": "HAUS NOWHERE at 798–802 Huaihai Middle Road, a retail concept space that includes Gentle Monster.",
+      "hours": "Limited-time pop-up (now over)",
+      "address": "798–802 Huaihai Middle Road, Huangpu District"
+    },
+    "sh-08": {
+      "why": "ESCALIER at 685-1 Changle Road, Xuhui District — an F1 race-week installation.",
+      "hours": "Limited-time installation (now over)",
+      "address": "685-1 Changle Road, Xuhui District"
+    },
+    "sh-09": {
+      "why": "A TROPHY MARKET poster installation at 774 Changle Road, Jing'an District.",
+      "hours": "Limited-time installation (now over)",
+      "address": "774 Changle Road, Jing'an District"
+    },
+    "sh-10": {
+      "why": "A COSMOS RETRO FLOWER SHOP poster installation at 247 Fumin Road, Jing'an District.",
+      "hours": "Limited-time installation (now over)",
+      "address": "247 Fumin Road, Jing'an District"
+    },
+    "sh-circuit": {
+      "why": "Home of the Formula 1 Chinese Grand Prix. The 15 March race is the P0 anchor, and the rest of the day is arranged around it.",
+      "hours": "Open per the race schedule on event days",
+      "address": "2000 Yining Road, Jiading District"
+    },
+    "sh-bund": {
+      "why": "Shanghai's classic waterfront promenade: the colonial-era Bund buildings on one side, the Lujiazui skyline on the other.",
+      "hours": "Open all day",
+      "address": "Zhongshan East 1st Road, Huangpu District"
+    },
+    "sh-yuyuan": {
+      "why": "A Ming-dynasty classical garden and the surrounding old-city bazaar.",
+      "hours": "Check the official site",
+      "address": "168 Fuyou Road, Huangpu District"
+    },
+    "sh-pearl": {
+      "why": "The landmark TV tower in Lujiazui, with a glass sightseeing deck over the Huangpu River.",
+      "hours": "Check the official site",
+      "address": "1 Century Avenue, Pudong New Area"
+    },
+    "sh-museum": {
+      "why": "The city's main museum of ancient Chinese art on People's Square, best known for bronzes and painting.",
+      "hours": "Check the official site",
+      "address": "201 Renmin Avenue, Huangpu District"
+    },
+    "sh-xintiandi": {
+      "why": "Restored shikumen lanes turned into a dining and shopping district.",
+      "hours": "Open all day",
+      "address": "Lane 181, Taicang Road, Huangpu District"
+    },
+    "sh-wukang": {
+      "why": "The 1924 flat-iron apartment block at Wukang Road — the most photographed corner of the former French Concession.",
+      "hours": "Visible all day",
+      "address": "1850 Huaihai Middle Road, Xuhui District"
+    },
+    "sh-nanjingrd": {
+      "why": "China's best-known shopping street, running from People's Square down to the Bund.",
+      "hours": "Open all day",
+      "address": "558 Nanjing East Road, Huangpu District"
+    },
+    "sh-jingantemple": {
+      "why": "A gold-roofed Buddhist temple standing in the middle of the Jing'an business district.",
+      "hours": "Check the official site",
+      "address": "1686 Nanjing West Road, Jing'an District"
+    },
+    "sh-tower": {
+      "why": "China's tallest building, with the Top of Shanghai observation deck on the 118th floor.",
+      "hours": "Check the official site",
+      "address": "501 Yincheng Middle Road, Pudong New Area"
+    },
+    "sh-tianzifang": {
+      "why": "A warren of shikumen lanes packed with small studios, shops and cafés.",
+      "hours": "Open all day",
+      "address": "210 Taikang Road, Huangpu District"
+    }
+  },
+  "enStays": {},
+  "images": {
+    "sh-01": "assets/places/sh-01.jpg",
+    "sh-02": "assets/places/sh-02.jpg",
+    "sh-03": "assets/places/sh-03.jpg",
+    "sh-04": "assets/places/sh-04.jpg",
+    "sh-05": "assets/places/sh-05.jpg",
+    "sh-07": "assets/places/sh-07.jpg",
+    "sh-08": "assets/places/sh-08.jpg",
+    "sh-09": "assets/places/sh-09.jpg",
+    "sh-10": "assets/places/sh-10.jpg",
+    "sh-circuit": "assets/places/sh-circuit.jpg",
+    "sh-bund": "assets/places/sh-bund.jpg",
+    "sh-yuyuan": "assets/places/sh-yuyuan.jpg",
+    "sh-pearl": "assets/places/sh-pearl.jpg",
+    "sh-museum": "assets/places/sh-museum.jpg",
+    "sh-xintiandi": "assets/places/sh-xintiandi.jpg",
+    "sh-wukang": "assets/places/sh-wukang.jpg",
+    "sh-nanjingrd": "assets/places/sh-nanjingrd.jpg",
+    "sh-jingantemple": "assets/places/sh-jingantemple.jpg",
+    "sh-tower": "assets/places/sh-tower.jpg",
+    "sh-tianzifang": "assets/places/sh-tianzifang.jpg"
+  },
+  "transit": {
+    "generatedAt": "2026-10-13T05:48:04.259Z",
+    "queryTime": "2026-10-13T05:48:04.260Z",
+    "city": "上海",
+    "source": "高德地图 Web 服务 API（公交路径规划 /v3/direction/transit/integrated）",
+    "sourceUrl": "https://lbs.amap.com/api/webservice/guide/api/direction",
+    "note": "耗时来自高德公交路径规划；按规划时刻的推荐方案，个别线路可能有偏差。",
+    "pairs": {
+      "sh-01|sh-02": {
+        "ok": true,
+        "minutes": 23,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-03": {
+        "ok": true,
+        "minutes": 30,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-04": {
+        "ok": true,
+        "minutes": 27,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-05": {
+        "ok": true,
+        "minutes": 53,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-06": {
+        "ok": true,
+        "minutes": 23,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-07": {
+        "ok": true,
+        "minutes": 29,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁12号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-08": {
+        "ok": true,
+        "minutes": 35,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁7号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-09": {
+        "ok": true,
+        "minutes": 35,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁12号线",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-10": {
+        "ok": true,
+        "minutes": 34,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-circuit": {
+        "ok": true,
+        "minutes": 93,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-03": {
+        "ok": true,
+        "minutes": 23,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-04": {
+        "ok": true,
+        "minutes": 20,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-05": {
+        "ok": true,
+        "minutes": 50,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-06": {
+        "ok": true,
+        "minutes": 21,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-07": {
+        "ok": true,
+        "minutes": 27,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-08": {
+        "ok": true,
+        "minutes": 31,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-09": {
+        "ok": true,
+        "minutes": 31,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-10": {
+        "ok": true,
+        "minutes": 31,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-circuit": {
+        "ok": true,
+        "minutes": 90,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-03|sh-04": {
+        "ok": true,
+        "minutes": 25,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "37路",
+          "WALK"
+        ]
+      },
+      "sh-03|sh-05": {
+        "ok": true,
+        "minutes": 55,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-03|sh-06": {
+        "ok": true,
+        "minutes": 29,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-03|sh-07": {
+        "ok": true,
+        "minutes": 33,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "地铁13号线",
+          "WALK"
+        ]
+      },
+      "sh-03|sh-08": {
+        "ok": true,
+        "minutes": 42,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-03|sh-09": {
+        "ok": true,
+        "minutes": 41,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "WALK"
+        ]
+      },
+      "sh-03|sh-10": {
+        "ok": true,
+        "minutes": 39,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-03|sh-circuit": {
+        "ok": true,
+        "minutes": 98,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-04|sh-05": {
+        "ok": true,
+        "minutes": 55,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-04|sh-06": {
+        "ok": true,
+        "minutes": 26,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-04|sh-07": {
+        "ok": true,
+        "minutes": 29,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-04|sh-08": {
+        "ok": true,
+        "minutes": 33,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-04|sh-09": {
+        "ok": true,
+        "minutes": 33,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-04|sh-10": {
+        "ok": true,
+        "minutes": 36,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-04|sh-circuit": {
+        "ok": true,
+        "minutes": 95,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-05|sh-06": {
+        "ok": true,
+        "minutes": 48,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁11号线",
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-05|sh-07": {
+        "ok": true,
+        "minutes": 46,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁11号线",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-05|sh-08": {
+        "ok": true,
+        "minutes": 46,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁11号线",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-05|sh-09": {
+        "ok": true,
+        "minutes": 46,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁11号线",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-05|sh-10": {
+        "ok": true,
+        "minutes": 51,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁11号线",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-05|sh-circuit": {
+        "ok": true,
+        "minutes": 97,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-06|sh-07": {
+        "ok": true,
+        "minutes": 29,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁7号线",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-06|sh-08": {
+        "ok": true,
+        "minutes": 27,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁7号线",
+          "WALK"
+        ]
+      },
+      "sh-06|sh-09": {
+        "ok": true,
+        "minutes": 27,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁7号线",
+          "WALK"
+        ]
+      },
+      "sh-06|sh-10": {
+        "ok": true,
+        "minutes": 45,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "94路",
+          "WALK"
+        ]
+      },
+      "sh-06|sh-circuit": {
+        "ok": true,
+        "minutes": 87,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-07|sh-08": {
+        "ok": true,
+        "minutes": 18,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-07|sh-09": {
+        "ok": true,
+        "minutes": 18,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-07|sh-10": {
+        "ok": true,
+        "minutes": 23,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-07|sh-circuit": {
+        "ok": true,
+        "minutes": 94,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁13号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-08|sh-09": {
+        "ok": true,
+        "minutes": 3,
+        "transfers": 0,
+        "mode": "walk-estimate",
+        "modes": [
+          "WALK"
+        ]
+      },
+      "sh-08|sh-10": {
+        "ok": true,
+        "minutes": 32,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "26路",
+          "WALK"
+        ]
+      },
+      "sh-08|sh-circuit": {
+        "ok": true,
+        "minutes": 93,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-09|sh-10": {
+        "ok": true,
+        "minutes": 3,
+        "transfers": 0,
+        "mode": "walk-estimate",
+        "modes": [
+          "WALK"
+        ]
+      },
+      "sh-09|sh-circuit": {
+        "ok": true,
+        "minutes": 97,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-10|sh-circuit": {
+        "ok": true,
+        "minutes": 98,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-bund": {
+        "ok": true,
+        "minutes": 43,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-bund": {
+        "ok": true,
+        "minutes": 28,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "71路",
+          "WALK"
+        ]
+      },
+      "sh-03|sh-bund": {
+        "ok": true,
+        "minutes": 35,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "868路",
+          "37路",
+          "WALK"
+        ]
+      },
+      "sh-04|sh-bund": {
+        "ok": true,
+        "minutes": 33,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "20路",
+          "WALK"
+        ]
+      },
+      "sh-05|sh-bund": {
+        "ok": true,
+        "minutes": 62,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-06|sh-bund": {
+        "ok": true,
+        "minutes": 35,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "71路",
+          "WALK"
+        ]
+      },
+      "sh-07|sh-bund": {
+        "ok": true,
+        "minutes": 37,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-08|sh-bund": {
+        "ok": true,
+        "minutes": 43,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "71路",
+          "WALK"
+        ]
+      },
+      "sh-09|sh-bund": {
+        "ok": true,
+        "minutes": 41,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-10|sh-bund": {
+        "ok": true,
+        "minutes": 36,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "71路",
+          "WALK"
+        ]
+      },
+      "sh-bund|sh-circuit": {
+        "ok": true,
+        "minutes": 101,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-bund|sh-yuyuan": {
+        "ok": true,
+        "minutes": 26,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "33路",
+          "WALK"
+        ]
+      },
+      "sh-bund|sh-pearl": {
+        "ok": true,
+        "minutes": 43,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-bund|sh-museum": {
+        "ok": true,
+        "minutes": 21,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "71路",
+          "WALK"
+        ]
+      },
+      "sh-bund|sh-xintiandi": {
+        "ok": true,
+        "minutes": 36,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-bund|sh-wukang": {
+        "ok": true,
+        "minutes": 44,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-yuyuan": {
+        "ok": true,
+        "minutes": 43,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-yuyuan": {
+        "ok": true,
+        "minutes": 36,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-03|sh-yuyuan": {
+        "ok": true,
+        "minutes": 31,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "WALK"
+        ]
+      },
+      "sh-04|sh-yuyuan": {
+        "ok": true,
+        "minutes": 33,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "WALK"
+        ]
+      },
+      "sh-05|sh-yuyuan": {
+        "ok": true,
+        "minutes": 57,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-06|sh-yuyuan": {
+        "ok": true,
+        "minutes": 35,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-07|sh-yuyuan": {
+        "ok": true,
+        "minutes": 32,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-08|sh-yuyuan": {
+        "ok": true,
+        "minutes": 37,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-09|sh-yuyuan": {
+        "ok": true,
+        "minutes": 36,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-10|sh-yuyuan": {
+        "ok": true,
+        "minutes": 42,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-circuit|sh-yuyuan": {
+        "ok": true,
+        "minutes": 96,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-pearl|sh-yuyuan": {
+        "ok": true,
+        "minutes": 42,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-museum|sh-yuyuan": {
+        "ok": true,
+        "minutes": 31,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-xintiandi|sh-yuyuan": {
+        "ok": true,
+        "minutes": 31,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-wukang|sh-yuyuan": {
+        "ok": true,
+        "minutes": 38,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-pearl": {
+        "ok": true,
+        "minutes": 37,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-pearl": {
+        "ok": true,
+        "minutes": 30,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-03|sh-pearl": {
+        "ok": true,
+        "minutes": 32,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-04|sh-pearl": {
+        "ok": true,
+        "minutes": 29,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-05|sh-pearl": {
+        "ok": true,
+        "minutes": 64,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-06|sh-pearl": {
+        "ok": true,
+        "minutes": 35,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-07|sh-pearl": {
+        "ok": true,
+        "minutes": 43,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-08|sh-pearl": {
+        "ok": true,
+        "minutes": 48,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-09|sh-pearl": {
+        "ok": true,
+        "minutes": 47,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-10|sh-pearl": {
+        "ok": true,
+        "minutes": 45,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-circuit|sh-pearl": {
+        "ok": true,
+        "minutes": 104,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-museum|sh-pearl": {
+        "ok": true,
+        "minutes": 42,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-pearl|sh-xintiandi": {
+        "ok": true,
+        "minutes": 44,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-pearl|sh-wukang": {
+        "ok": true,
+        "minutes": 50,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-museum": {
+        "ok": true,
+        "minutes": 35,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-museum": {
+        "ok": true,
+        "minutes": 16,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "454路",
+          "WALK"
+        ]
+      },
+      "sh-03|sh-museum": {
+        "ok": true,
+        "minutes": 35,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-04|sh-museum": {
+        "ok": true,
+        "minutes": 28,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "451路",
+          "WALK"
+        ]
+      },
+      "sh-05|sh-museum": {
+        "ok": true,
+        "minutes": 55,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁8号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-06|sh-museum": {
+        "ok": true,
+        "minutes": 33,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-07|sh-museum": {
+        "ok": true,
+        "minutes": 25,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-08|sh-museum": {
+        "ok": true,
+        "minutes": 29,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-09|sh-museum": {
+        "ok": true,
+        "minutes": 29,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-10|sh-museum": {
+        "ok": true,
+        "minutes": 30,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "71路",
+          "WALK"
+        ]
+      },
+      "sh-circuit|sh-museum": {
+        "ok": true,
+        "minutes": 96,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-museum|sh-xintiandi": {
+        "ok": true,
+        "minutes": 32,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "451路",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-museum|sh-wukang": {
+        "ok": true,
+        "minutes": 43,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁8号线",
+          "地铁10号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-xintiandi": {
+        "ok": true,
+        "minutes": 34,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-xintiandi": {
+        "ok": true,
+        "minutes": 24,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "805路/805路旅游观光环线",
+          "WALK"
+        ]
+      },
+      "sh-03|sh-xintiandi": {
+        "ok": true,
+        "minutes": 31,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "WALK"
+        ]
+      },
+      "sh-04|sh-xintiandi": {
+        "ok": true,
+        "minutes": 30,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-05|sh-xintiandi": {
+        "ok": true,
+        "minutes": 48,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-06|sh-xintiandi": {
+        "ok": true,
+        "minutes": 34,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-07|sh-xintiandi": {
+        "ok": true,
+        "minutes": 19,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-08|sh-xintiandi": {
+        "ok": true,
+        "minutes": 23,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-09|sh-xintiandi": {
+        "ok": true,
+        "minutes": 23,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-10|sh-xintiandi": {
+        "ok": true,
+        "minutes": 28,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-circuit|sh-xintiandi": {
+        "ok": true,
+        "minutes": 95,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-wukang|sh-xintiandi": {
+        "ok": true,
+        "minutes": 30,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-wukang": {
+        "ok": true,
+        "minutes": 40,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "地铁12号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-wukang": {
+        "ok": true,
+        "minutes": 38,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁11号线",
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-03|sh-wukang": {
+        "ok": true,
+        "minutes": 38,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "WALK"
+        ]
+      },
+      "sh-04|sh-wukang": {
+        "ok": true,
+        "minutes": 40,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "WALK"
+        ]
+      },
+      "sh-05|sh-wukang": {
+        "ok": true,
+        "minutes": 37,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-06|sh-wukang": {
+        "ok": true,
+        "minutes": 34,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁11号线",
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-07|sh-wukang": {
+        "ok": true,
+        "minutes": 29,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "WALK"
+        ]
+      },
+      "sh-08|sh-wukang": {
+        "ok": true,
+        "minutes": 33,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-09|sh-wukang": {
+        "ok": true,
+        "minutes": 33,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-10|sh-wukang": {
+        "ok": true,
+        "minutes": 35,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "WALK"
+        ]
+      },
+      "sh-circuit|sh-wukang": {
+        "ok": true,
+        "minutes": 83,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-nanjingrd": {
+        "ok": true,
+        "minutes": 31,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-nanjingrd": {
+        "ok": true,
+        "minutes": 25,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-03|sh-nanjingrd": {
+        "ok": true,
+        "minutes": 30,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "20路",
+          "WALK"
+        ]
+      },
+      "sh-04|sh-nanjingrd": {
+        "ok": true,
+        "minutes": 3,
+        "transfers": 0,
+        "mode": "walk-estimate",
+        "modes": [
+          "WALK"
+        ]
+      },
+      "sh-05|sh-nanjingrd": {
+        "ok": true,
+        "minutes": 59,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-06|sh-nanjingrd": {
+        "ok": true,
+        "minutes": 29,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-07|sh-nanjingrd": {
+        "ok": true,
+        "minutes": 31,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-08|sh-nanjingrd": {
+        "ok": true,
+        "minutes": 35,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-09|sh-nanjingrd": {
+        "ok": true,
+        "minutes": 35,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-10|sh-nanjingrd": {
+        "ok": true,
+        "minutes": 40,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-circuit|sh-nanjingrd": {
+        "ok": true,
+        "minutes": 99,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-bund|sh-nanjingrd": {
+        "ok": true,
+        "minutes": 36,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "20路",
+          "WALK"
+        ]
+      },
+      "sh-nanjingrd|sh-yuyuan": {
+        "ok": true,
+        "minutes": 36,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "WALK"
+        ]
+      },
+      "sh-nanjingrd|sh-pearl": {
+        "ok": true,
+        "minutes": 32,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-museum|sh-nanjingrd": {
+        "ok": true,
+        "minutes": 23,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "隧道六线",
+          "WALK"
+        ]
+      },
+      "sh-nanjingrd|sh-xintiandi": {
+        "ok": true,
+        "minutes": 32,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-nanjingrd|sh-wukang": {
+        "ok": true,
+        "minutes": 42,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁10号线",
+          "WALK"
+        ]
+      },
+      "sh-jingantemple|sh-nanjingrd": {
+        "ok": true,
+        "minutes": 28,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-nanjingrd|sh-tower": {
+        "ok": true,
+        "minutes": 36,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-nanjingrd|sh-tianzifang": {
+        "ok": true,
+        "minutes": 44,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁8号线",
+          "地铁9号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-jingantemple": {
+        "ok": true,
+        "minutes": 22,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-jingantemple": {
+        "ok": true,
+        "minutes": 20,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-03|sh-jingantemple": {
+        "ok": true,
+        "minutes": 27,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-04|sh-jingantemple": {
+        "ok": true,
+        "minutes": 24,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-05|sh-jingantemple": {
+        "ok": true,
+        "minutes": 45,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-06|sh-jingantemple": {
+        "ok": true,
+        "minutes": 3,
+        "transfers": 0,
+        "mode": "walk-estimate",
+        "modes": [
+          "WALK"
+        ]
+      },
+      "sh-07|sh-jingantemple": {
+        "ok": true,
+        "minutes": 31,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-08|sh-jingantemple": {
+        "ok": true,
+        "minutes": 22,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "15路",
+          "WALK"
+        ]
+      },
+      "sh-09|sh-jingantemple": {
+        "ok": true,
+        "minutes": 24,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "15路",
+          "WALK"
+        ]
+      },
+      "sh-10|sh-jingantemple": {
+        "ok": true,
+        "minutes": 22,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "71路",
+          "WALK"
+        ]
+      },
+      "sh-circuit|sh-jingantemple": {
+        "ok": true,
+        "minutes": 85,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-bund|sh-jingantemple": {
+        "ok": true,
+        "minutes": 37,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-jingantemple|sh-yuyuan": {
+        "ok": true,
+        "minutes": 31,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-jingantemple|sh-pearl": {
+        "ok": true,
+        "minutes": 32,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-jingantemple|sh-museum": {
+        "ok": true,
+        "minutes": 31,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-jingantemple|sh-xintiandi": {
+        "ok": true,
+        "minutes": 30,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-jingantemple|sh-wukang": {
+        "ok": true,
+        "minutes": 31,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-jingantemple|sh-tower": {
+        "ok": true,
+        "minutes": 34,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-jingantemple|sh-tianzifang": {
+        "ok": true,
+        "minutes": 36,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁7号线",
+          "地铁9号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-tower": {
+        "ok": true,
+        "minutes": 41,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-tower": {
+        "ok": true,
+        "minutes": 34,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-03|sh-tower": {
+        "ok": true,
+        "minutes": 36,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-04|sh-tower": {
+        "ok": true,
+        "minutes": 33,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-05|sh-tower": {
+        "ok": true,
+        "minutes": 64,
+        "transfers": 3,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "地铁8号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-06|sh-tower": {
+        "ok": true,
+        "minutes": 38,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-07|sh-tower": {
+        "ok": true,
+        "minutes": 34,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-08|sh-tower": {
+        "ok": true,
+        "minutes": 40,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-09|sh-tower": {
+        "ok": true,
+        "minutes": 38,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "地铁1号线",
+          "WALK"
+        ]
+      },
+      "sh-10|sh-tower": {
+        "ok": true,
+        "minutes": 44,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-circuit|sh-tower": {
+        "ok": true,
+        "minutes": 98,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-bund|sh-tower": {
+        "ok": true,
+        "minutes": 32,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-tower|sh-yuyuan": {
+        "ok": true,
+        "minutes": 26,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-pearl|sh-tower": {
+        "ok": true,
+        "minutes": 27,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "陆家嘴金融城1路",
+          "WALK"
+        ]
+      },
+      "sh-museum|sh-tower": {
+        "ok": true,
+        "minutes": 33,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-tower|sh-xintiandi": {
+        "ok": true,
+        "minutes": 33,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "WALK"
+        ]
+      },
+      "sh-tower|sh-wukang": {
+        "ok": true,
+        "minutes": 45,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁14号线",
+          "地铁10号线",
+          "WALK"
+        ]
+      },
+      "sh-tianzifang|sh-tower": {
+        "ok": true,
+        "minutes": 46,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁9号线",
+          "WALK"
+        ]
+      },
+      "sh-01|sh-tianzifang": {
+        "ok": true,
+        "minutes": 35,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁9号线",
+          "地铁12号线",
+          "WALK"
+        ]
+      },
+      "sh-02|sh-tianzifang": {
+        "ok": true,
+        "minutes": 38,
+        "transfers": 3,
+        "mode": "transit",
+        "modes": [
+          "地铁9号线",
+          "地铁12号线",
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-03|sh-tianzifang": {
+        "ok": true,
+        "minutes": 44,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "17路",
+          "WALK"
+        ]
+      },
+      "sh-04|sh-tianzifang": {
+        "ok": true,
+        "minutes": 44,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁9号线",
+          "地铁8号线",
+          "WALK"
+        ]
+      },
+      "sh-05|sh-tianzifang": {
+        "ok": true,
+        "minutes": 44,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁9号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-06|sh-tianzifang": {
+        "ok": true,
+        "minutes": 35,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁9号线",
+          "地铁7号线",
+          "WALK"
+        ]
+      },
+      "sh-07|sh-tianzifang": {
+        "ok": true,
+        "minutes": 28,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁13号线",
+          "WALK"
+        ]
+      },
+      "sh-08|sh-tianzifang": {
+        "ok": true,
+        "minutes": 35,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁9号线",
+          "地铁7号线",
+          "WALK"
+        ]
+      },
+      "sh-09|sh-tianzifang": {
+        "ok": true,
+        "minutes": 35,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁9号线",
+          "地铁7号线",
+          "WALK"
+        ]
+      },
+      "sh-10|sh-tianzifang": {
+        "ok": true,
+        "minutes": 39,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁9号线",
+          "地铁7号线",
+          "WALK"
+        ]
+      },
+      "sh-circuit|sh-tianzifang": {
+        "ok": true,
+        "minutes": 96,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁9号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      },
+      "sh-bund|sh-tianzifang": {
+        "ok": true,
+        "minutes": 45,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "17路",
+          "WALK"
+        ]
+      },
+      "sh-tianzifang|sh-yuyuan": {
+        "ok": true,
+        "minutes": 44,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁9号线",
+          "WALK"
+        ]
+      },
+      "sh-pearl|sh-tianzifang": {
+        "ok": true,
+        "minutes": 48,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁9号线",
+          "地铁2号线",
+          "WALK"
+        ]
+      },
+      "sh-museum|sh-tianzifang": {
+        "ok": true,
+        "minutes": 39,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁9号线",
+          "地铁8号线",
+          "WALK"
+        ]
+      },
+      "sh-tianzifang|sh-xintiandi": {
+        "ok": true,
+        "minutes": 32,
+        "transfers": 1,
+        "mode": "transit",
+        "modes": [
+          "地铁13号线",
+          "WALK"
+        ]
+      },
+      "sh-tianzifang|sh-wukang": {
+        "ok": true,
+        "minutes": 35,
+        "transfers": 2,
+        "mode": "transit",
+        "modes": [
+          "地铁9号线",
+          "地铁11号线",
+          "WALK"
+        ]
+      }
+    }
+  },
+  "answers": null,
+  "anchor": {
+    "placeId": "sh-circuit",
+    "time": "15:00",
+    "position": "last",
+    "labelZh": "F1 中国大奖赛（观赛）",
+    "labelEn": "F1 Chinese GP (race)"
+  },
+  "i18n": {
+    "zh": {
+      "p0Title": "P0 · 大奖赛（已订票）",
+      "p0Desc": "锚点是你已经订好的比赛日：那天围着观赛安排，其余按赛程前后排。",
+      "lblConcertDay": "比赛在第几天",
+      "concertDayBadge": "比赛日",
+      "restNote": "🏁 这一天以观赛为核心；前后留出交通、吃饭与休息。",
+      "alertNoFan": "请至少选择一个「F1 相关地点」。",
+      "legendFan": "F1 同款",
+      "poolFanLabel": "P1 · F1 相关地点（候选）",
+      "poolFanSub": "⚠️ 这是一条示例线：下面这些地点大多是 2026 年 3 月 F1 赛事期间的限时快闪 / 展台，现在已经结束。它用来演示「兴趣地点 → 排成可行行程」的能力，不是一份可直接照走的当前攻略。",
+      "poolSightLabel": "P2 · 上海基础景点（可选）",
+      "poolSightSub": "上海的基础景点：外滩 / 豫园 / 陆家嘴 / 南京路 / 武康路 / 田子坊 等。点卡片看简介与出处；时间够就顺手加上，行程不只围着快闪转。",
+      "p1Title": "P1 · F1 相关地点",
+      "p1Desc": "⚠️ 这是一条示例线：下面这些地点大多是 2026 年 3 月 F1 赛事期间的限时快闪 / 展台，现在已经结束。它用来演示「兴趣地点 → 排成可行行程」的能力，不是一份可直接照走的当前攻略。",
+      "p2Title": "P2 · 上海基础景点",
+      "p2Desc": "基础景点用来调剂行程，别让这趟变成只有快闪店。",
+      "drawerFan": "F1 同款",
+      "visitseoul": "高德地图数据",
+      "noArtist": "不属于某个兴趣点，用于平衡行程。",
+      "planTitle": "你的 F1 上海之旅",
+      "planSub": "路线默认显示全部行程总览（深色连贯线）。⚠️ 这是一条示例线：下面这些地点大多是 2026 年 3 月 F1 赛事期间的限时快闪 / 展台，现在已经结束。它用来演示「兴趣地点 → 排成可行行程」的能力，不是一份可直接照走的当前攻略。",
+      "planTagFandom": "F1 + 旅行",
+      "planTagEvidence": "带来源链接",
+      "stayNearby": "每晚就近换",
+      "stayConcert": "赛车场周边优先",
+      "stayReasonNearby": "这条线还没有住宿数据，行程只排地点。",
+      "note": "⚠️ 这是一条示例线：下面这些地点大多是 2026 年 3 月 F1 赛事期间的限时快闪 / 展台，现在已经结束。它用来演示「兴趣地点 → 排成可行行程」的能力，不是一份可直接照走的当前攻略。<br/>路线由确定性排程引擎生成：地理聚类分天 + 最近邻排序 + 2-opt 优化。<b>比赛日是锚点</b>：那天围着观赛安排。「多久到」来自<b>高德公交路径规划的真实耗时</b>；地点坐标由高德地理编码（候选坐标，已人工核对）；来源为用户整理的小红书帖子。",
+      "footer": "© 2026 Interestip · 「F1 × Shanghai」地点来自用户整理的公开资料（含来源链接）；坐标与站点间耗时来自 <a href=\"https://lbs.amap.com/\" target=\"_blank\" rel=\"noreferrer\">高德地图</a>。<br/><b>本垂直线为示例：地点为 2026 年 3 月 F1 赛事期间的限时活动，现多已结束。</b><br/>地点图片来自高德地图（UGC），已下载到本地。",
+      "aiReply": "收到！先说清楚：**这是一条示例线**——P1 的快闪与展台大多是 2026 年 3 月赛事期间的限时活动，现多已结束。\n\n① P0 比赛日：上海国际赛车场（3/15）\n② P1：市区 F1 快闪与展台（示例）\n③ P2：上海基础景点（外滩 / 豫园 / 陆家嘴…）\n\n请先选择想去的地点：给地点标「必去」或「顺路」。",
+      "intentDefault": "我 3 月去上海看 F1，想顺便把外滩、豫园这些经典景点也逛了。",
+      "intentPlaceholder": "你为什么去上海？",
+      "hint": "直接说想法，例如：“我去上海看 F1，想顺路打卡市区的快闪店。”",
+      "catNote": "F1 × Shanghai 是第三条垂直线——和 CORTIS × Seoul、New York × Art & Culture 用同一套引擎。",
+      "stayReasonConcert": "比赛日优先住赛车场附近（这条线暂无住宿数据）。",
+      "noEvidenceNote": "这一条来自公开地图数据。",
+      "heroBadgeTitle": "F1 × Shanghai · 第三条垂直线（示例）",
+      "heroBadgeText": "示例线：快闪已结束，仅用来演示排程能力",
+      "onsiteGo": "请带我去这里",
+      "onsiteGoSub": "Please take me here",
+      "phrasesTitle": "常用语（给对方看）"
+    },
+    "en": {
+      "p0Title": "P0 · Grand Prix (booked)",
+      "p0Desc": "The anchor is your race day: that day is built around the race, and everything else fits around it.",
+      "lblConcertDay": "Which day is the race",
+      "concertDayBadge": "Race day",
+      "restNote": "🏁 This day centres on the race; travel, food and rest go around it.",
+      "alertNoFan": "Pick at least one F1 place.",
+      "legendFan": "F1 spots",
+      "poolFanLabel": "P1 · F1 spots (candidates)",
+      "poolFanSub": "⚠️ This is an example vertical: most of these places were time-limited pop-ups and installations during the March 2026 F1 race week and are already over. It demonstrates the interest → itinerary engine, and is not a current walkable guide.",
+      "poolSightLabel": "P2 · Shanghai basics (optional)",
+      "poolSightSub": "The Shanghai basics: the Bund, Yu Garden, Lujiazui, Nanjing Road, Wukang Road, Tianzifang and more. Open a card for its source, and add them when there's room so the trip isn't only pop-ups.",
+      "p1Title": "P1 · F1 spots",
+      "p1Desc": "⚠️ This is an example vertical: most of these places were time-limited pop-ups and installations during the March 2026 F1 race week and are already over. It demonstrates the interest → itinerary engine, and is not a current walkable guide.",
+      "p2Title": "P2 · Shanghai basics",
+      "p2Desc": "Ordinary sightseeing keeps the trip balanced, so it isn't only pop-up stores.",
+      "drawerFan": "F1 spots",
+      "visitseoul": "Amap data",
+      "noArtist": "Not tied to an interest; used to balance the day.",
+      "planTitle": "Your F1 Shanghai trip",
+      "planSub": "The map shows the whole trip as one line by default. ⚠️ This is an example vertical: most of these places were time-limited pop-ups and installations during the March 2026 F1 race week and are already over. It demonstrates the interest → itinerary engine, and is not a current walkable guide.",
+      "planTagFandom": "F1 + travel",
+      "planTagEvidence": "With source links",
+      "stayNearby": "Move nightly",
+      "stayConcert": "Prioritise hotels near the circuit",
+      "stayReasonNearby": "This vertical has no hotel data yet, so the itinerary schedules places only.",
+      "note": "⚠️ This is an example vertical: most of these places were time-limited pop-ups and installations during the March 2026 F1 race week and are already over. It demonstrates the interest → itinerary engine, and is not a current walkable guide.<br/>The route comes from a deterministic scheduling engine: geographic clustering + nearest-neighbour ordering + 2-opt. <b>The race day is the anchor.</b> Travel times come from <b>real public-transit routing via Amap</b>; coordinates are Amap geocoding results (candidate, manually checked); sources are collected public posts.",
+      "footer": "© 2026 Interestip · “F1 × Shanghai” places come from collected public sources (with links); coordinates and travel times come from <a href=\"https://lbs.amap.com/\" target=\"_blank\" rel=\"noreferrer\">Amap</a>.<br/><b>Example vertical: places were time-limited events during the March 2026 F1 week and are mostly over.</b><br/>Place photos come from Amap (UGC) and are stored locally.",
+      "aiReply": "Got it — one important note: **this is an example vertical**. Most of the P1 pop-ups were time-limited events during the March 2026 race week and are already over.\n\n① P0 race day: Shanghai International Circuit (Mar 15)\n② P1: F1 pop-ups in the city (example)\n③ P2: Shanghai basics (the Bund, Yu Garden, Lujiazui…)\n\nFirst, pick the places you want: mark them must-go or on-the-way.",
+      "intentDefault": "I'm going to Shanghai in March for F1, and I'd like to see the classics like the Bund and Yu Garden too.",
+      "intentPlaceholder": "Why are you going to Shanghai?",
+      "hint": "Say it in your own words — e.g. “I'm going to Shanghai for F1 and want to check out the pop-ups.”",
+      "catNote": "F1 × Shanghai is the third vertical — same engine as CORTIS × Seoul and New York × Art & Culture.",
+      "stayReasonConcert": "Stay near the circuit on race day (no hotel data yet).",
+      "noEvidenceNote": "This one comes from public map data.",
+      "heroBadgeTitle": "F1 × Shanghai · third vertical (example)",
+      "heroBadgeText": "Example vertical: the pop-ups are over; it only demonstrates the scheduler",
+      "onsiteGo": "请带我去这里",
+      "onsiteGoSub": "Please take me here",
+      "phrasesTitle": "常用语（给对方看）"
+    }
+  },
+  "onsite": {
+    "nameField": "name",
+    "phrases": [
+      {
+        "big": "请带我去这个地址",
+        "zh": "请带我去这个地址",
+        "en": "Taxi / driver"
+      },
+      {
+        "big": "请在这里停车",
+        "zh": "请在这里停车",
+        "en": "Taxi / driver"
+      },
+      {
+        "big": "大概多少钱？",
+        "zh": "大概多少钱？",
+        "en": "Taxi / driver"
+      },
+      {
+        "big": "请问怎么走？",
+        "zh": "请问怎么走？",
+        "en": "Anywhere"
+      },
+      {
+        "big": "可以刷卡吗？",
+        "zh": "可以刷卡吗？",
+        "en": "Shops / restaurants"
+      },
+      {
+        "big": "谢谢！",
+        "zh": "谢谢！",
+        "en": "Anywhere"
+      }
+    ]
+  }
+}

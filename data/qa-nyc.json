@@ -1,0 +1,622 @@
+{
+  "vertical": "nyc",
+  "generatedAt": "2026-10-13T14:28:03.986Z",
+  "mode": "hybrid",
+  "retriever": "BM25 + BGE-M3 向量（RRF 融合，端侧）",
+  "model": "deepseek-chat",
+  "corpusDocs": 26,
+  "calls": 20,
+  "totalTokens": 13497,
+  "items": [
+    {
+      "id": "nyc-plan-day",
+      "q": {
+        "zh": "想一天逛完主要的美术馆，怎么排？",
+        "en": "How should I plan a single day for the main museums?"
+      },
+      "a": {
+        "zh": "一天可优先排：大都会艺术博物馆（10:00-17:00，周五周六到21:00）[来源1]、弗里克收藏（周一、周三至周日10:30-17:30）[来源2]、现代艺术博物馆 MoMA（10:30-17:30，周六到19:00）[来源3]，都在上东区或中城，动线较顺。若还想加当代艺术，可再去下东区的新当代艺术博物馆（周二、三、五至日11:00-18:00，周四到21:00）[来源5]。中央车站不是美术馆，但同在中城，可顺路看星座穹顶（05:30-02:00）[来源4]。",
+        "en": "For a single day of main museums, the sources list the Met (10:00-17:00; Fr-Sa 10:00-21:00; We off) [来源1], MoMA (Mo-Su 10:30-17:30; Sa 10:30-19:00) [来源3], and the Frick Collection (Mo,We-Su 10:30-17:30) [来源2], all high confidence. You could also add the New Museum (Tu,We,Fr-Su 11:00-18:00; Th 11:00-21:00) [来源5]. Note the Met is closed Wednesday and the Frick is closed Tuesday, so check days when planning [来源1][来源2]."
+      },
+      "refused": {
+        "zh": false,
+        "en": false
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "nyc-met",
+          "name": "大都会艺术博物馆",
+          "district": "上东区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/relation/3698894"
+        },
+        {
+          "n": 2,
+          "id": "nyc-frick",
+          "name": "弗里克收藏",
+          "district": "上东区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14075405131"
+        },
+        {
+          "n": 3,
+          "id": "nyc-moma",
+          "name": "现代艺术博物馆 MoMA",
+          "district": "中城",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/278346578"
+        },
+        {
+          "n": 4,
+          "id": "nyc-grandcentral",
+          "name": "中央车站",
+          "district": "中城",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/W/265947358"
+        },
+        {
+          "n": 5,
+          "id": "nyc-newmuseum",
+          "name": "新当代艺术博物馆",
+          "district": "下东区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/13732385972"
+        }
+      ],
+      "retrieved": [
+        "nyc-met",
+        "nyc-frick",
+        "nyc-moma",
+        "nyc-grandcentral",
+        "nyc-newmuseum"
+      ]
+    },
+    {
+      "id": "nyc-starry",
+      "q": {
+        "zh": "MoMA 的《星月夜》在哪儿？几点去合适？",
+        "en": "Where is Starry Night at MoMA, and when should I go?"
+      },
+      "a": {
+        "zh": "《星月夜》在现代艺术博物馆 MoMA，资料提到梵高《星月夜》与整层的当代馆藏都在这里 [来源1]。开放时间为 Mo-Su 10:30-17:30，Sa 10:30-19:00 [来源1]。",
+        "en": "Van Gogh's The Starry Night is at the Museum of Modern Art (MoMA) in Midtown, at 11 West 53rd Street [来源1]. MoMA is open Monday–Sunday 10:30–17:30, and Saturday 10:30–19:00 [来源1]."
+      },
+      "refused": {
+        "zh": false,
+        "en": false
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "nyc-moma",
+          "name": "现代艺术博物馆 MoMA",
+          "district": "中城",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/278346578"
+        }
+      ],
+      "retrieved": [
+        "nyc-moma"
+      ]
+    },
+    {
+      "id": "nyc-highline-walk",
+      "q": {
+        "zh": "想在高线公园一带散步，顺便看看公共艺术",
+        "en": "I want to walk around the High Line and see public art"
+      },
+      "a": {
+        "zh": "高线公园是废弃高架铁路改成的空中步道，沿途有公共艺术与哈德逊河景，适合散步看公共艺术 [来源1]。惠特尼美国艺术博物馆露台正对哈德逊河与高线公园，可一并参观 [来源3]。切尔西市场紧邻高线公园，也可顺路前往 [来源2]。",
+        "en": "The High Line is an elevated walkway converted from an abandoned railway, with public art and Hudson River views along the route [来源1]. Nearby, the Whitney Museum of American Art focuses on American contemporary art, and its terrace faces the Hudson River and the High Line [来源3]. Chelsea Market, a food market converted from an old cookie factory, is right next to the High Line [来源2]."
+      },
+      "refused": {
+        "zh": false,
+        "en": false
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "nyc-highline",
+          "name": "高线公园",
+          "district": "切尔西",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/277945818"
+        },
+        {
+          "n": 2,
+          "id": "nyc-chelseamarket",
+          "name": "切尔西市场",
+          "district": "切尔西",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/N/1272608999"
+        },
+        {
+          "n": 3,
+          "id": "nyc-whitney",
+          "name": "惠特尼美国艺术博物馆",
+          "district": "肉库区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/288749896"
+        }
+      ],
+      "retrieved": [
+        "nyc-highline",
+        "nyc-chelseamarket",
+        "nyc-whitney"
+      ]
+    },
+    {
+      "id": "nyc-quiet",
+      "q": {
+        "zh": "想找个安静看展的下午",
+        "en": "A quiet afternoon of looking at art"
+      },
+      "a": {
+        "zh": "想安静看展，可以优先考虑弗里克收藏，资料写它“氛围安静”，地址是1 East 70th Street，开放时间为Mo,We-Su 10:30-17:30 [来源3]。此外，现代艺术博物馆 MoMA 和新当代艺术博物馆也提供艺术展览，开放时间分别为Mo-Su 10:30-17:30; Sa 10:30-19:00 [来源1] 与 Tu,We,Fr-Su 11:00-18:00; Th 11:00-21:00 [来源2]。",
+        "en": "For a quiet afternoon of art, the sources suggest The Frick Collection, described as a mansion-turned-museum with a small but choice collection and a quiet atmosphere [来源3]. MoMA, home to modern art including Van Gogh's \"The Starry Night,\" is another option [来源1]. The New Museum focuses on contemporary art in a striking white stacked building on the Bowery [来源2]."
+      },
+      "refused": {
+        "zh": false,
+        "en": false
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "nyc-moma",
+          "name": "现代艺术博物馆 MoMA",
+          "district": "中城",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/278346578"
+        },
+        {
+          "n": 2,
+          "id": "nyc-newmuseum",
+          "name": "新当代艺术博物馆",
+          "district": "下东区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/13732385972"
+        },
+        {
+          "n": 3,
+          "id": "nyc-frick",
+          "name": "弗里克收藏",
+          "district": "上东区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14075405131"
+        },
+        {
+          "n": 4,
+          "id": "nyc-whitney",
+          "name": "惠特尼美国艺术博物馆",
+          "district": "肉库区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/288749896"
+        },
+        {
+          "n": 5,
+          "id": "nyc-grandcentral",
+          "name": "中央车站",
+          "district": "中城",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/W/265947358"
+        }
+      ],
+      "retrieved": [
+        "nyc-moma",
+        "nyc-newmuseum",
+        "nyc-frick",
+        "nyc-whitney",
+        "nyc-grandcentral"
+      ]
+    },
+    {
+      "id": "nyc-artbooks",
+      "q": {
+        "zh": "想买艺术书和独立出版物",
+        "en": "Where can I buy art books and independent publishing?"
+      },
+      "a": {
+        "zh": "想买艺术书和独立出版物，可以去 Printed Matter 艺术书店，资料里写它是 1976 年创立的艺术家书专门店，是看独立出版与 zine 的地方，地址 231 11th Avenue，营业时间 Mo-Su 11:00-19:00 [来源1]。",
+        "en": "You can buy art books and independent publishing at Printed Matter 艺术书店, an artist-book specialist founded in 1976 known for independent publishing and zines [来源1]. The Morgan Library & Museum also holds rare books and medieval manuscripts, though it is a museum rather than a bookshop [来源2]."
+      },
+      "refused": {
+        "zh": false,
+        "en": false
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "nyc-printedmatter",
+          "name": "Printed Matter 艺术书店",
+          "district": "切尔西",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/4310137730"
+        },
+        {
+          "n": 2,
+          "id": "nyc-morgan",
+          "name": "摩根图书馆与博物馆",
+          "district": "中城",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/4462440249"
+        }
+      ],
+      "retrieved": [
+        "nyc-printedmatter",
+        "nyc-morgan"
+      ]
+    },
+    {
+      "id": "nyc-klimt",
+      "q": {
+        "zh": "想看克里姆特那幅金色肖像",
+        "en": "Where can I see Klimt's golden portrait?"
+      },
+      "a": {
+        "zh": "想看克里姆特的金色肖像，可以去上东区的新画廊（Neue Galerie），资料写明克里姆特的《艾蒂儿肖像一号》就在这里 [来源1]。该馆专攻德语区艺术，地址为 1048 5th Avenue，开放时间为 We-Mo 10:00-18:00 [来源1]。",
+        "en": "You can see Klimt's golden portrait, 《艾蒂儿肖像一号》, at Neue Galerie New York in the Upper East Side [来源1]. The museum specializes in art from German-speaking countries [来源1]."
+      },
+      "refused": {
+        "zh": false,
+        "en": false
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "nyc-neue",
+          "name": "新画廊 Neue Galerie",
+          "district": "上东区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/266934254"
+        }
+      ],
+      "retrieved": [
+        "nyc-neue"
+      ]
+    },
+    {
+      "id": "nyc-evening",
+      "q": {
+        "zh": "晚上还有哪些美术馆开着？",
+        "en": "Which museums are open in the evening?"
+      },
+      "a": {
+        "zh": "资料里提到的美术馆中，晚间仍开放的包括：大都会艺术博物馆周五、周六开到21:00 [来源1]；新当代艺术博物馆周四开到21:00 [来源4]；摩根图书馆与博物馆周五开到20:00 [来源5]。其余如弗里克收藏、MoMA 在资料所给时间内均未显示晚间开放 [来源2][来源3]。",
+        "en": "Based on the sources, these museums have evening hours: The Metropolitan Museum of Art is open Fr-Sa until 21:00 [来源1], the New Museum is open Th until 21:00 [来源4], and The Morgan Library & Museum is open Fr until 20:00 [来源5]. MoMA closes at 19:00 on Sa [来源3], while The Frick Collection has no evening hours listed [来源2]."
+      },
+      "refused": {
+        "zh": false,
+        "en": false
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "nyc-met",
+          "name": "大都会艺术博物馆",
+          "district": "上东区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/relation/3698894"
+        },
+        {
+          "n": 2,
+          "id": "nyc-frick",
+          "name": "弗里克收藏",
+          "district": "上东区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14075405131"
+        },
+        {
+          "n": 3,
+          "id": "nyc-moma",
+          "name": "现代艺术博物馆 MoMA",
+          "district": "中城",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/278346578"
+        },
+        {
+          "n": 4,
+          "id": "nyc-newmuseum",
+          "name": "新当代艺术博物馆",
+          "district": "下东区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/13732385972"
+        },
+        {
+          "n": 5,
+          "id": "nyc-morgan",
+          "name": "摩根图书馆与博物馆",
+          "district": "中城",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/4462440249"
+        }
+      ],
+      "retrieved": [
+        "nyc-met",
+        "nyc-frick",
+        "nyc-moma",
+        "nyc-newmuseum",
+        "nyc-morgan"
+      ]
+    },
+    {
+      "id": "nyc-medieval",
+      "q": {
+        "zh": "想看中世纪的艺术品",
+        "en": "Where can I see medieval art?"
+      },
+      "a": {
+        "zh": "想看中世纪艺术品，可以去摩根图书馆与博物馆，资料提到其“中世纪手抄本与古籍的藏量惊人”[来源1]；也可去修道院博物馆 The Cloisters，资料称其为“大都会的中世纪分馆”[来源2]。",
+        "en": "For medieval art, the sources point to The Morgan Library & Museum, which has an astonishing collection of medieval manuscripts and rare books [来源1], and The Cloisters, the Met's medieval branch housed in a relocated monastery [来源2]."
+      },
+      "refused": {
+        "zh": false,
+        "en": false
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "nyc-morgan",
+          "name": "摩根图书馆与博物馆",
+          "district": "中城",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/4462440249"
+        },
+        {
+          "n": 2,
+          "id": "nyc-cloisters",
+          "name": "修道院博物馆 The Cloisters",
+          "district": "华盛顿高地",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/relation/6424088"
+        },
+        {
+          "n": 3,
+          "id": "nyc-moma",
+          "name": "现代艺术博物馆 MoMA",
+          "district": "中城",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/278346578"
+        },
+        {
+          "n": 4,
+          "id": "nyc-printedmatter",
+          "name": "Printed Matter 艺术书店",
+          "district": "切尔西",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/4310137730"
+        },
+        {
+          "n": 5,
+          "id": "nyc-brooklynmuseum",
+          "name": "布鲁克林博物馆",
+          "district": "布鲁克林",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/1432069915"
+        }
+      ],
+      "retrieved": [
+        "nyc-morgan",
+        "nyc-cloisters",
+        "nyc-moma",
+        "nyc-printedmatter",
+        "nyc-brooklynmuseum"
+      ]
+    },
+    {
+      "id": "nyc-flushing",
+      "q": {
+        "zh": "法拉盛除了吃东西还有什么值得看？",
+        "en": "What's worth seeing in Flushing besides the food?"
+      },
+      "a": {
+        "zh": "法拉盛除了吃东西，还可以看：法拉盛草原可乐娜公园，世博会旧址改建的大公园，Unisphere 地球仪是纽约地标之一 [来源2]；以及同在法拉盛公园里的皇后区博物馆，馆内「纽约全景」模型把整座城市的每栋建筑都做了出来 [来源3]。另外法拉盛唐人街（Main Street 一带）本身也是观光点，全美最大的华人街区之一 [来源1]。",
+        "en": "Besides food, Flushing offers Flushing Chinatown (Main Street area), one of the largest Chinese neighborhoods in the US [来源1]; Flushing Meadows-Corona Park, a large park converted from a World's Fair site with the Unisphere globe as a NYC landmark [来源2]; and the Queens Museum, whose \"Panorama of the City of New York\" model recreates every building in the city [来源3]."
+      },
+      "refused": {
+        "zh": false,
+        "en": false
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "nyc-flushingmain",
+          "name": "法拉盛唐人街（Main Street 一带）",
+          "district": "法拉盛（皇后区）",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/W/562015906"
+        },
+        {
+          "n": 2,
+          "id": "nyc-flushingmeadows",
+          "name": "法拉盛草原可乐娜公园",
+          "district": "法拉盛（皇后区）",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/R/14402283"
+        },
+        {
+          "n": 3,
+          "id": "nyc-queensmuseum",
+          "name": "皇后区博物馆",
+          "district": "法拉盛（皇后区）",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/W/284856409"
+        }
+      ],
+      "retrieved": [
+        "nyc-flushingmain",
+        "nyc-flushingmeadows",
+        "nyc-queensmuseum"
+      ]
+    },
+    {
+      "id": "nyc-boston",
+      "q": {
+        "zh": "想坐火车去波士顿看美术馆，怎么安排？",
+        "en": "How do I take the train to Boston for museums?"
+      },
+      "a": {
+        "zh": "资料里没有能回答这个问题的内容。",
+        "en": "The sources don't contain enough to answer this."
+      },
+      "refused": {
+        "zh": true,
+        "en": true
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "nyc-met",
+          "name": "大都会艺术博物馆",
+          "district": "上东区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/relation/3698894"
+        },
+        {
+          "n": 2,
+          "id": "nyc-frick",
+          "name": "弗里克收藏",
+          "district": "上东区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/node/14075405131"
+        },
+        {
+          "n": 3,
+          "id": "nyc-grandcentral",
+          "name": "中央车站",
+          "district": "中城",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/W/265947358"
+        },
+        {
+          "n": 4,
+          "id": "nyc-moma",
+          "name": "现代艺术博物馆 MoMA",
+          "district": "中城",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/278346578"
+        },
+        {
+          "n": 5,
+          "id": "nyc-brooklynmuseum",
+          "name": "布鲁克林博物馆",
+          "district": "布鲁克林",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "观光点",
+          "label": "OpenStreetMap",
+          "url": "https://www.openstreetmap.org/way/1432069915"
+        }
+      ],
+      "retrieved": [
+        "nyc-met",
+        "nyc-frick",
+        "nyc-grandcentral",
+        "nyc-moma",
+        "nyc-brooklynmuseum"
+      ]
+    }
+  ]
+}

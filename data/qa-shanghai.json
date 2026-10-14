@@ -1,0 +1,634 @@
+{
+  "vertical": "shanghai",
+  "generatedAt": "2026-10-13T14:28:35.680Z",
+  "mode": "hybrid",
+  "retriever": "BM25 + BGE-M3 向量（RRF 融合，端侧）",
+  "model": "deepseek-chat",
+  "corpusDocs": 21,
+  "calls": 20,
+  "totalTokens": 18289,
+  "items": [
+    {
+      "id": "sh-race-day",
+      "q": {
+        "zh": "比赛日从市区去赛车场要多久？",
+        "en": "How long does it take to get to the circuit from downtown on race day?"
+      },
+      "a": {
+        "zh": "资料里有上海国际赛车场，但只给了从外滩和汉密尔顿主题快闪出发的公交耗时：外滩出发约101分钟，快闪出发约93分钟，比赛日建议预留更多时间 [来源1]。资料未给出从“市区”其他地点出发的耗时。",
+        "en": "From the Bund, a transit route to the Shanghai International Circuit was measured at about 101 minutes (Metro Line 14 + Metro Line 11 + walk), and from the Hamilton-themed pop-up about 93 minutes (Metro Line 2 + Metro Line 11 + walk) [来源1]. The source notes these were measured on 2026-10-13 and advises allowing more time on race day [来源1]."
+      },
+      "refused": {
+        "zh": false,
+        "en": false
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "sh-circuit",
+          "name": "上海国际赛车场",
+          "district": "嘉定区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "演唱会场地",
+          "label": "来源",
+          "url": "高德地图（上海国际赛车场）"
+        }
+      ],
+      "retrieved": [
+        "sh-circuit"
+      ]
+    },
+    {
+      "id": "sh-merch",
+      "q": {
+        "zh": "想买 F1 周边，去哪里？",
+        "en": "Where can I buy F1 merchandise?"
+      },
+      "a": {
+        "zh": "资料里提到的 F1 周边相关地点有：徐汇区的 F1周边店（同款店铺，地址龙腾大道2266号Gate M西岸梦中心3F层）[来源1]；静安区的汉密尔顿主题快闪，有很多老汉周边[来源2]。但这些均为 2026 年 3 月赛事期间的限时快闪/展台，现已结束[来源1][来源2]。",
+        "en": "You could try F1周边店 in Xuhui District, a same-type shop listed as an F1-related spot [来源1]. A Hamilton-themed pop-up in Jing'an District had lots of Hamilton merch, with a free coffee for spending 99 and DIY options [来源2]. Note these were limited-time pop-ups during the March 2026 race period and have now ended [来源1][来源2]."
+      },
+      "refused": {
+        "zh": false,
+        "en": false
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "sh-05",
+          "name": "F1周边店",
+          "district": "徐汇区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "同款店铺",
+          "label": "小红书",
+          "url": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r10YI=&xsec_source=pc_share"
+        },
+        {
+          "n": 2,
+          "id": "sh-01",
+          "name": "汉密尔顿主题快闪",
+          "district": "静安区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "快闪 / 展台",
+          "label": "小红书",
+          "url": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r6YI=&xsec_source=pc_share"
+        },
+        {
+          "n": 3,
+          "id": "sh-09",
+          "name": "TROPHY MARKET",
+          "district": "静安区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "打卡点",
+          "label": "小红书",
+          "url": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W6w=&xsec_source=pc_share"
+        },
+        {
+          "n": 4,
+          "id": "sh-10",
+          "name": "COSMOS RETRO FLOWER SHOP",
+          "district": "静安区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "打卡点",
+          "label": "小红书",
+          "url": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W7w=&xsec_source=pc_share"
+        },
+        {
+          "n": 5,
+          "id": "sh-04",
+          "name": "Adidas梅奔+拉塞尔大屏",
+          "district": "黄浦区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "同款店铺",
+          "label": "小红书",
+          "url": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r9YI=&xsec_source=pc_share"
+        }
+      ],
+      "retrieved": [
+        "sh-05",
+        "sh-01",
+        "sh-09",
+        "sh-10",
+        "sh-04"
+      ]
+    },
+    {
+      "id": "sh-popup-status",
+      "q": {
+        "zh": "那些快闪店现在还开着吗？",
+        "en": "Are those pop-up stores still open?"
+      },
+      "a": {
+        "zh": "资料里的快闪店均已结束：比美高快闪店[来源1]、汉密尔顿主题快闪[来源2]、奥迪原车展台[来源3]、F1周边店[来源4]、ESCALIER[来源5]都标注为“限时快闪（已结束）”。",
+        "en": "No, the sources say these pop-up stores/exhibitions were limited-time events during the March 2026 race period and have now ended [来源1][来源2][来源3][来源4][来源5]."
+      },
+      "refused": {
+        "zh": false,
+        "en": false
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "sh-06",
+          "name": "比美高快闪店",
+          "district": "静安区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "快闪 / 展台",
+          "label": "小红书",
+          "url": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W3w=&xsec_source=pc_share"
+        },
+        {
+          "n": 2,
+          "id": "sh-01",
+          "name": "汉密尔顿主题快闪",
+          "district": "静安区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "快闪 / 展台",
+          "label": "小红书",
+          "url": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r6YI=&xsec_source=pc_share"
+        },
+        {
+          "n": 3,
+          "id": "sh-02",
+          "name": "奥迪原车展台",
+          "district": "黄浦区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "快闪 / 展台",
+          "label": "小红书",
+          "url": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r7YI=&xsec_source=pc_share"
+        },
+        {
+          "n": 4,
+          "id": "sh-05",
+          "name": "F1周边店",
+          "district": "徐汇区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "同款店铺",
+          "label": "小红书",
+          "url": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r10YI=&xsec_source=pc_share"
+        },
+        {
+          "n": 5,
+          "id": "sh-08",
+          "name": "ESCALIER",
+          "district": "徐汇区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "快闪 / 展台",
+          "label": "小红书",
+          "url": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W5w=&xsec_source=pc_share"
+        }
+      ],
+      "retrieved": [
+        "sh-06",
+        "sh-01",
+        "sh-02",
+        "sh-05",
+        "sh-08"
+      ]
+    },
+    {
+      "id": "sh-river-night",
+      "q": {
+        "zh": "晚上想看浦江两岸的夜景",
+        "en": "Where can I see the river night view?"
+      },
+      "a": {
+        "zh": "看浦江两岸夜景，资料里提到几个相关地点：东方明珠是“看浦江两岸最直接的位置”[来源1]；外滩是经典天际线步道，一边是万国建筑群、一边是陆家嘴，全天开放[来源2]；上海中心大厦118层观光厅可俯瞰陆家嘴与浦江[来源3]。南京路步行街是人民广场到外滩之间的商业步行街，逛街吃饭顺路[来源4]。",
+        "en": "For river night views, the sources point to 东方明珠, described as the most direct spot to see both banks of the Huangpu River [来源1], and 外滩, a classic skyline walkway with the Bund buildings on one side and Lujiazui on the other [来源2]. 上海中心大厦's 118th-floor observation deck also overlooks Lujiazui and the river [来源3]."
+      },
+      "refused": {
+        "zh": false,
+        "en": false
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "sh-pearl",
+          "name": "东方明珠",
+          "district": "浦东新区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        },
+        {
+          "n": 2,
+          "id": "sh-bund",
+          "name": "外滩",
+          "district": "黄浦区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        },
+        {
+          "n": 3,
+          "id": "sh-tower",
+          "name": "上海中心大厦",
+          "district": "浦东新区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        },
+        {
+          "n": 4,
+          "id": "sh-nanjingrd",
+          "name": "南京路步行街",
+          "district": "黄浦区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        }
+      ],
+      "retrieved": [
+        "sh-pearl",
+        "sh-bund",
+        "sh-tower",
+        "sh-nanjingrd"
+      ]
+    },
+    {
+      "id": "sh-museum",
+      "q": {
+        "zh": "想看中国古代艺术，去哪里？",
+        "en": "Where can I see classical Chinese art?"
+      },
+      "a": {
+        "zh": "想看中国古代艺术，可以去上海博物馆，它是人民广场上的中国古代艺术博物馆，青铜与书画馆藏最有名 [来源1]。地址是人民大道201号，开放时间以官方为准 [来源1]。",
+        "en": "You can see classical Chinese art at the Shanghai Museum, an ancient Chinese art museum on People's Square best known for its bronze and painting/calligraphy collections [来源1]. Yu Garden, a Ming-dynasty classical garden, is another option [来源2]."
+      },
+      "refused": {
+        "zh": false,
+        "en": false
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "sh-museum",
+          "name": "上海博物馆",
+          "district": "黄浦区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        },
+        {
+          "n": 2,
+          "id": "sh-yuyuan",
+          "name": "豫园",
+          "district": "黄浦区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        }
+      ],
+      "retrieved": [
+        "sh-museum",
+        "sh-yuyuan"
+      ]
+    },
+    {
+      "id": "sh-bund-yuyuan",
+      "q": {
+        "zh": "一天想逛外滩和豫园，怎么安排？",
+        "en": "How do I fit the Bund and Yu Garden into one day?"
+      },
+      "a": {
+        "zh": "可以安排同一天逛外滩和豫园：外滩在黄浦区中山东一路，是全天开放的城市天际线步道，一边是万国建筑群，一边是陆家嘴 [来源2]；豫园也在黄浦区（福佑路168号），是明代古典园林与老城隍庙商圈，开放时间以官方为准 [来源1]。两者同属黄浦区，可先逛豫园再走外滩，但资料未给出具体交通方式和耗时，需自行核实 [来源1][来源2]。",
+        "en": "Both are in Huangpu District: Yu Garden (Fuyou Road 168) is a Ming-dynasty classical garden with the old City God Temple commercial area, and The Bund (Zhongshan East First Road) is the classic skyline walkway, open all day [来源1][来源2]. The sources don't specify Yu Garden's opening hours, so check officially before planning [来源1]."
+      },
+      "refused": {
+        "zh": false,
+        "en": false
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "sh-yuyuan",
+          "name": "豫园",
+          "district": "黄浦区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        },
+        {
+          "n": 2,
+          "id": "sh-bund",
+          "name": "外滩",
+          "district": "黄浦区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        }
+      ],
+      "retrieved": [
+        "sh-yuyuan",
+        "sh-bund"
+      ]
+    },
+    {
+      "id": "sh-shopping-food",
+      "q": {
+        "zh": "想逛街吃饭都顺路的地方",
+        "en": "Somewhere to shop and eat along the way"
+      },
+      "a": {
+        "zh": "南京路步行街是人民广场到外滩之间的老牌商业步行街，逛街吃饭都顺路 [来源1]。新天地是石库门里弄改造的餐饮与街区，逛街和吃饭顺路 [来源2]。",
+        "en": "For shopping and eating along the way, the sources mention Nanjing Road Pedestrian Street, described as a commercial pedestrian street between People's Square and the Bund where shopping and eating are convenient [来源1]. Xintiandi is also noted as a dining and street area converted from shikumen lanes, convenient for shopping and eating [来源2]. Tianzifang is described as having small shops, studios and cafes in shikumen lanes, good for an evening stroll [来源5]."
+      },
+      "refused": {
+        "zh": false,
+        "en": false
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "sh-nanjingrd",
+          "name": "南京路步行街",
+          "district": "黄浦区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        },
+        {
+          "n": 2,
+          "id": "sh-xintiandi",
+          "name": "新天地",
+          "district": "黄浦区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        },
+        {
+          "n": 3,
+          "id": "sh-bund",
+          "name": "外滩",
+          "district": "黄浦区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        },
+        {
+          "n": 4,
+          "id": "sh-yuyuan",
+          "name": "豫园",
+          "district": "黄浦区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        },
+        {
+          "n": 5,
+          "id": "sh-tianzifang",
+          "name": "田子坊",
+          "district": "黄浦区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        }
+      ],
+      "retrieved": [
+        "sh-nanjingrd",
+        "sh-xintiandi",
+        "sh-bund",
+        "sh-yuyuan",
+        "sh-tianzifang"
+      ]
+    },
+    {
+      "id": "sh-walk-photo",
+      "q": {
+        "zh": "想找适合散步拍照的老街区",
+        "en": "An old neighbourhood for walking and photos"
+      },
+      "a": {
+        "zh": "推荐田子坊：石库门里弄里的小店、工作室与咖啡馆，适合傍晚慢慢逛，街区全天开放 [来源2]。也可考虑新天地：石库门里弄改造的餐饮与街区，逛街和吃饭顺路，街区全天开放 [来源4]。豫园是明代古典园林与老城隍庙商圈，属上海最典型的“老城”一景，开放时间以官方为准 [来源3]。",
+        "en": "For an old neighbourhood to walk and photograph, the sources suggest 田子坊, described as small shops, studios and cafés in Shikumen lanes, good for a slow evening stroll [来源2], and 新天地, a dining and street area converted from Shikumen lanes [来源4]. 豫园 is also noted as a classical Ming-dynasty garden and old city god temple commercial area, the most typical \"old town\" scene in Shanghai [来源3]. These are candidate places from an open map service, so verify before relying on them [来源2][来源3][来源4]."
+      },
+      "refused": {
+        "zh": false,
+        "en": false
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "sh-nanjingrd",
+          "name": "南京路步行街",
+          "district": "黄浦区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        },
+        {
+          "n": 2,
+          "id": "sh-tianzifang",
+          "name": "田子坊",
+          "district": "黄浦区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        },
+        {
+          "n": 3,
+          "id": "sh-yuyuan",
+          "name": "豫园",
+          "district": "黄浦区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        },
+        {
+          "n": 4,
+          "id": "sh-xintiandi",
+          "name": "新天地",
+          "district": "黄浦区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        },
+        {
+          "n": 5,
+          "id": "sh-bund",
+          "name": "外滩",
+          "district": "黄浦区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        }
+      ],
+      "retrieved": [
+        "sh-nanjingrd",
+        "sh-tianzifang",
+        "sh-yuyuan",
+        "sh-xintiandi",
+        "sh-bund"
+      ]
+    },
+    {
+      "id": "sh-hangzhou",
+      "q": {
+        "zh": "想在上海租车自驾去杭州看西湖",
+        "en": "Renting a car in Shanghai to drive to Hangzhou"
+      },
+      "a": {
+        "zh": "资料里没有能回答这个问题的内容。",
+        "en": "The sources don't contain enough to answer this."
+      },
+      "refused": {
+        "zh": true,
+        "en": true
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "sh-bund",
+          "name": "外滩",
+          "district": "黄浦区",
+          "confidence": "plain",
+          "pool": "sight",
+          "type": "观光点",
+          "label": "Amap (Gaode) POI",
+          "url": "https://lbs.amap.com/"
+        },
+        {
+          "n": 2,
+          "id": "sh-circuit",
+          "name": "上海国际赛车场",
+          "district": "嘉定区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "演唱会场地",
+          "label": "来源",
+          "url": "高德地图（上海国际赛车场）"
+        }
+      ],
+      "retrieved": [
+        "sh-bund",
+        "sh-circuit"
+      ]
+    },
+    {
+      "id": "sh-tickets",
+      "q": {
+        "zh": "上海站的 F1 门票在哪里买？",
+        "en": "Where do I buy F1 Shanghai tickets?"
+      },
+      "a": {
+        "zh": "资料里没有能回答这个问题的内容。",
+        "en": "The sources don't contain enough to answer this."
+      },
+      "refused": {
+        "zh": true,
+        "en": true
+      },
+      "sources": [
+        {
+          "n": 1,
+          "id": "sh-05",
+          "name": "F1周边店",
+          "district": "徐汇区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "同款店铺",
+          "label": "小红书",
+          "url": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r10YI=&xsec_source=pc_share"
+        },
+        {
+          "n": 2,
+          "id": "sh-09",
+          "name": "TROPHY MARKET",
+          "district": "静安区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "打卡点",
+          "label": "小红书",
+          "url": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W6w=&xsec_source=pc_share"
+        },
+        {
+          "n": 3,
+          "id": "sh-07",
+          "name": "HAUS NOWHERE (含Gentle Monster)",
+          "district": "黄浦区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "快闪 / 展台",
+          "label": "小红书",
+          "url": "https://www.xiaohongshu.com/discovery/item/69af1c7c000000001a03643e?source=webshare&xhsshare=pc_web&xsec_token=AB40hiC_WPtVZxZXnRtPlFun4vVmAbYbCeSnxfxkC_W4w=&xsec_source=pc_share"
+        },
+        {
+          "n": 4,
+          "id": "sh-circuit",
+          "name": "上海国际赛车场",
+          "district": "嘉定区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "演唱会场地",
+          "label": "来源",
+          "url": "高德地图（上海国际赛车场）"
+        },
+        {
+          "n": 5,
+          "id": "sh-02",
+          "name": "奥迪原车展台",
+          "district": "黄浦区",
+          "confidence": "high",
+          "pool": "fan",
+          "type": "快闪 / 展台",
+          "label": "小红书",
+          "url": "https://www.xiaohongshu.com/discovery/item/69aed2ca000000000d00ae5e?source=webshare&xhsshare=pc_web&xsec_token=ABO8eHnwS5489T6d-M95tCCkm93z8VKKg4kbOxx21r7YI=&xsec_source=pc_share"
+        }
+      ],
+      "retrieved": [
+        "sh-05",
+        "sh-09",
+        "sh-07",
+        "sh-circuit",
+        "sh-02"
+      ]
+    }
+  ]
+}
