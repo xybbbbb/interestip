@@ -21,8 +21,17 @@ const HTML_END = "<!-- <<< QA_HTML -->";
 const JS_START = "<!-- >>> QA_JS -->";
 const JS_END = "<!-- <<< QA_JS -->";
 
-const raw = JSON.parse(await fs.readFile(QA_DATA, "utf8"));
-const items = (raw.items ?? []).map((it) => ({
+/** 三条线各有一套问答：首尔线沿用 data/qa.json，纽约/上海线由 build-qa-vertical.mjs 生成 */
+async function readSet(file) {
+  try {
+    return JSON.parse(await fs.readFile(file, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+function normalize(raw) {
+  const items = (raw.items ?? []).map((it) => ({
   id: it.id,
   q: { zh: it.q?.zh ?? "", en: it.q?.en ?? "" },
   a: { zh: it.a?.zh ?? "", en: it.a?.en ?? "" },
@@ -36,14 +45,26 @@ const items = (raw.items ?? []).map((it) => ({
     label: s.label || "",
     url: s.url || "",
   })),
-}));
+  }));
+  return {
+    generatedAt: raw.generatedAt ?? null,
+    mode: raw.mode ?? "hybrid",
+    model: raw.model ?? null,
+    corpusDocs: raw.corpusDocs ?? null,
+    items,
+  };
+}
+
+const cortis = normalize(await readSet(QA_DATA));
+const nyc = await readSet(path.join(ROOT, "data", "qa-nyc.json"));
+const shanghai = await readSet(path.join(ROOT, "data", "qa-shanghai.json"));
 
 const payload = {
-  generatedAt: raw.generatedAt ?? null,
-  mode: raw.mode ?? "hybrid",
-  model: raw.model ?? null,
-  items,
+  cortis,
+  ...(nyc ? { nyc: normalize(nyc) } : {}),
+  ...(shanghai ? { shanghai: normalize(shanghai) } : {}),
 };
+const totalItems = Object.values(payload).reduce((n, s) => n + (s?.items?.length || 0), 0);
 
 const CSS = [
   ".qa{margin-top:22px;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px}",
@@ -51,6 +72,10 @@ const CSS = [
   ".qa-head h3{margin:0;font-size:16px}",
   ".qa-sub{flex-basis:100%;color:var(--muted);font-size:12.5px;line-height:1.55}",
   ".qa-chips{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}",
+  ".qa-lines{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}",
+  ".qa-line{border:1px dashed var(--line);background:transparent;border-radius:999px;padding:4px 11px;cursor:pointer;font:inherit;font-size:12.5px;color:var(--muted)}",
+  ".qa-line:hover{color:var(--brand-ink);border-color:rgba(107,91,246,.32)}",
+  ".qa-line.on{background:var(--brand-soft);border-style:solid;border-color:rgba(107,91,246,.32);color:var(--brand-ink);font-weight:600}",
   ".qa-chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 13px;cursor:pointer;font-size:13px;color:var(--ink)}",
   ".qa-chip:hover{background:var(--brand-soft);color:var(--brand-ink)}",
   ".qa-chip.on{background:var(--brand-soft);border-color:rgba(107,91,246,.32);color:var(--brand-ink);font-weight:600}",
@@ -74,6 +99,7 @@ const htmlBlock =
   `    <h3 data-qa-title>常见问题 · 带来源的推荐</h3>\n` +
   `    <span class="qa-sub" data-qa-sub></span>\n` +
   `  </div>\n` +
+  `  <div class="qa-lines" id="qa-lines"></div>\n` +
   `  <div class="qa-chips" id="qa-chips"></div>\n` +
   `  <div class="qa-answer" id="qa-answer" hidden></div>\n` +
   `</section>\n` +
@@ -81,19 +107,49 @@ const htmlBlock =
 
 // 用 String.raw 保留正则里的反斜杠（\s \d \r \n 等），生成到 HTML 里仍是合法正则
 const QA_JS = String.raw`(function(){
-  if(typeof QA==="undefined"||!QA.items||!QA.items.length) return;
+  if(typeof QA==="undefined"||!QA) return;
   Object.assign(I18N.zh, {
     qaLabel:"问一句",
     qaTitle:"常见问题 · 带来源的推荐",
-    qaSub:"构建期用端侧向量 + BM25 混合检索、云端生成；答案里的 [来源n] 都对应到下面的来源。"
+    qaSub:"构建期用端侧向量 + BM25 混合检索、云端生成；答案里的 [来源n] 都对应到下面的来源。",
+    qaScope:"语料范围：{name} 的 {n} 条地点",
+    qaNoData:"这条线还没有问答数据。"
   });
   Object.assign(I18N.en, {
     qaLabel:"Ask",
     qaTitle:"Common questions · sourced recommendations",
-    qaSub:"Pre-generated: on-device vector + BM25 hybrid retrieval, cloud generation. Every [来源n] maps to a source below."
+    qaSub:"Pre-generated: on-device vector + BM25 hybrid retrieval, cloud generation. Every [来源n] maps to a source below.",
+    qaScope:"Corpus: {n} places from {name}",
+    qaNoData:"No Q&A for this line yet."
   });
 
   var activeQaId = null;
+  var activeQaLine = null; /* 用户在这块里手动选的圈子；跟着当前圈子走时为 null */
+
+  function qaLines(){
+    var out=[];
+    for(var k in QA){ if(QA[k] && QA[k].items && QA[k].items.length) out.push(k); }
+    return out;
+  }
+  function lineName(key){
+    var v = (typeof VERTICALS!=="undefined" && VERTICALS[key]) || null;
+    if(v && v.label){
+      var l = LANG==="en" ? v.label.en : v.label.zh;
+      return l || v.label.zh || v.label.en || key;
+    }
+    return key;
+  }
+  /* 默认显示「当前圈子」的那一套；当前圈子没有数据（或用户在块里手选了）就退到可用的第一套 */
+  function qaSet(){
+    if(!QA) return null;
+    var key = (activeQaLine && QA[activeQaLine]) ? activeQaLine : state.vertical;
+    if(!(QA[key] && QA[key].items && QA[key].items.length)) key = qaLines()[0];
+    if(!key) return null;
+    return { key: key, item: QA[key] };
+  }
+  function tpl(s,params){
+    return String(s).replace(/\{(\w+)\}/g, function(m,k){ return params[k]!=null ? params[k] : m; });
+  }
 
   function qaConf(c){
     if(c==="high") return LANG==="en" ? "high confidence" : "高置信度";
@@ -112,8 +168,11 @@ const QA_JS = String.raw`(function(){
     var box=document.getElementById("qa-answer");
     if(!box) return;
     if(!activeQaId){ box.hidden=true; box.innerHTML=""; return; }
+    var info=qaSet();
+    if(!info){ box.hidden=true; box.innerHTML=""; return; }
+    var set=info.item;
     var it=null;
-    for(var i=0;i<QA.items.length;i++){ if(QA.items[i].id===activeQaId){ it=QA.items[i]; break; } }
+    for(var i=0;i<set.items.length;i++){ if(set.items[i].id===activeQaId){ it=set.items[i]; break; } }
     if(!it){ box.hidden=true; box.innerHTML=""; return; }
     var refused = LANG==="en" ? it.refused.en : it.refused.zh;
     var text = LANG==="en" ? it.a.en : it.a.zh;
@@ -155,20 +214,47 @@ const QA_JS = String.raw`(function(){
   function renderQA(){
     var box=document.getElementById("qa");
     if(!box) return;
-    var show = state.vertical==="cortis";
+    var info=qaSet();
+    var show = !!info;
     box.style.display = show ? "" : "none";
-    if(!show) return;
+    if(!show){ activeQaId=null; return; }
+    var set=info.item;
 
     var label=box.querySelector("[data-qa-label]");
     var title=box.querySelector("[data-qa-title]");
     var sub=box.querySelector("[data-qa-sub]");
     if(label) label.textContent=t("qaLabel");
     if(title) title.textContent=t("qaTitle");
-    if(sub) sub.textContent=t("qaSub");
+    if(sub) sub.textContent=t("qaSub")+"　·　"+tpl(t("qaScope"), {name: lineName(info.key), n: (set.corpusDocs || set.items.length)});
+
+    /* 圈子切换：三条线的问答都做了，这里让它们都能点到 */
+    var linesEl=document.getElementById("qa-lines");
+    if(linesEl){
+      var keys=qaLines();
+      if(keys.length>1){
+        linesEl.innerHTML = keys.map(function(k){
+          return '<button type="button" class="qa-line'+(k===info.key?" on":"")+'" data-qa-line="'+esc(k)+'">'+esc(lineName(k))+'</button>';
+        }).join("");
+        var lbtns=linesEl.querySelectorAll("[data-qa-line]");
+        for(var j=0;j<lbtns.length;j++){
+          (function(b){
+            b.addEventListener("click", function(){
+              activeQaLine=b.getAttribute("data-qa-line");
+              activeQaId=null;
+              renderQA();
+            });
+          })(lbtns[j]);
+        }
+        linesEl.style.display="";
+      } else {
+        linesEl.innerHTML="";
+        linesEl.style.display="none";
+      }
+    }
 
     var chips=document.getElementById("qa-chips");
     if(!chips) return;
-    chips.innerHTML = QA.items.map(function(it){
+    chips.innerHTML = set.items.map(function(it){
       var q = LANG==="en" ? it.q.en : it.q.zh;
       var on = it.id===activeQaId ? " on" : "";
       return '<button type="button" class="qa-chip'+on+'" data-qa="'+esc(it.id)+'">'+esc(q)+'</button>';
@@ -192,7 +278,12 @@ const QA_JS = String.raw`(function(){
   var _setLang = setLang;
   setLang = function(l){ _setLang(l); renderQA(); };
   var _setVertical = setVertical;
-  setVertical = function(id){ _setVertical(id); renderQA(); };
+  setVertical = function(id){
+    var before=state.vertical;
+    _setVertical(id);
+    if(state.vertical!==before){ activeQaId=null; activeQaLine=null; }
+    renderQA();
+  };
 
   renderQA();
 })();`;
@@ -221,6 +312,8 @@ await fs.writeFile(PREVIEW, updated, "utf8");
 
 const sizeKb = ((Buffer.byteLength(htmlBlock, "utf8") + Buffer.byteLength(jsBlock, "utf8")) / 1024).toFixed(1);
 console.log(
-  `已注入「问一句」问答区：${items.length} 条问答（${sizeKb} KB）→ ${path.relative(ROOT, PREVIEW)}\n` +
-    `检索：${payload.mode}｜生成：${payload.model}｜构建时间：${payload.generatedAt}`,
+  `已注入「问一句」问答区：三条线共 ${totalItems} 条问答（${sizeKb} KB）→ ${path.relative(ROOT, PREVIEW)}\n` +
+    Object.entries(payload)
+      .map(([k, s]) => `  ${k.padEnd(9)} ${s.items.length} 条问答 · 语料 ${s.corpusDocs ?? "-"} 条 · ${s.model ?? "-"} · ${s.generatedAt ?? "-"}`)
+      .join("\n"),
 );
