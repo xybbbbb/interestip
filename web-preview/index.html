@@ -4042,6 +4042,32 @@ window.DEMO_COMMUNITY = {
           return '<span class="howto-step"><b>'+(i+1)+'</b>'+esc(s)+'</span>';
         }).join('<span class="howto-arrow">→</span>');
   }
+  /* 侧栏 / 旅程按钮是「静态节点」：只绑一次事件。
+     它们不在 renderHome 重建的 DOM 里，之前把绑定写在 renderHome 里，
+     每次切圈子或切语言就会再绑一个监听器 → 点一下触发 N 次（气泡刷一堆）。 */
+  function onCircleClick(ev){
+    ev.preventDefault(); ev.stopPropagation();
+    var el = ev.currentTarget;
+    var id = el.getAttribute("data-interest");
+    var it = null; for (var i=0;i<D.interests.length;i++) if (D.interests[i].id===id) it = D.interests[i];
+    if (!it){ return; }
+    window.__circle = it.id;
+    if (it.vertical){
+      setVertical(it.vertical);
+      if (typeof toast==="function") toast(t("joined")+it.name);
+    } else {
+      if (typeof toast==="function") toast(t("interestSoon"));
+      renderHome();
+    }
+    var f = document.getElementById("home-feed");
+    if (f) f.scrollIntoView({behavior:"smooth",block:"start"});
+  }
+  function onJourneyClick(){
+    var sec = document.getElementById("create");
+    if (sec) sec.scrollIntoView({behavior:"smooth",block:"start"});
+    if (typeof startFlow==="function") startFlow();
+  }
+
   function renderHome(){
     var ig = document.getElementById("ic-grid");
     if (ig) ig.innerHTML = D.interests.map(interestCard).join("");
@@ -4066,35 +4092,23 @@ window.DEMO_COMMUNITY = {
     var sjb = document.querySelector("[data-home-btn='journey']");
     if (sjb) sjb.textContent = t("sideJourneyBtn");
 
-    document.querySelectorAll("[data-interest]").forEach(function(el){
-      el.addEventListener("click", function(ev){
-        ev.preventDefault(); ev.stopPropagation();
-        var id = el.getAttribute("data-interest");
-        var it = null; for (var i=0;i<D.interests.length;i++) if (D.interests[i].id===id) it = D.interests[i];
-        if (!it){ return; }
-        window.__circle = it.id;
-        if (it.vertical){
-          setVertical(it.vertical);
-          if (typeof toast==="function") toast(t("joined")+it.name);
-        } else {
-          if (typeof toast==="function") toast(t("interestSoon"));
-          renderHome();
-        }
-        var f = document.getElementById("home-feed");
-        if (f) f.scrollIntoView({behavior:"smooth",block:"start"});
+    /* 静态节点：整个页面生命周期只绑一次 */
+    if (!window.__staticSideBound){
+      window.__staticSideBound = true;
+      document.querySelectorAll(".side-item[data-interest]").forEach(function(el){
+        el.addEventListener("click", onCircleClick);
       });
+      var sjbStatic = document.querySelector("[data-home-btn='journey']");
+      if (sjbStatic) sjbStatic.addEventListener("click", onJourneyClick);
+    }
+    /* 圈子卡是每次重建的动态节点，随节点一起丢弃，不存在累加 */
+    document.querySelectorAll("#ic-grid [data-interest]").forEach(function(el){
+      el.addEventListener("click", onCircleClick);
     });
     document.querySelectorAll("[data-place]").forEach(function(el){
       el.addEventListener("click", function(){
         var id = el.getAttribute("data-place");
         if (typeof openDrawer==="function") openDrawer(id);
-      });
-    });
-    document.querySelectorAll("[data-home-btn='journey']").forEach(function(el){
-      el.addEventListener("click", function(){
-        var sec = document.getElementById("create");
-        if (sec) sec.scrollIntoView({behavior:"smooth",block:"start"});
-        if (typeof startFlow==="function") startFlow();
       });
     });
     document.querySelectorAll("[data-rail-join]").forEach(function(el){
